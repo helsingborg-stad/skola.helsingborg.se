@@ -19,6 +19,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/municipio-school.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/helsingborg-stad/xcap-import.git"
         },
         {
@@ -64,6 +68,7 @@
         "johnpbloch/wordpress": "^4.6.0",
         "helsingborg-stad/modularity": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
+        "helsingborg-stad/municipio-school": "dev-develop",
         "helsingborg-stad/lix-calculator": ">=1.0.1",
         "helsingborg-stad/custom-short-links": ">=1.0.0",
         "helsingborg-stad/readspeaker-helper": ">=1.0.0",
