@@ -1,10 +1,10 @@
 {
-    "name": "(#composer_project#)",
-    "license": "(#composer_license#)",
+    "name": "helsingborg-stad/skola.helsingborg.se",
+    "license": "MIT",
     "authors": [
         {
-            "name": "(#composer_author_name#)",
-            "email": "(#composer_author_email#)"
+            "name": "Kristoffer Svanmark",
+            "email": "kristoffer.svanmark@knowit.se"
         }
     ],
     "minimum-stability" : "stable",
