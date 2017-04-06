@@ -16,6 +16,12 @@ wp-content/*
 !wp-content/object-cache.php
 composer.lock
 
+# Themes dependencies #
+##########################
+wp-content/themes/*
+!wp-content/themes
+!wp-content/themes/municipio-school
+wp-content/themes/municipio-school/node_modules
 
 # Compiled source #
 ###################
