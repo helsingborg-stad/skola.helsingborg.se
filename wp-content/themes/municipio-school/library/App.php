@@ -7,6 +7,7 @@ class App
     {
         // Admin
         new \MunicipioSchool\Admin\ColorScheme();
+        new \MunicipioSchool\Admin\NetoworkAdmin();
 
         // Theme
         new \MunicipioSchool\Theme\Enqueue();
