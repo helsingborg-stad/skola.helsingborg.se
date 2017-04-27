@@ -54,8 +54,21 @@ class ColorScheme
         }
 
         $css[] = '
+            /* Footer */
             .main-footer {
                 background-color: ' . $primary . ';
+            }
+        ';
+
+        $css[] = '
+            /* Logotype size */
+            .site-header.header-jumbo .logotype svg,
+            .site-header.header-jumbo .logotype img {
+                height: 60px;
+            }
+
+            .site-header.header-jumbo .logotype {
+                padding: 5px 0;
             }
         ';
 
