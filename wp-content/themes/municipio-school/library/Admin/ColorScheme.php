@@ -6,7 +6,7 @@ class ColorScheme
 {
     public function __construct()
     {
-        add_action('acf/init', array($this, 'addField'));
+        add_action('admin_init', array($this, 'addField'));
     }
 
     public function addField()
@@ -65,6 +65,7 @@ class ColorScheme
         }
 
         $field = get_field_object('field_56a0a7e36365b');
+
         foreach ($field['choices'] as $color => $label) {
             $request = wp_remote_get($url . $color . '.json');
             $response = wp_remote_retrieve_body($request);
