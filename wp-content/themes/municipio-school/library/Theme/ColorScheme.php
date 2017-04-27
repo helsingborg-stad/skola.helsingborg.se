@@ -54,6 +54,12 @@ class ColorScheme
         }
 
         $css[] = '
+            .navbar.navbar-mainmenu ul a {
+                padding: 21px 0;
+            }
+        ';
+
+        $css[] = '
             /* Footer */
             .main-footer {
                 background-color: ' . $primary . ';
