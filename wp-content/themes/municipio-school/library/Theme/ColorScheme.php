@@ -53,18 +53,12 @@ class ColorScheme
             ';
         }
 
+        $css[] = '
+            .main-footer {
+                background-color: ' . $primary . ';
+            }
+        ';
+
         echo '<style>' . implode("\n\n", $css) . '</style>';
     }
 }
-
-
-/*
-
-.nav-bar,
-            .main-footer,
-            .button-primary,
-            article .article-body ul li::before {
-                background: #ae0b05 !important;
-                background-color: #ae0b05 !important;
-            }
- */
