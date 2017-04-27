@@ -11,6 +11,7 @@ class App
 
         // Theme
         new \MunicipioSchool\Theme\Enqueue();
+        new \MunicipioSchool\Theme\ColorScheme();
 
         // Post types
         new \MunicipioSchool\PostTypes\ForParents();
