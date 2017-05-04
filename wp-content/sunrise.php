@@ -51,5 +51,6 @@
 
         if (is_array($domain_parts) && count($domain_parts) == 3) {
             header("Location: http://" . $domain_parts[1] . $domain_parts[2] . "/" . $domain_parts[0] . "/" . "?subdomain=true");
+            exit;
         }
     }
