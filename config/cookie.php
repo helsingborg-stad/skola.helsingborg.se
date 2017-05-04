@@ -5,4 +5,4 @@
  * @var bool
  */
 
-define('COOKIE_DOMAIN', $_SERVER['HTTP_HOST']);
+define('COOKIE_DOMAIN', 'helsingborg.se');
