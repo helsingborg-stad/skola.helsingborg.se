@@ -1,6 +1,5 @@
 <?php
 
-
     /**
      * Define ip-series that should be considered as local ip addresses (within the municipial network
      * Format: IP/CIDR netmask eg. 127.0.0.0/24
@@ -46,11 +45,11 @@
         }
     }
 
-    if (!is_local_ip()) {
+    if (is_local_ip()) {
         $domain_parts = explode('.', $_SERVER['HTTP_HOST']);
 
         if (is_array($domain_parts) && count($domain_parts) == 3) {
-            header("Location: http://" . $domain_parts[1] . $domain_parts[2] . "/" . $domain_parts[0] . "/" . "?subdomain=true");
+            header("Location: http://" . $domain_parts[1] .".". $domain_parts[2] . "/" . $domain_parts[0] . "/" . "?subdomain=true");
             exit;
         }
     }
