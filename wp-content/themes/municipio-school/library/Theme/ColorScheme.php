@@ -12,7 +12,7 @@ class ColorScheme
 
     public function filterIndexBoxes($args)
     {
-        if (in_array("box-index", $args)) {
+        if (is_array($args) && in_array("box-index", $args)) {
             return array('box', 'box-news');
         }
 
