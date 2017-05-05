@@ -93,7 +93,6 @@ class ColorScheme
             /* Index boxes */
             .box-news .box-index-title.link-item {
                 margin-top: 0;
-                padding-bottom: 0;
                 left: 0;
             }
 
