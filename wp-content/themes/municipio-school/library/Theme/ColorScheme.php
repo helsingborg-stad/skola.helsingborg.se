@@ -53,7 +53,8 @@ class ColorScheme
                 .navbar-mainmenu .logotype svg g:last-of-type,
                 .navbar-mainmenu .logotype svg g:last-of-type *,
                 .navbar-mainmenu .logotype svg > path,
-                .navbar-mainmenu .logotype svg > g.colorcoded path {
+                .navbar-mainmenu .logotype svg > g.colorcoded path,
+                .navbar-mainmenu .logotype svg > g > path {
                     fill: ' . $primary . ';
                 }
 
