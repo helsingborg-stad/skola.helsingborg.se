@@ -4,6 +4,7 @@ namespace MunicipioSchool\Theme;
 
 class ColorScheme
 {
+
     public function __construct()
     {
         add_action('wp_head', array($this, 'addStyle'));
@@ -85,6 +86,18 @@ class ColorScheme
 
             .site-header.header-jumbo .logotype {
                 padding: 5px 0;
+            }
+        ';
+
+        $css[] = '
+            /* Index boxes */
+            .box-news .box-index-title.link-item {
+                margin-top: 0;
+                padding-bottom: 0;
+            }
+
+            .box-news .box-index-title.link-item:before {
+                display: none;
             }
         ';
 
