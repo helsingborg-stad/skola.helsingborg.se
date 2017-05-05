@@ -51,7 +51,8 @@ class ColorScheme
                 }
 
                 .navbar-mainmenu .logotype svg g:last-of-type,
-                .navbar-mainmenu .logotype svg g:last-of-type {
+                .navbar-mainmenu .logotype svg g:last-of-type,
+                .navbar-mainmenu .logotype svg > path {
                     fill: ' . $primary . ';
                 }
 
