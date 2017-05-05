@@ -25,7 +25,7 @@ class ColorScheme
         $css = array();
         $primary = get_field('school-primary-color', 'option');
 
-        if (\MunicipioSchool\Helper\WcagColorContrast::isValid($primary, '#ffffff', 'AA-Large')) {
+        if (\MunicipioSchool\Helper\WcagColorContrast::isValid($primary, '#ffffff', 'AA')) {
             $css[] = '
                 .navbar:not(.navbar-creamy).navbar-mainmenu {
                     background-color: ' . $primary . ';
