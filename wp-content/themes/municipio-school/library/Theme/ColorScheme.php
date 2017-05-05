@@ -7,6 +7,16 @@ class ColorScheme
     public function __construct()
     {
         add_action('wp_head', array($this, 'addStyle'));
+        add_filter('Modularity/Module/Classes', 'filterIndexBoxes');
+    }
+
+    public function filterIndexBoxes($args)
+    {
+        if (in_array("box-index", $index)) {
+            return array('box', 'box-news');
+        }
+
+        return $args;
     }
 
     public function addStyle()
