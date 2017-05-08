@@ -73,7 +73,7 @@ class ColorScheme
         }
 
         $css[] = '
-            .navbar.navbar-mainmenu ul a {
+            .navbar.navbar-mainmenu > ul a {
                 padding: 21px 0;
             }
         ';
