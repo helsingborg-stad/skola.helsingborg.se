@@ -62,6 +62,13 @@ class ColorScheme
                 .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-menu-ancestor > a::after {
                     border-bottom-color: ' . $primary . ';
                 }
+
+                /* Hamburger */
+                .site-header.header-jumbo .menu-trigger .menu-icon,
+                .site-header.header-jumbo .menu-trigger .menu-icon::before,
+                .site-header.header-jumbo .menu-trigger .menu-icon::after {
+                    background-color: ' . $primary . ';
+                }
             ';
         }
 
