@@ -111,7 +111,7 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:helsingborg-stad/wp-api-get-sites.git"
+            "url": "https://github.com/helsingborg-stad/wp-api-get-sites.git"
         },
         {
             "type": "package",
