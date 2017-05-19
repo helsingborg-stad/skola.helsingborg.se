@@ -22,15 +22,15 @@ RewriteRule . index.php [L]
 
 # Force use of SSL (SERVER)
 <IfModule mod_rewrite.c>
-    #RewriteEngine On
-    #RewriteCond %{HTTPS} !=on
-    #RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    #RewriteRule ^ %{ENV:PROTO}://%1%{REQUEST_URI} [R=301,L]
+    RewriteEngine On
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ %{ENV:PROTO}://%1%{REQUEST_URI} [R=301,L]
 </IfModule>
 
 # Force use of SSL (CLIENT)
 <IfModule mod_headers.c>
-    #Header always set Strict-Transport-Security "max-age=16070400; includeSubDomains"
+    Header always set Strict-Transport-Security "max-age=16070400; includeSubDomains"
 </IfModule>
 
 # Admin redirect
