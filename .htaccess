@@ -55,14 +55,9 @@ RedirectMatch 301 /secure /wp-admin
     RewriteRule ^(.*)$ - [F]
 </ifModule>
 
-# Prevent drive-by-download attacks
+# Allow all origins
 <IfModule mod_headers.c>
-    Header set X-Content-Type-Options nosniff
-</IfModule>
-
-# Prevent clickjacking attempts
-<IfModule mod_headers.c>
-    Header always append X-Frame-Options SAMEORIGIN
+    Header set Access-Control-Allow-Origin "*"
 </IfModule>
 
 # Enabled edge mode
