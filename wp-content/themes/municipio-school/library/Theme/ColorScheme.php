@@ -25,56 +25,31 @@ class ColorScheme
         $css = array();
         $primary = get_field('school-primary-color', 'option');
 
-        if (\MunicipioSchool\Helper\WcagColorContrast::isValid($primary, '#ffffff', 'AA')) {
-            $css[] = '
-                .navbar:not(.navbar-creamy).navbar-mainmenu {
-                    background-color: ' . $primary . ';
-                }
-            ';
-        } else {
-            $css[] = '
-                /* Navbar background */
-                .navbar:not(.navbar-creamy).navbar-mainmenu {
-                    background-color: #fff;
-                    border-bottom: 5px solid ' . $primary . ';
-                }
-
-                /* Menu link color */
-                .navbar.navbar-mainmenu ul a {
-                    color: #000;
-                }
-
-                /* Logo color */
-                .navbar-mainmenu .logotype svg,
-                .navbar-mainmenu .logotype svg * {
-                    fill: #000;
-                }
-
-                .navbar-mainmenu .logotype svg g:last-of-type,
-                .navbar-mainmenu .logotype svg g:last-of-type *,
-                .navbar-mainmenu .logotype svg > path {
-                    fill: ' . $primary . ';
-                }
-
-                /* Menu arrow color */
-                .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-menu-item > a::after,
-                .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-page-ancestor > a::after,
-                .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-menu-ancestor > a::after {
-                    border-bottom-color: ' . $primary . ';
-                }
-
-                /* Hamburger */
-                .site-header.header-jumbo .menu-trigger .menu-icon,
-                .site-header.header-jumbo .menu-trigger .menu-icon::before,
-                .site-header.header-jumbo .menu-trigger .menu-icon::after {
-                    background-color: ' . $primary . ';
-                }
-            ';
-        }
-
         $css[] = '
-            .navbar.navbar-mainmenu > ul a {
-                padding: 21px 0;
+            /* Navbar background */
+            #site-header.header-jumbo .navbar:not(.navbar-creamy).navbar-mainmenu {
+                border-bottom: 5px solid ' . $primary . ';
+            }
+
+            /* Logo color */
+            #site-header.header-jumbo .navbar-mainmenu .logotype svg g:last-of-type,
+            #site-header.header-jumbo .navbar-mainmenu .logotype svg g:last-of-type *,
+            #site-header.header-jumbo .navbar-mainmenu .logotype svg > path {
+                fill: ' . $primary . ';
+            }
+
+            /* Menu arrow color */
+            #site-header.header-jumbo .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-menu-item > a::after,
+            #site-header.header-jumbo .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-page-ancestor > a::after,
+            #site-header.header-jumbo .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-menu-ancestor > a::after {
+                border-bottom-color: ' . $primary . ';
+            }
+
+            /* Hamburger */
+            .site-header.header-jumbo .menu-trigger .menu-icon,
+            .site-header.header-jumbo .menu-trigger .menu-icon::before,
+            .site-header.header-jumbo .menu-trigger .menu-icon::after {
+                background-color: ' . $primary . ';
             }
         ';
 
@@ -82,30 +57,6 @@ class ColorScheme
             /* Footer */
             .main-footer {
                 background-color: ' . $primary . ';
-            }
-        ';
-
-        $css[] = '
-            /* Logotype size */
-            .site-header.header-jumbo .logotype svg,
-            .site-header.header-jumbo .logotype img {
-                height: 60px;
-            }
-
-            .site-header.header-jumbo .logotype {
-                padding: 5px 0;
-            }
-        ';
-
-        $css[] = '
-            /* Index boxes */
-            .box-news .box-index-title.link-item {
-                margin-top: 0;
-                left: 0;
-            }
-
-            .box-news .box-index-title.link-item:before {
-                display: none;
             }
         ';
 
