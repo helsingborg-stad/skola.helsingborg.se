@@ -6,11 +6,14 @@ RewriteEngine On
 RewriteBase /wp/
 RewriteRule ^index\.php$ - [L]
 
-#Fixing network admin urls
+# Fixing network admin urls
 RewriteRule ^wp-admin/network/(.*)$ wp/wp-admin/network/$1 [L]
 
-# add a trailing slash to /wp-admin
+# Add a trailing slash to /wp-admin
 RewriteRule ^([_0-9a-zA-Z-]+/)?wp-admin$ $1wp-admin/ [R=301,L]
+
+# Rewrite /wp/wp-content to /wp-content
+RewriteRule ^wp/wp-content/(.*)$ /wp-content/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
