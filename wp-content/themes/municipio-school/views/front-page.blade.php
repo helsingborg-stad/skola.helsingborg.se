@@ -30,7 +30,7 @@
             </div>
         </div>
 
-
+        @include('partials.sidebar-left')
         @include('partials.sidebar-right')
     </div>
 
