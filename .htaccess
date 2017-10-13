@@ -9,6 +9,14 @@ AddDefaultCharset utf-8
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 </IfModule>
 
+#Redirect old urls
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{HTTP_HOST} komvuxkarnan.helsingborg.se [NC]
+    RewriteRule ^(.*) https://komvux.helsingborg.se%{REQUEST_URI} [R=302,NC]
+</ifModule>
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /wp/
