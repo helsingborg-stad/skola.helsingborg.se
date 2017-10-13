@@ -13,7 +13,7 @@ AddDefaultCharset utf-8
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteCond %{HTTP_HOST} komvuxkarnan.helsingborg.se [NC]
-    RewriteRule ^(.*)$ https://komvux.helsingborg.se$1 [R=302,L]
+    RewriteRule ^(.*)$ https://komvux.helsingborg.se/$1 [R=302,L]
 </ifModule>
 
 <IfModule mod_rewrite.c>
