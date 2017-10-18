@@ -23,6 +23,9 @@ wp-content/themes/*
 !wp-content/themes
 !wp-content/themes/municipio-school
 wp-content/themes/municipio-school/node_modules
+!wp-content/themes/municipio-school-senior
+wp-content/themes/municipio-school-senior/node_modules
+
 
 # Compiled source #
 ###################

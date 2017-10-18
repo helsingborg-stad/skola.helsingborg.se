@@ -1,0 +1,13 @@
+{
+    "name": "helsingborg-stad/municipio-school",
+    "description": "Official school theme of Helsingborgs stad",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristoffer Svanmark",
+            "email": "kristoffer.svanmark@knowit.se"
+        }
+    ],
+    "require": {}
+}

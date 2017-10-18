@@ -1,0 +1,39 @@
+#site-header.header-jumbo  {
+    .navbar:not(.navbar-creamy).navbar-mainmenu {
+        background-color: #fff;
+        border-bottom: 5px solid #000;
+    }
+
+    .navbar.navbar-mainmenu ul a {
+        color: #000;
+    }
+
+    .navbar-mainmenu .logotype svg,
+    .navbar-mainmenu .logotype svg * {
+        fill: #000;
+    }
+
+    .navbar.navbar-mainmenu ul a {
+        padding: 0;
+    }
+
+    /* Logotype size */
+    .logotype svg,
+    .logotype img {
+        height: 60px;
+    }
+
+    .logotype {
+        padding: 5px 0;
+    }
+}
+
+/* Index boxes */
+.box-news .box-index-title.link-item {
+    margin-top: 0;
+    left: 0;
+}
+
+.box-news .box-index-title.link-item:before {
+    display: none;
+}
