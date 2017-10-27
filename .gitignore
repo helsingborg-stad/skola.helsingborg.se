@@ -25,7 +25,7 @@ wp-content/themes/*
 wp-content/themes/municipio-school/node_modules
 !wp-content/themes/municipio-highschool
 wp-content/themes/municipio-highschool/node_modules
-!wp-content/themes/municipio-highschool/library/Vendor/Psr4ClassLoader.php
+!wp-content/themes/municipio-highschool/library/Vendor
 
 # Compiled source #
 ###################
