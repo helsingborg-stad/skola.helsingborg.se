@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.18.13",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-concat": "^2.5.2",
@@ -12,6 +13,7 @@
     "gulp-cssnano": "^2.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^1.2.0",
     "imagemin-pngquant": "^4.2.0"
   },

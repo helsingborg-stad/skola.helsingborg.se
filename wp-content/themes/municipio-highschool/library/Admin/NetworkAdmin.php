@@ -1,6 +1,6 @@
 <?php
 
-namespace MunicipioSchool\Admin;
+namespace MunicipioHighSchool\Admin;
 
 class NetworkAdmin
 {

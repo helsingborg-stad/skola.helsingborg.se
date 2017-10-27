@@ -64,3 +64,4 @@ wp-content/themes/municipio-highschool/node_modules
 .Trashes
 ehthumbs.db
 Thumbs.db
+/wp-content/mu-plugins/AttachmentDownloader.php

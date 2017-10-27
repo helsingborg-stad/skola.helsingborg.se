@@ -1,6 +1,6 @@
 <?php
 
-namespace MunicipioSchool\PostTypes;
+namespace MunicipioHighSchool\PostTypes;
 
 class ForParents
 {

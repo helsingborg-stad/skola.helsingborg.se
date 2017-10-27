@@ -1,19 +1,19 @@
 <?php
-namespace MunicipioSchool;
+namespace MunicipioHighSchool;
 
 class App
 {
     public function __construct()
     {
         // Admin
-        new \MunicipioSchool\Admin\ColorScheme();
-        new \MunicipioSchool\Admin\NetworkAdmin();
+        new \MunicipioHighSchool\Admin\ColorScheme();
+        new \MunicipioHighSchool\Admin\NetworkAdmin();
 
         // Theme
-        new \MunicipioSchool\Theme\Enqueue();
-        new \MunicipioSchool\Theme\ColorScheme();
+        new \MunicipioHighSchool\Theme\Enqueue();
+        new \MunicipioHighSchool\Theme\ColorScheme();
 
         // Post types
-        new \MunicipioSchool\PostTypes\ForParents();
+        new \MunicipioHighSchool\PostTypes\ForParents();
     }
 }

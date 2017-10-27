@@ -1,13 +1,13 @@
 <?php
 
-namespace MunicipioSchool\Theme;
+namespace MunicipioHighSchool\Theme;
 
 class ColorScheme
 {
 
     public function __construct()
     {
-        add_action('wp_head', array($this, 'addStyle'));
+        //add_action('wp_head', array($this, 'addStyle'));
         add_filter('Modularity/Module/Classes', array($this, 'filterIndexBoxes'));
     }
 

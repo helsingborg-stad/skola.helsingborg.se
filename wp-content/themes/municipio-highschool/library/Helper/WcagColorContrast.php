@@ -1,6 +1,6 @@
 <?php
 
-namespace MunicipioSchool\Helper;
+namespace MunicipioHighSchool\Helper;
 
 class WcagColorContrast
 {
