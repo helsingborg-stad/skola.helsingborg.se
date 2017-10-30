@@ -13,6 +13,10 @@
         {
             "name": "Jonatan Hansson",
             "email": "jonatan.hansson@hiq.se"
+        },
+        {
+            "name": "Nikolas Ramstedt",
+            "email": "nikolas.ramstedt@helsingborg.se"
         }
     ],
     "minimum-stability" : "stable",
@@ -84,6 +88,18 @@
         {
             "type": "vcs",
             "url": "https://github.com/helsingborg-stad/modularity-guides.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/modularity-sections.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/modularity-tiles.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/modularity-testimonials.git"
         },
         {
             "type": "vcs",
@@ -161,8 +177,11 @@
         "helsingborg-stad/easy-to-read-alternative": ">=1.0.0",
         "helsingborg-stad/multisite-role-propagation": ">=1.0.0",
         "helsingborg-stad/modularity-form-builder": ">=1.0.0",
+        "helsingborg-stad/modularity-sections": ">=1.0.0",
         "helsingborg-stad/wp-api-get-sites": "1.0.0",
         "helsingborg-stad/google-analythics": ">=1.0.0",
+        "helsingborg-stad/modularity-tiles": "^0.0.2",
+        "helsingborg-stad/modularity-testimonials": ">=0.0.1",
         "wpackagist-plugin/wp-editor-widget": "^0.5.5",
         "wpackagist-plugin/varnish-http-purge": "^3.7.2",
         "wpackagist-plugin/stream": "^3.0.4",
