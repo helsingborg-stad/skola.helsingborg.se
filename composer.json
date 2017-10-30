@@ -180,7 +180,7 @@
         "helsingborg-stad/modularity-sections": ">=1.0.0",
         "helsingborg-stad/wp-api-get-sites": "1.0.0",
         "helsingborg-stad/google-analythics": ">=1.0.0",
-        "helsingborg-stad/modularity-tiles": "^0.0.2",
+        "helsingborg-stad/modularity-tiles": ">=0.0.2",
         "helsingborg-stad/modularity-testimonials": ">=0.0.1",
         "wpackagist-plugin/wp-editor-widget": "^0.5.5",
         "wpackagist-plugin/varnish-http-purge": "^3.7.2",
