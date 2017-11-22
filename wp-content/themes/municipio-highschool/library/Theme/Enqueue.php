@@ -10,10 +10,10 @@ class Enqueue
         add_action('wp_enqueue_scripts', array($this, 'style'));
         add_action('wp_enqueue_scripts', array($this, 'script'));
         add_action('admin_enqueue_scripts', array($this, 'adminStyle'));
-        //
-        if (!defined('DEV_MODE') || defined('DEV_MODE') && DEV_MODE == false) {
-            add_action('wp_enqueue_scripts', array($this, 'tempStyleGuide',), 3);
-        }
+
+        //if (!defined('DEV_MODE') || defined('DEV_MODE') && DEV_MODE == false) {
+            //add_action('wp_enqueue_scripts', array($this, 'tempStyleGuide',), 3);
+        //}
     }
 
     public function tempStyleGuide()
