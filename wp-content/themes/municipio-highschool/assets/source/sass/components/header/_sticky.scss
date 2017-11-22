@@ -56,16 +56,6 @@
     animation-duration: 200ms;
 }
 
-.logged-in .navbar-sticky.sticky {
-
-    @media screen and #{$admin-bar-screen-fixed} {
-        top: $admin-bar-tablet;
-    }
-    @media screen and #{$admin-bar-screen-desktop} {
-        top: $admin-bar-desktop;
-    }
-}
-
 .navbar-sticky.sticky {
     a {
         color: $black;
@@ -76,3 +66,13 @@
     }
 }
 
+/* Logged in - Sticky state */
+&.logged-in .navbar-sticky.sticky {
+
+    @media screen and #{$admin-bar-screen-fixed} {
+        top: $admin-bar-tablet;
+    }
+    @media screen and #{$admin-bar-screen-desktop} {
+        top: $admin-bar-desktop;
+    }
+}
