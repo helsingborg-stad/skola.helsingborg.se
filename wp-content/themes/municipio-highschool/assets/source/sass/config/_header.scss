@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Wordpress adminbar
+   ========================================================================== */
+$admin-bar-tablet:  46px; //max-width: 782   -   fixed state: min-width: 601px
+$admin-bar-desktop: 32px; //min-width: 783
+
+$admin-bar-screen-fixed: "(min-width: 601px)";
+$admin-bar-screen-desktop: "(min-width: 783px)";
+
+/* ==========================================================================
+   Navigation Height
+   ========================================================================== */
+
+$navbar-sm-height:      50px;
+$navbar-lg-height:      100px;
+$navbar-sticky-height:  50px;
+

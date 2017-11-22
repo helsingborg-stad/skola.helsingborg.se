@@ -1,0 +1,80 @@
+/* A wrapper aware breakpoint */
+/* ==========================================================================
+   Wordpress adminbar
+   ========================================================================== */
+/* ==========================================================================
+   Navigation Height
+   ========================================================================== */
+.is-child-theme {
+  /* ==========================================================================
+   Overrides
+   ========================================================================== */
+  /* ==========================================================================
+   New styles
+   ========================================================================== */
+  /* ==========================================================================
+   Animations
+   ========================================================================== */
+  /* ==========================================================================
+   Overrides
+   ========================================================================== */
+  /* ==========================================================================
+   New styles
+   ========================================================================== */
+  /* Default state */
+  /* Sticky state */
+  /* ==========================================================================
+   Overrides
+   ========================================================================== */
+  /* ==========================================================================
+   New styles
+   ========================================================================== */ }
+
+@-webkit-keyframes sticky-navbar {
+  from {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%); }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
+
+@keyframes sticky-navbar {
+  from {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%); }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
+  .is-child-theme .navbar.navbar-sticky {
+    transition: none; }
+    .is-child-theme .navbar.navbar-sticky a {
+      transition: none; }
+  .is-child-theme .navbar-sticky.sticky span, .is-child-theme .navbar-sticky.sticky i {
+    color: #000; }
+  .is-child-theme .navbar-sticky.sticky span, .is-child-theme .navbar-sticky.sticky i {
+    color: #000; }
+  .is-child-theme .navbar-sticky.sticky {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08) !important; }
+  .is-child-theme .navbar-sticky {
+    -webkit-backface-visibility: hidden;
+    z-index: 99999; }
+  .is-child-theme .navbar-sticky.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    -webkit-animation-name: sticky-navbar;
+            animation-name: sticky-navbar;
+    -webkit-animation-duration: 200ms;
+            animation-duration: 200ms; }
+  @media screen and (min-width: 601px) {
+    .is-child-theme .logged-in .navbar-sticky.sticky {
+      top: 46px; } }
+  @media screen and (min-width: 783px) {
+    .is-child-theme .logged-in .navbar-sticky.sticky {
+      top: 32px; } }
+  .is-child-theme .navbar-sticky.sticky a {
+    color: #000; }
+  .is-child-theme .navbar-sticky.sticky .logotype path {
+    fill: #000; }

@@ -1,31 +1,3 @@
-var MunicipioHighSchool;
-
-MunicipioHighSchool = MunicipioHighSchool || {};
-MunicipioHighSchool.ExampleNamespace = MunicipioHighSchool.Liquid || {};
-
-MunicipioHighSchool.ExampleNamespace.ExampleClass = (function ($) {
-
-	var classVariable = false;
-
-    /**
-     * Constructor
-     * Should be named as the class itself
-     */
-	function ExampleClass() {
-
-    }
-
-    /**
-     * Method
-     */
-    ExampleClass.prototype.exampleMethod = function () {
-
-    }
-
-	return new ExampleClass();
-
-})(jQuery);
-
 //
 // @name Local link
 // @description  Finds link items with outbound links and gives them outbound class
