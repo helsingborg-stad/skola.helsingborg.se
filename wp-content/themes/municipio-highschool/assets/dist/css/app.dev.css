@@ -29,6 +29,12 @@
    ========================================================================== */
   /* ==========================================================================
    New styles
+   ========================================================================== */
+  /* ==========================================================================
+   Overrides
+   ========================================================================== */
+  /* ==========================================================================
+   New styles
    ========================================================================== */ }
 
 @-webkit-keyframes sticky-navbar {
@@ -79,3 +85,23 @@
   @media screen and (min-width: 783px) {
     .is-child-theme.logged-in .navbar-sticky.sticky {
       top: 32px; } }
+  .is-child-theme .btn {
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 1.1em 1.8em;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.02em; }
+  .is-child-theme .btn.btn-sm {
+    padding: 1.1em 1.8em;
+    font-size: 0.68rem; }
+  .is-child-theme .btn.btn-md {
+    padding: 1.1em 1.8em;
+    font-size: 0.85rem; }
+  .is-child-theme .btn.btn-lg {
+    padding: 1em 2em;
+    font-size: 0.935rem; }
+  .is-child-theme .btn + .btn {
+    margin-left: .5rem; }

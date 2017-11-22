@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Overrides
+   ========================================================================== */
+
+/* ==========================================================================
+   New styles
+   ========================================================================== */
+
+.btn {
+    @include antialias();
+    padding: $btn-padding;
+
+    font-size: $btn-font-size;
+    font-weight: $btn-font-weight;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+}
+
+.btn.btn-sm {
+    padding: $btn-sm-padding;
+    font-size: $btn-sm-font-size;
+}
+.btn.btn-md {
+    padding: $btn-md-padding;
+    font-size: $btn-md-font-size;
+}
+.btn.btn-lg {
+    padding: $btn-lg-padding;
+    font-size: $btn-lg-font-size;
+}
+
+.btn + .btn {
+    margin-left: .5rem;
+}

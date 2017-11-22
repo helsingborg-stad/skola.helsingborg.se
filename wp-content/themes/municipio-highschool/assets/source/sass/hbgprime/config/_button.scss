@@ -3,21 +3,21 @@
 // ***************************************************************
 
 // Default button
-$btn-font-size: .9em;
-$btn-font-weight: 500;
-$btn-padding: $content-gutter/2 $content-gutter;
+$btn-font-size: .85rem;
+$btn-font-weight: 700;
+$btn-padding: 1.1em 1.8em;
 
 // Small button
-$btn-sm-font-size: .75em;
-$btn-sm-font-weight: 500;
-$btn-sm-padding: .4em .6em;
+$btn-sm-font-size: $btn-font-size * 0.8;
+$btn-sm-font-weight: $btn-font-weight;
+$btn-sm-padding: $btn-padding;
 
 // Medium button
-$btn-md-font-size: .9em;
-$btn-md-font-weight: 500;
-$btn-md-padding: .5em .9em;
+$btn-md-font-size:  $btn-font-size;
+$btn-md-font-weight: $btn-font-weight;
+$btn-md-padding: $btn-padding;
 
 // Large button
-$btn-lg-font-size: 1.1em;
-$btn-lg-font-weight: 500;
-$btn-lg-padding: .5em .9em;
+$btn-lg-font-size: $btn-font-size * 1.1;
+$btn-lg-font-weight: $btn-font-weight;
+$btn-lg-padding: 1em 2em;
