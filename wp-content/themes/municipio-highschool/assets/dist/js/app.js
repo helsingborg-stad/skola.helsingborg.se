@@ -85,10 +85,7 @@ MunicipioHighSchool.Helper.StickyScroll = (function ($) {
 
         $.each(_stickyElements, function (index, item) {
 
-            if (navBarHeight >= foldHeight && scrollOffset > (foldHeight + navBarHeight)) {
-                return this.stick(item.element);
-            } else if (scrollOffset > foldHeight - navBarHeight) {
-
+            if (scrollOffset > (foldHeight)) {
                 return this.stick(item.element);
             }
 
