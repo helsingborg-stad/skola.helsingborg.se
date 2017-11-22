@@ -10,6 +10,16 @@
         font-weight: 300;
     }
 
+    #{$heading-elems} {
+        line-height: 1.2;
+
+        & + *,
+        & + p,
+        & + p:first-of-type {
+            margin-top: 1rem;
+        }
+    }
+
     h1, .h1 {
         font-size: ms(3);
 

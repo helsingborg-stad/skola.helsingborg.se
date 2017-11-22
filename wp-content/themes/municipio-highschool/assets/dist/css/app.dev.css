@@ -275,6 +275,34 @@ body {
         font-size: 1.25rem; } }
     .is-child-theme .section.fontsize-large p {
       font-weight: 300; }
+    .is-child-theme .section.fontsize-large h1, .is-child-theme .section.fontsize-large h2, .is-child-theme .section.fontsize-large h3, .is-child-theme .section.fontsize-large h4, .is-child-theme .section.fontsize-large h5, .is-child-theme .section.fontsize-large h6, .is-child-theme .section.fontsize-large .h1, .is-child-theme .section.fontsize-large .h2, .is-child-theme .section.fontsize-large .h3, .is-child-theme .section.fontsize-large .h4, .is-child-theme .section.fontsize-large .h5, .is-child-theme .section.fontsize-large .h6 {
+      line-height: 1.2; }
+      .is-child-theme .section.fontsize-large h1 + *,
+      .is-child-theme .section.fontsize-large h1 + p,
+      .is-child-theme .section.fontsize-large h1 + p:first-of-type, .is-child-theme .section.fontsize-large h2 + *,
+      .is-child-theme .section.fontsize-large h2 + p,
+      .is-child-theme .section.fontsize-large h2 + p:first-of-type, .is-child-theme .section.fontsize-large h3 + *,
+      .is-child-theme .section.fontsize-large h3 + p,
+      .is-child-theme .section.fontsize-large h3 + p:first-of-type, .is-child-theme .section.fontsize-large h4 + *,
+      .is-child-theme .section.fontsize-large h4 + p,
+      .is-child-theme .section.fontsize-large h4 + p:first-of-type, .is-child-theme .section.fontsize-large h5 + *,
+      .is-child-theme .section.fontsize-large h5 + p,
+      .is-child-theme .section.fontsize-large h5 + p:first-of-type, .is-child-theme .section.fontsize-large h6 + *,
+      .is-child-theme .section.fontsize-large h6 + p,
+      .is-child-theme .section.fontsize-large h6 + p:first-of-type, .is-child-theme .section.fontsize-large .h1 + *,
+      .is-child-theme .section.fontsize-large .h1 + p,
+      .is-child-theme .section.fontsize-large .h1 + p:first-of-type, .is-child-theme .section.fontsize-large .h2 + *,
+      .is-child-theme .section.fontsize-large .h2 + p,
+      .is-child-theme .section.fontsize-large .h2 + p:first-of-type, .is-child-theme .section.fontsize-large .h3 + *,
+      .is-child-theme .section.fontsize-large .h3 + p,
+      .is-child-theme .section.fontsize-large .h3 + p:first-of-type, .is-child-theme .section.fontsize-large .h4 + *,
+      .is-child-theme .section.fontsize-large .h4 + p,
+      .is-child-theme .section.fontsize-large .h4 + p:first-of-type, .is-child-theme .section.fontsize-large .h5 + *,
+      .is-child-theme .section.fontsize-large .h5 + p,
+      .is-child-theme .section.fontsize-large .h5 + p:first-of-type, .is-child-theme .section.fontsize-large .h6 + *,
+      .is-child-theme .section.fontsize-large .h6 + p,
+      .is-child-theme .section.fontsize-large .h6 + p:first-of-type {
+        margin-top: 1rem; }
     .is-child-theme .section.fontsize-large h1, .is-child-theme .section.fontsize-large .h1 {
       font-size: 1.95312rem; }
       @media screen and (min-width: 469px) {
