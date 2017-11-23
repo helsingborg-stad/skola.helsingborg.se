@@ -80,6 +80,7 @@ gulp.task('watch', function() {
 
 //Watch with BrowserSync
 gulp.task('watch-live', ['browser-sync'], function () {
+    gulp.watch('**/*.php', browserSync.reload);
     gulp.watch('assets/source/js/**/*.js', ['scripts-dist', browserSync.reload]);
     gulp.watch('assets/source/sass/**/*.scss', ['sass-dist', 'sass-dev', 'sass-admin-dist', 'sass-admin-dev']);
 });

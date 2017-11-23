@@ -1,6 +1,64 @@
+// ***************************************************************
+// *** Modularscale
+// ***************************************************************
+@import 'mixins/modularscale/modularscale';
+@import 'config/modularscale';
+
+// ***************************************************************
+// *** Common
+// ***************************************************************
 @import 'master';
 @import 'color-scheme';
 
+// ***************************************************************
+// *** HBG Prime - Config
+// ***************************************************************
+@import 'hbgprime/config/typography';
+@import 'hbgprime/config/colors';
+@import 'hbgprime/config/grid';
+@import 'hbgprime/config/icons';
+@import 'hbgprime/config/button';
+@import 'hbgprime/config/z-index';
+@import 'hbgprime/config/table';
+@import 'hbgprime/config/box';
+
+// ***************************************************************
+// *** HBG Prime - Mixins
+// ***************************************************************
+@import 'hbgprime/mixin/positioning';
+@import 'hbgprime/mixin/forms';
+@import 'hbgprime/mixin/arrow';
+@import 'hbgprime/mixin/gradient';
+@import 'hbgprime/mixin/grid';
+@import 'hbgprime/mixin/breakpoint';
+@import 'hbgprime/mixin/box';
+@import 'hbgprime/mixin/material';
+@import 'hbgprime/mixin/render';
+@import 'hbgprime/mixin/blur';
+
+// ***************************************************************
+// *** Config
+// ***************************************************************
+@import 'config/header';
+@import 'config/elements';
+
+// ***************************************************************
+// *** Mixins
+// ***************************************************************
+@import 'mixins/antialias';
+
+
+@import 'typography/body';
+
 .is-child-theme {
-	//@import 'layout/base';
+    @import 'typography/article';
+    @import 'typography/headings';
+    @import 'typography/lead';
+    @import 'typography/sections';
+
+	@import 'components/header/jumbo';
+    @import 'components/header/sticky';
+    @import 'components/navigation/navbar';
+    @import 'components/button/button';
 }
+

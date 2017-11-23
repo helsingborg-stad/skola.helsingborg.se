@@ -1,7 +1,7 @@
-MunicipioSchool = MunicipioSchool || {};
-MunicipioSchool.ExampleNamespace = MunicipioSchool.Liquid || {};
+MunicipioHighSchool = MunicipioHighSchool || {};
+MunicipioHighSchool.ExampleNamespace = MunicipioHighSchool.Liquid || {};
 
-MunicipioSchool.ExampleNamespace.ExampleClass = (function ($) {
+MunicipioHighSchool.ExampleNamespace.ExampleClass = (function ($) {
 
 	var classVariable = false;
 

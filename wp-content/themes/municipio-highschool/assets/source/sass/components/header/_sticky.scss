@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+
+@keyframes sticky-navbar {
+    from {transform: translateY(-100%);}
+    to {transform: translateY(0);}
+}
+
+/* ==========================================================================
+   Overrides
+   ========================================================================== */
+.navbar.navbar-sticky {
+    transition: none;
+
+    a {
+        transition: none;
+    }
+}
+
+.navbar-sticky.sticky {
+    span, i {
+        color: $black;
+    }
+}
+
+.navbar-sticky.sticky {
+    span, i {
+        color: $black;
+    }
+}
+
+.navbar-sticky.sticky {
+    box-shadow: 0 2px 3px rgba(0,0,0,.08) !important;
+}
+
+/* ==========================================================================
+   New styles
+   ========================================================================== */
+
+/* Default state */
+.navbar-sticky {
+    -webkit-backface-visibility: hidden;
+    z-index: $level-top;
+}
+
+/* Sticky state */
+.navbar-sticky.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+
+    animation-name: sticky-navbar;
+    animation-duration: 200ms;
+}
+
+.navbar-sticky.sticky {
+    a {
+        color: $black;
+    }
+
+    .logotype path {
+        fill: $black;
+    }
+}
+
+/* Logged in - Sticky state */
+&.logged-in .navbar-sticky.sticky {
+
+    @media screen and #{$admin-bar-screen-fixed} {
+        top: $admin-bar-tablet;
+    }
+    @media screen and #{$admin-bar-screen-desktop} {
+        top: $admin-bar-desktop;
+    }
+}

@@ -1,1 +1,1 @@
-var MunicipioSchool;
+var MunicipioHighSchool;
