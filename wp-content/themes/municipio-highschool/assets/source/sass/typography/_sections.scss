@@ -1,16 +1,21 @@
-.section.fontsize-large {
+.section.fontsize-large article {
 
-
-    font-size: ms(0);
-    @media screen and #{$screen-sm-up} {
-        font-size: ms(1);
-    }
 
     p {
+        font-size: ms(0);
+        @media screen and #{$screen-md-up} {
+            font-size: ms(1);
+        }
+
         font-weight: 300;
     }
 
-    * + * {
+
+    p {
+
+    }
+
+    * + *:not(.btn) {
         margin-top: 1.5rem;
     }
 
@@ -25,14 +30,14 @@
     }
 
     h1, .h1 {
-        font-size: ms(3);
+        font-size: ms(4);
 
-        @media screen and #{$screen-sm-up} {
+        @media screen and #{$screen-md-up} {
             font-size: ms(6);
         }
 
         @media screen and #{$screen-lg-up} {
-            font-size: ms(7);
+            font-size: ms(8);
         }
     }
 
@@ -49,7 +54,7 @@
     }
 
     h3, .h3 {
-        font-size: ms(1);
+        font-size: ms(2);
 
         @media screen and #{$screen-sm-up} {
             font-size: ms(4);
