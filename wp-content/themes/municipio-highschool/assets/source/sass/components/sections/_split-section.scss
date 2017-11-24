@@ -1,0 +1,35 @@
+.section-split {
+    .section-content:after {
+
+        @media screen and #{$screen-md-up} {
+            padding-top: 150%;
+            content: '';
+            display: block;
+        }
+
+        @media screen and #{$screen-xl-up} {
+            padding-top: 75%;
+        }
+    }
+
+    .section-content {
+        position: relative;
+    }
+    @media screen and #{$screen-md-up} {
+        .section-content article {
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .section-content article .section-text {
+            max-width: 600px;
+        }
+    }
+}
