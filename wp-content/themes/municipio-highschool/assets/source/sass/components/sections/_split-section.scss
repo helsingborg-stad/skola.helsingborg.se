@@ -14,7 +14,9 @@
 
     .section-content {
         position: relative;
+        max-height: 750px;
     }
+
     @media screen and #{$screen-md-up} {
         .section-content article {
 
@@ -26,6 +28,7 @@
             align-content: center;
             width: 100%;
             height: 100%;
+            max-width: 100%;
         }
 
         .section-content article .section-text {

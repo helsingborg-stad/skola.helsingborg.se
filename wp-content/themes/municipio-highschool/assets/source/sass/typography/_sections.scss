@@ -1,7 +1,5 @@
 .section.fontsize-large article {
-
-
-    p {
+    .lead {
         font-size: ms(0);
         @media screen and #{$screen-md-up} {
             font-size: ms(1);
