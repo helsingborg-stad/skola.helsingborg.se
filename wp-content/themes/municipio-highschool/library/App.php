@@ -10,6 +10,7 @@ class App
         new \MunicipioHighSchool\Admin\NetworkAdmin();
 
         // Theme
+        new \MunicipioHighSchool\Theme\Filters();
         new \MunicipioHighSchool\Theme\Enqueue();
         new \MunicipioHighSchool\Theme\ColorScheme();
 
