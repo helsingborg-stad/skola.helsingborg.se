@@ -374,6 +374,10 @@ body {
     color: white; }
   .is-child-theme .nav-group-flex .dropdown-toggle + .dropdown-menu li a {
     color: black; }
+  .is-child-theme .nav-group-flex .btn {
+    white-space: nowrap; }
+  .is-child-theme .nav-group-flex ul#main-menu {
+    white-space: nowrap; }
 
 @-webkit-keyframes sticky-navbar {
   from {

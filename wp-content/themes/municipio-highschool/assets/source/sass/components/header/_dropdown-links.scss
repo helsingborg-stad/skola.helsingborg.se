@@ -15,3 +15,12 @@
    New styles
    ========================================================================== */
 
+.nav-group-flex {
+  .btn {
+      white-space: nowrap;
+  }
+
+  ul#main-menu {
+      white-space: nowrap;
+  }
+}
