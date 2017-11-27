@@ -2,16 +2,16 @@
    Overrides
    ========================================================================== */
 
+.nav-group-flex {
+  .dropdown-toggle.btn.btn-primary {
+    color: white;
+  }
+  .dropdown-toggle + .dropdown-menu li a {
+      color: black;
+  }
+}
+
 /* ==========================================================================
    New styles
    ========================================================================== */
 
-.nav-group-flex {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
-    > * + * {
-        margin-left: $content-gutter/2;
-    }
-}
