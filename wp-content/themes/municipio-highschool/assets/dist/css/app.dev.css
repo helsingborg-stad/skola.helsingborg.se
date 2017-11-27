@@ -431,7 +431,7 @@ body {
       padding-top: 75%; } }
   .is-child-theme .section-split .section-content {
     position: relative;
-    max-height: 750px; }
+    max-height: 580px; }
   @media screen and (min-width: 769px) {
     .is-child-theme .section-split .section-content article {
       position: absolute;
