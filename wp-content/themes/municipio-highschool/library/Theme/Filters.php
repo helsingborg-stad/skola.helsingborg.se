@@ -14,8 +14,10 @@ class Filters
 
         //Nav group class
         add_filter('Municipio/Jumbo/NavGroupClass', array($this, 'navGroupClass'));
-    }
 
+        //Fixes classes on sidebar boxes
+        add_filter('Modularity/Module/Classes', array($this, 'moduleClasses'), 15, 3);
+    }
 
     /**
      * Append navgroup class
@@ -50,5 +52,25 @@ class Filters
         }
 
         return $data;
+    }
+
+    /**
+     * Modify module classes in different areas
+     * @param  array $classes      Default classes
+     * @param  string $moduleType  Module type
+     * @param  array $sidebarArgs  Sidebar arguments
+     * @return array               Modified list of classes
+     */
+
+    public function moduleClasses($classes, $moduleType, $sidebarArgs)
+    {
+
+        // Sidebar box-panel (should be filled)
+        if (in_array($sidebarArgs['id'], array('left-sidebar-bottom', 'left-sidebar', 'right-sidebar')) && in_array('box-filled', $classes)) {
+            unset($classes[array_search('box-filled', $classes)]);
+            $classes[] = 'box-material';
+        }
+
+        return $classes;
     }
 }
