@@ -10,7 +10,6 @@
                         <h4>Våra program</h4>
                     </div>
                     <div class="box-collapse">
-
                         {!! $navigation['sidebarMenu'] !!}
                     </div>
                 </div>

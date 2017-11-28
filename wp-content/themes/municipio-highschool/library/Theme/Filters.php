@@ -20,9 +20,31 @@ class Filters
 
         //Always consider right-sidebar active
         add_filter('is_active_sidebar', array($this, 'activateRightSidebar'), 15, 3);
+
+        //Show mobile menu earlier
+        add_action('Municipio/mobile_menu_breakpoint', array($this, 'mobileMenuBreakpoint'));
+        add_action('Municipio/desktop_menu_breakpoint', array($this, 'desktopMenuBreakpoint'));
     }
 
-     /**
+    /**
+     * Show mobile menu in all but large size.
+     * @return void
+     */
+    public function mobileMenuBreakpoint($classes)
+    {
+        return "hidden-lg";
+    }
+
+    /**
+     * Show mobile menu in all but large size.
+     * @return void
+     */
+    public function desktopMenuBreakpoint($classes)
+    {
+        return "hidden-xs hidden-sm hidden-md";
+    }
+
+    /**
      * Activate right sidebar
      * @param bool       $is_active_sidebar     Whether or not the sidebar should be considered "active". In other words, whether the sidebar contains any widgets.
      * @param int|string $index                 Index, name, or ID of the dynamic sidebar.
