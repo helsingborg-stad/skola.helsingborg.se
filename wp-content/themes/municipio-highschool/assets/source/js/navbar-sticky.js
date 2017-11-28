@@ -43,7 +43,14 @@ MunicipioHighSchool.Helper.StickyScroll = (function ($) {
     StickyScroll.prototype.scrolling = function() {
         var scrollOffset = $(window).scrollTop();
         var navBarHeight = $('#site-header').outerHeight();
-        var foldHeight = $('#site-header + div').outerHeight();
+        var foldHeight;
+
+        if ($('#site-header + .hero').length > 0) {
+            foldHeight = $('#site-header + .hero').outerHeight();
+        } else {
+            foldHeight = $('#site-header').outerHeight();
+            $('#site-header').css({'border-bottom' : "1px solid #dedede"});
+        }
 
 
         if ($('body').hasClass('admin-bar')) {
@@ -55,9 +62,11 @@ MunicipioHighSchool.Helper.StickyScroll = (function ($) {
 
         }
 
+        console.log(foldHeight);
         $.each(_stickyElements, function (index, item) {
 
             if (scrollOffset > (foldHeight)) {
+
                 return this.stick(item.element);
             }
 

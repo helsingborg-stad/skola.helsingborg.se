@@ -404,11 +404,28 @@ body {
     color: #000; }
   .is-child-theme .navbar-sticky.sticky {
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08) !important; }
+  .is-child-theme .navbar-sticky .logotype {
+    padding: 0;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .is-child-theme .navbar-sticky .logotype svg {
+    transition: none;
+    max-width: none;
+    width: auto !important; }
   .is-child-theme .navbar-sticky {
     -webkit-backface-visibility: hidden;
     z-index: 99999; }
   .is-child-theme.page:not(.home) .navbar-sticky:not(.sticky) {
     background-color: white !important; }
+  .is-child-theme .navbar-sticky:not(.sticky) {
+    padding: 15px 0; }
+    .is-child-theme .navbar-sticky:not(.sticky) .logotype svg {
+      height: 45px; }
   .is-child-theme .navbar-sticky.sticky {
     position: fixed;
     top: 0;
@@ -419,6 +436,8 @@ body {
             animation-name: sticky-navbar;
     -webkit-animation-duration: 200ms;
             animation-duration: 200ms; }
+    .is-child-theme .navbar-sticky.sticky .logotype svg {
+      height: 40px; }
   .is-child-theme .navbar-sticky.sticky a {
     color: #000; }
   .is-child-theme .navbar-sticky.sticky #text path {
