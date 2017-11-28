@@ -458,19 +458,19 @@ body {
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    padding: 1.1em 1.8em;
+    padding: 0.75em 1.5em;
     font-size: 0.85rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: -0.02em; }
   .is-child-theme .btn.btn-sm {
-    padding: 1.1em 1.8em;
+    padding: 0.75em 1.5em;
     font-size: 0.68rem; }
   .is-child-theme .btn.btn-md {
-    padding: 1.1em 1.8em;
+    padding: 0.75em 1.5em;
     font-size: 0.85rem; }
   .is-child-theme .btn.btn-lg {
-    padding: 1em 2em;
+    padding: 1em 1.75em;
     font-size: 0.935rem; }
   .is-child-theme .btn + .btn {
     margin-left: .5rem; }
