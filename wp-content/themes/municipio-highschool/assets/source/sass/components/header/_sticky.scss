@@ -88,6 +88,7 @@
     }
 }
 
+/* Logotype */
 .navbar-sticky.sticky {
     a {
         color: $black;
@@ -107,4 +108,10 @@
     @media screen and #{$admin-bar-screen-desktop} {
         top: $admin-bar-desktop;
     }
+}
+
+
+/* Add border if no hero */
+.site-header + .main-content {
+    border-top: solid 1px #e8e8e8;
 }

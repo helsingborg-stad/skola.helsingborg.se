@@ -77,7 +77,6 @@ MunicipioHighSchool.Helper.StickyScroll = (function ($) {
             foldHeight = $('#site-header + .hero').outerHeight();
         } else {
             foldHeight = $('#site-header').outerHeight();
-            $('#site-header').css({'border-bottom' : "1px solid #dedede"});
         }
 
         $.each(_stickyElements, function (index, item) {

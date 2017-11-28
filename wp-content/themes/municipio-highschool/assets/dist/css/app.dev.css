@@ -79,7 +79,9 @@ body {
    ========================================================================== */
   /* Default state */
   /* Sticky state */
+  /* Logotype */
   /* Logged in - Sticky state */
+  /* Add border if no hero */
   /* ==========================================================================
    Overrides
    ========================================================================== */
@@ -448,6 +450,8 @@ body {
   @media screen and (min-width: 783px) {
     .is-child-theme.logged-in .navbar-sticky.sticky {
       top: 32px; } }
+  .is-child-theme .site-header + .main-content {
+    border-top: solid 1px #e8e8e8; }
   .is-child-theme.page:not(.home) .navbar-sticky:not(.sticky) a {
     color: #000; }
   .is-child-theme .btn {
