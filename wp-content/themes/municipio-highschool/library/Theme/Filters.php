@@ -18,21 +18,6 @@ class Filters
         //Fixes classes on sidebar boxes
         add_filter('Modularity/Module/Classes', array($this, 'moduleClasses'), 15, 3);
 
-        //Foces use of two columns
-        add_filter('HbgBlade/data', array($this, 'forceSidebarUsage'), 15, 3);
-
-    }
-
-    /**
-     * Force sidebar usage. Do not calculate columns dynamicly
-     * @param array $data full view data array from BaseController
-     * @return array $data Modoified data array
-     */
-    public function forceSidebarUsage($data)
-    {
-        $data['hasLeftSidebar'] = false;
-        $data['hasRightSidebar'] = true;
-        return $data;
     }
 
     /**
@@ -65,6 +50,14 @@ class Filters
     {
         if (isset($data['headerLayout']) && isset($data['headerLayout']['classes'])) {
             $data['headerLayout']['classes'] .= " nav-no-overflow";
+        }
+
+        if (isset($data['hasLeftSidebar'])) {
+            $data['hasLeftSidebar'] = false;
+        }
+
+        if (isset($data['hasRightSidebar'])) {
+            $data['hasRightSidebar'] = true;
         }
 
         return $data;
