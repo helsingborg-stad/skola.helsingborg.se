@@ -91,9 +91,9 @@ class Filters
     {
 
         // Sidebar box-panel (should be filled)
-        if (in_array($sidebarArgs['id'], array('left-sidebar-bottom', 'left-sidebar', 'right-sidebar')) && in_array('box-filled', $classes)) {
+        if (in_array('box-filled', $classes)) {
             unset($classes[array_search('box-filled', $classes)]);
-            $classes[] = 'box-material';
+            $classes[] = 'box--material';
         }
 
         return $classes;
