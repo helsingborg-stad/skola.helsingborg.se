@@ -79,7 +79,9 @@ body {
    ========================================================================== */
   /* Default state */
   /* Sticky state */
+  /* Logotype */
   /* Logged in - Sticky state */
+  /* Add border if no hero */
   /* ==========================================================================
    Overrides
    ========================================================================== */
@@ -404,9 +406,28 @@ body {
     color: #000; }
   .is-child-theme .navbar-sticky.sticky {
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08) !important; }
+  .is-child-theme .navbar-sticky .logotype {
+    padding: 0;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .is-child-theme .navbar-sticky .logotype svg {
+    transition: none;
+    max-width: none;
+    width: auto !important; }
   .is-child-theme .navbar-sticky {
     -webkit-backface-visibility: hidden;
     z-index: 99999; }
+  .is-child-theme.page:not(.home) .navbar-sticky:not(.sticky) {
+    background-color: white !important; }
+  .is-child-theme .navbar-sticky:not(.sticky) {
+    padding: 15px 0; }
+    .is-child-theme .navbar-sticky:not(.sticky) .logotype svg {
+      height: 45px; }
   .is-child-theme .navbar-sticky.sticky {
     position: fixed;
     top: 0;
@@ -417,9 +438,11 @@ body {
             animation-name: sticky-navbar;
     -webkit-animation-duration: 200ms;
             animation-duration: 200ms; }
+    .is-child-theme .navbar-sticky.sticky .logotype svg {
+      height: 40px; }
   .is-child-theme .navbar-sticky.sticky a {
     color: #000; }
-  .is-child-theme .navbar-sticky.sticky .logotype path {
+  .is-child-theme .navbar-sticky.sticky #text path {
     fill: #000; }
   @media screen and (min-width: 601px) {
     .is-child-theme.logged-in .navbar-sticky.sticky {
@@ -427,23 +450,27 @@ body {
   @media screen and (min-width: 783px) {
     .is-child-theme.logged-in .navbar-sticky.sticky {
       top: 32px; } }
+  .is-child-theme .site-header + .main-content {
+    border-top: solid 1px #e8e8e8; }
+  .is-child-theme.page:not(.home) .navbar-sticky:not(.sticky) a {
+    color: #000; }
   .is-child-theme .btn {
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    padding: 1.1em 1.8em;
+    padding: 0.75em 1.5em;
     font-size: 0.85rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: -0.02em; }
   .is-child-theme .btn.btn-sm {
-    padding: 1.1em 1.8em;
+    padding: 0.75em 1.5em;
     font-size: 0.68rem; }
   .is-child-theme .btn.btn-md {
-    padding: 1.1em 1.8em;
+    padding: 0.75em 1.5em;
     font-size: 0.85rem; }
   .is-child-theme .btn.btn-lg {
-    padding: 1em 2em;
+    padding: 1em 1.75em;
     font-size: 0.935rem; }
   .is-child-theme .btn + .btn {
     margin-left: .5rem; }

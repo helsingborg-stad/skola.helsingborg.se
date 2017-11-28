@@ -6,4 +6,6 @@
    New styles
    ========================================================================== */
 
-
+&.page:not(.home) .navbar-sticky:not(.sticky) a {
+    color: $black;
+}

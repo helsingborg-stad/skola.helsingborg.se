@@ -37,11 +37,38 @@
 /* ==========================================================================
    New styles
    ========================================================================== */
+.navbar-sticky {
+    .logotype {
+        padding: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .logotype svg {
+        transition: none;
+        max-width: none;
+        width: auto !important;
+    }
+}
+
 
 /* Default state */
 .navbar-sticky {
     -webkit-backface-visibility: hidden;
     z-index: $level-top;
+}
+
+&.page:not(.home) .navbar-sticky:not(.sticky) {
+    background-color: white !important;
+}
+.navbar-sticky:not(.sticky) {
+    padding: 15px 0;
+
+
+    .logotype svg {
+        height: 45px;
+    }
 }
 
 /* Sticky state */
@@ -54,14 +81,20 @@
 
     animation-name: sticky-navbar;
     animation-duration: 200ms;
+
+
+    .logotype svg {
+        height: 40px;
+    }
 }
 
+/* Logotype */
 .navbar-sticky.sticky {
     a {
         color: $black;
     }
 
-    .logotype path {
+    #text path {
         fill: $black;
     }
 }
@@ -75,4 +108,10 @@
     @media screen and #{$admin-bar-screen-desktop} {
         top: $admin-bar-desktop;
     }
+}
+
+
+/* Add border if no hero */
+.site-header + .main-content {
+    border-top: solid 1px #e8e8e8;
 }
