@@ -8,5 +8,7 @@ class Page extends \Municipio\Controller\BaseController
     {
         $this->data['hasLeftSidebar'] = false;
         $this->data['contentGridSize'] = 'grid-md-7';
+
+        $this->data['menuTitle'] = "Test heading";
     }
 }

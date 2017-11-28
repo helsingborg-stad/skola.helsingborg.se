@@ -6,9 +6,12 @@
         @if (get_field('nav_sub_enable', 'option'))
             <div class="grid-xs-12 hidden-xs hidden-sm">
                 <div class="box">
-                    <div class="header">
-                        <h4>Våra program</h4>
-                    </div>
+                    @if($menuTitle)
+                        <div class="header">
+                            <h4>{{ $menuTitle }}</h4>
+                        </div>
+                    @endif
+
                     <div class="box-collapse">
                         {!! $navigation['sidebarMenu'] !!}
                     </div>
