@@ -1,5 +1,5 @@
 @if ($hasRightSidebar)
-<aside class="grid-lg-5 grid-md-5 sidebar-right-sidebar hidden-xs hidden-sm">
+<aside class="grid-lg-5 grid-md-5 sidebar-right-sidebar">
     @if (is_active_sidebar('right-sidebar') || (isset($enabledSidebarFilters) && is_array($enabledSidebarFilters)))
     <div class="grid">
 
