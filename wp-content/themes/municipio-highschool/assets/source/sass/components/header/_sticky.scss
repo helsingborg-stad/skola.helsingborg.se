@@ -44,6 +44,10 @@
     z-index: $level-top;
 }
 
+&.page:not(.home) .navbar-sticky:not(.sticky) {
+    background-color: white !important;
+}
+
 /* Sticky state */
 .navbar-sticky.sticky {
     position: fixed;
@@ -61,7 +65,7 @@
         color: $black;
     }
 
-    .logotype path {
+    #text path {
         fill: $black;
     }
 }

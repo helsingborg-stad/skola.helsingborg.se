@@ -407,6 +407,8 @@ body {
   .is-child-theme .navbar-sticky {
     -webkit-backface-visibility: hidden;
     z-index: 99999; }
+  .is-child-theme.page:not(.home) .navbar-sticky:not(.sticky) {
+    background-color: white !important; }
   .is-child-theme .navbar-sticky.sticky {
     position: fixed;
     top: 0;
@@ -419,7 +421,7 @@ body {
             animation-duration: 200ms; }
   .is-child-theme .navbar-sticky.sticky a {
     color: #000; }
-  .is-child-theme .navbar-sticky.sticky .logotype path {
+  .is-child-theme .navbar-sticky.sticky #text path {
     fill: #000; }
   @media screen and (min-width: 601px) {
     .is-child-theme.logged-in .navbar-sticky.sticky {
@@ -427,6 +429,8 @@ body {
   @media screen and (min-width: 783px) {
     .is-child-theme.logged-in .navbar-sticky.sticky {
       top: 32px; } }
+  .is-child-theme.page:not(.home) .navbar-sticky:not(.sticky) a {
+    color: #000; }
   .is-child-theme .btn {
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
