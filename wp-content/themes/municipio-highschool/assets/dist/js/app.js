@@ -80,17 +80,6 @@ MunicipioHighSchool.Helper.StickyScroll = (function ($) {
             $('#site-header').css({'border-bottom' : "1px solid #dedede"});
         }
 
-
-        if ($('body').hasClass('admin-bar')) {
-            scrollOffset += 32;
-
-            if ($(window).width() < 783) {
-                scrollOffset += 14;
-            }
-
-        }
-
-        console.log(foldHeight);
         $.each(_stickyElements, function (index, item) {
 
             if (scrollOffset > (foldHeight)) {
