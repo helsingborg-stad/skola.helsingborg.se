@@ -17,6 +17,23 @@ class Filters
 
         //Fixes classes on sidebar boxes
         add_filter('Modularity/Module/Classes', array($this, 'moduleClasses'), 15, 3);
+
+        //Always consider right-sidebar active
+        add_filter('is_active_sidebar', array($this, 'activateRightSidebar'), 15, 3);
+    }
+
+     /**
+     * Activate right sidebar
+     * @param bool       $is_active_sidebar     Whether or not the sidebar should be considered "active". In other words, whether the sidebar contains any widgets.
+     * @param int|string $index                 Index, name, or ID of the dynamic sidebar.
+     */
+    public function activateRightSidebar($is_active_sidebar, $index)
+    {
+        if ($index == "right-sidebar") {
+            return true;
+        }
+
+        return $is_active_sidebar;
     }
 
     /**
@@ -51,6 +68,14 @@ class Filters
             $data['headerLayout']['classes'] .= " nav-no-overflow";
         }
 
+        if (isset($data['hasLeftSidebar'])) {
+            $data['hasLeftSidebar'] = false;
+        }
+
+        if (isset($data['hasRightSidebar'])) {
+            $data['hasRightSidebar'] = true;
+        }
+
         return $data;
     }
 
@@ -66,9 +91,14 @@ class Filters
     {
 
         // Sidebar box-panel (should be filled)
-        if (in_array($sidebarArgs['id'], array('left-sidebar-bottom', 'left-sidebar', 'right-sidebar')) && in_array('box-filled', $classes)) {
+        if (in_array('box-filled', $classes)) {
             unset($classes[array_search('box-filled', $classes)]);
-            $classes[] = 'box-material';
+            $classes[] = 'box--material';
+        }
+
+        if (in_array('box-news', $classes)) {
+            unset($classes[array_search('box-news', $classes)]);
+            $classes[] = 'box--material';
         }
 
         return $classes;
