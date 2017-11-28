@@ -18,6 +18,22 @@ class Filters
         //Fixes classes on sidebar boxes
         add_filter('Modularity/Module/Classes', array($this, 'moduleClasses'), 15, 3);
 
+        //Always consider right-sidebar active
+        add_filter('is_active_sidebar', array($this, 'activateRightSidebar'), 15, 3);
+    }
+
+     /**
+     * Activate right sidebar
+     * @param bool       $is_active_sidebar     Whether or not the sidebar should be considered "active". In other words, whether the sidebar contains any widgets.
+     * @param int|string $index                 Index, name, or ID of the dynamic sidebar.
+     */
+    public function activateRightSidebar($is_active_sidebar, $index)
+    {
+        if ($index == "right-sidebar") {
+            return true;
+        }
+
+        return $is_active_sidebar;
     }
 
     /**
