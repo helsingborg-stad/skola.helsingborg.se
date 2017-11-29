@@ -454,6 +454,16 @@ body {
     border-top: solid 1px #e8e8e8; }
   .is-child-theme.page:not(.home) .navbar-sticky:not(.sticky) a {
     color: #000; }
+  .is-child-theme .nav-accessibility {
+    margin-top: 5px;
+    margin-bottom: 22.5px; }
+  .is-child-theme .nav-accessibility a {
+    font-weight: 400;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .is-child-theme .nav-accessibility a:before, .is-child-theme .nav-accessibility a i {
+    margin-right: 3.75px; }
   .is-child-theme .btn {
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
@@ -503,3 +513,44 @@ body {
       max-width: 100%; }
     .is-child-theme .section-split .section-content article .section-text {
       max-width: 600px; } }
+  .is-child-theme .box {
+    padding: 0 0;
+    border: 1px solid #ececec; }
+  .is-child-theme .box .box__header, .is-child-theme .box .box-content {
+    padding: 30px 40px 30px 40px; }
+  .is-child-theme .box .box__header {
+    padding-bottom: 15px; }
+  .is-child-theme .box .box-title {
+    padding: 40px 30px 0 40px; }
+  .is-child-theme .box .box-title + .box-content, .is-child-theme .box > img + .box-title {
+    padding-top: 0; }
+  .is-child-theme .box > ul li {
+    padding: 15px 40px 15px 40px; }
+    .is-child-theme .box > ul li:first-child {
+      padding-top: 10px; }
+  .is-child-theme ul.nav-aside {
+    margin-bottom: 0; }
+  .is-child-theme .box ul.nav-aside {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0; }
+  .is-child-theme ul.nav-aside li a {
+    padding: 15px 40px 15px 40px;
+    color: #252525;
+    font-size: 1rem;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .is-child-theme .hero + .main-content .breadcrumbs-wrapper {
+    padding-top: 30px; }
+  .is-child-theme .breadcrumbs-wrapper {
+    margin-bottom: 30px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+article:not(.full) p, article:not(.full) h1, article:not(.full) h2, article:not(.full) h3, article:not(.full) h4, article:not(.full) .widget_calendar caption, .widget_calendar
+article:not(.full) caption, article:not(.full) h5, article:not(.full) h6, article:not(.full) li, article:not(.full) blockquote, article:not(.full) .wp-caption, article:not(.full) [class^="mod-"] {
+  max-width: 600px; }

@@ -7,14 +7,13 @@
             <div class="grid-xs-12 hidden-xs hidden-sm">
                 <div class="box">
                     @if($menuTitle)
-                        <div class="header">
+                        <header class="box__header">
                             <h4>{{ $menuTitle }}</h4>
-                        </div>
+                        </header>
                     @endif
 
-                    <div class="box-collapse">
-                        {!! $navigation['sidebarMenu'] !!}
-                    </div>
+                    {!! $navigation['sidebarMenu'] !!}
+
                 </div>
             </div>
         @endif
