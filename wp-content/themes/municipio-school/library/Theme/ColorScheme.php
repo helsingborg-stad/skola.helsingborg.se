@@ -53,13 +53,6 @@ class ColorScheme
             }
         ';
 
-        $css[] = '
-            /* Footer */
-            .main-footer {
-                background-color: ' . $primary . ';
-            }
-        ';
-
         echo '<style>' . implode("\n\n", $css) . '</style>';
     }
 }
