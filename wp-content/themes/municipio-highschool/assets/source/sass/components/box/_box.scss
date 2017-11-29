@@ -1,0 +1,28 @@
+.box {
+    padding: 0 0;
+    border: 1px solid #ececec;
+}
+
+.box .box__header, .box .box-content {
+    padding: $box-padding * 3 $box-padding * 4 $box-padding * 3 $box-padding * 4;
+}
+
+.box .box__header {
+    padding-bottom: $box-padding * 1.5;
+}
+
+.box .box-title {
+    padding: $box-padding * 4 $box-padding * 3 0 $box-padding * 4;
+}
+.box .box-title + .box-content, .box > img + .box-title {
+    padding-top: 0;
+}
+
+.box > ul li {
+    padding: $box-padding * 1.5 $box-padding * 4 $box-padding * 1.5 $box-padding * 4;
+
+    &:first-child {
+        padding-top: $box-padding * 1;
+    }
+}
+

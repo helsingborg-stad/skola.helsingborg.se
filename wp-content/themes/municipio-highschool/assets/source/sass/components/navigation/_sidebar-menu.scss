@@ -1,0 +1,16 @@
+ul.nav-aside {
+    margin-bottom: 0;
+}
+
+.box ul.nav-aside {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+ul.nav-aside li a {
+    padding: $box-padding * 1.5 $box-padding * 4 $box-padding * 1.5 $box-padding * 4;
+    color: $base-font-color;
+    font-size: ms(0);
+    @include antialias();
+}

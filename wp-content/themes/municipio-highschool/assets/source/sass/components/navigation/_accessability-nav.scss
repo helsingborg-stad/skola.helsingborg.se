@@ -1,0 +1,15 @@
+.nav-accessibility {
+    margin-top: $content-gutter/3;
+    margin-bottom: $content-gutter * 1.5;
+}
+
+
+.nav-accessibility a {
+    font-weight: 400;
+    @include antialias();
+}
+
+.nav-accessibility a:before, .nav-accessibility a i {
+    margin-right: $content-gutter/4;
+
+}

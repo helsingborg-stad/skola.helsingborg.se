@@ -59,7 +59,20 @@
     @import 'components/header/dropdown-links';
     @import 'components/header/sticky';
     @import 'components/navigation/navbar';
+    @import 'components/navigation/accessability-nav';
     @import 'components/button/button';
     @import 'components/sections/split-section';
+    @import 'components/box/box';
+    @import 'components/navigation/sidebar-menu';
+    @import 'components/breadcrumbs/breadcrumbs';
 }
 
+h1, h2, h3, h4, h5, h6 {
+    @include antialias();
+}
+
+
+article:not(.full) p, article:not(.full) h1, article:not(.full) h2, article:not(.full) h3, article:not(.full) h4, article:not(.full) .widget_calendar caption, .widget_calendar
+article:not(.full) caption, article:not(.full) h5, article:not(.full) h6, article:not(.full) li, article:not(.full) blockquote, article:not(.full) .wp-caption, article:not(.full) [class^="mod-"] {
+    max-width: 600px;
+}
