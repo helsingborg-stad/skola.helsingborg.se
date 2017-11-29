@@ -17,6 +17,11 @@ class Page extends \Municipio\Controller\BaseController
         $this->data['menuTitle'] = $this->getMenuName();
     }
 
+    /**
+     * Gets the currect top level page id
+     * @return int Top level post id
+     */
+
     public function getTopLevelPageID()
     {
         if ($this->post->post_parent == 0) {
@@ -25,6 +30,11 @@ class Page extends \Municipio\Controller\BaseController
             return reset(get_post_ancestors($this->post));
         }
     }
+
+    /**
+     * Gets the currect top level page id
+     * @return string Contains the menu name or title
+     */
 
     public function getMenuName()
     {
