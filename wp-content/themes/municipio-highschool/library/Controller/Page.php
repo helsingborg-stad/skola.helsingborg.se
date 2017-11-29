@@ -15,6 +15,22 @@ class Page extends \Municipio\Controller\BaseController
         $this->data['contentGridSize'] = 'grid-md-7';
 
         $this->data['menuTitle'] = $this->getMenuName();
+        $this->data['hasSubPages'] = $this->hasSubPages();
+    }
+
+    /**
+     * Has sub pages
+     * @return bool Returns true if there are any subpages
+     */
+
+    public function hasSubPages()
+    {
+        $children = get_pages(array( 'child_of' => $this->post->ID));
+        if (count($children) == 0) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     /**

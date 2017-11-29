@@ -3,7 +3,7 @@
     @if (is_active_sidebar('right-sidebar') || (isset($enabledSidebarFilters) && is_array($enabledSidebarFilters)))
     <div class="grid">
 
-        @if (get_field('nav_sub_enable', 'option'))
+        @if (get_field('nav_sub_enable', 'option') && $hasSubPages)
             <div class="grid-xs-12 hidden-xs hidden-sm">
                 <div class="box">
                     @if($menuTitle)
