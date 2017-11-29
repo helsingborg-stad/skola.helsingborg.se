@@ -28,7 +28,9 @@ class Page extends \Municipio\Controller\BaseController
 
         if (is_numeric($topLevelPageID) && get_post_status($topLevelPageID) == 'publish') {
             if ($post_title = get_post_meta($topLevelPageID, 'custom_menu_title', true)) {
-                return $post_title;
+                if (!empty($post_title)) {
+                    return $post_title;
+                }
             }
 
             return get_the_title($topLevelPageID);
