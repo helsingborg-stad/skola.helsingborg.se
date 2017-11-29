@@ -1,0 +1,34 @@
+
+.lg-grid {
+    @media #{$screen-sm} {
+        margin-left: $grid-gutter-sm * -0.5;
+        margin-right: $grid-gutter-sm * -0.5;
+    }
+
+    @media #{$screen-md} {
+        margin-left: $grid-gutter-md * -0.5;
+        margin-right: $grid-gutter-md * -0.5;
+    }
+
+    @media #{$screen-lg} {
+        margin-left: $grid-gutter-lg * -0.5;
+        margin-right: $grid-gutter-lg * -0.5;
+    }
+}
+
+.lg-grid > [class*="grid-"] {
+    @media #{$screen-sm} {
+        padding-left: $grid-gutter-sm ;
+        padding-right: $grid-gutter-sm;
+    }
+
+    @media #{$screen-md} {
+        padding-left: $grid-gutter-md;
+        padding-right: $grid-gutter-md;
+    }
+
+    @media #{$screen-lg} {
+        padding-left: $grid-gutter-lg;
+        padding-right: $grid-gutter-lg;
+    }
+}

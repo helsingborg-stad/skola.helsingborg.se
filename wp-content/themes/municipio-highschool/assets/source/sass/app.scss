@@ -50,6 +50,8 @@
 @import 'typography/body';
 
 .is-child-theme {
+    @import 'layout/lg-grid';
+
     @import 'typography/article';
     @import 'typography/headings';
     @import 'typography/lead';
@@ -65,6 +67,10 @@
     @import 'components/box/box';
     @import 'components/navigation/sidebar-menu';
     @import 'components/breadcrumbs/breadcrumbs';
+
+    .container:not(.container-fullwidth) {
+        max-width: 1150px;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {

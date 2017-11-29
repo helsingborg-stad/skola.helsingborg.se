@@ -94,6 +94,30 @@ body {
   /* ==========================================================================
    New styles
    ========================================================================== */ }
+  @media (min-width: 469px) and (max-width: 768px) {
+    .is-child-theme .lg-grid {
+      margin-left: -5px;
+      margin-right: -5px; } }
+  @media (min-width: 769px) and (max-width: 960px) {
+    .is-child-theme .lg-grid {
+      margin-left: -15px;
+      margin-right: -15px; } }
+  @media (min-width: 961px) {
+    .is-child-theme .lg-grid {
+      margin-left: -15px;
+      margin-right: -15px; } }
+  @media (min-width: 469px) and (max-width: 768px) {
+    .is-child-theme .lg-grid > [class*="grid-"] {
+      padding-left: 10px;
+      padding-right: 10px; } }
+  @media (min-width: 769px) and (max-width: 960px) {
+    .is-child-theme .lg-grid > [class*="grid-"] {
+      padding-left: 30px;
+      padding-right: 30px; } }
+  @media (min-width: 961px) {
+    .is-child-theme .lg-grid > [class*="grid-"] {
+      padding-left: 30px;
+      padding-right: 30px; } }
   .is-child-theme article p {
     margin-top: 0; }
   .is-child-theme .mce-content-body > h1:first-of-type,
@@ -513,6 +537,15 @@ body {
       max-width: 100%; }
     .is-child-theme .section-split .section-content article .section-text {
       max-width: 600px; } }
+  .is-child-theme.home .hero section.section-full {
+    position: relative; }
+  .is-child-theme.home .hero section.section-full:after {
+    content: '';
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    width: 50px;
+    height: 50px; }
   .is-child-theme .box {
     padding: 0 0;
     border: 1px solid #ececec; }
@@ -545,6 +578,8 @@ body {
     padding-top: 30px; }
   .is-child-theme .breadcrumbs-wrapper {
     margin-bottom: 30px; }
+  .is-child-theme .container:not(.container-fullwidth) {
+    max-width: 1150px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-smoothing: antialiased;
