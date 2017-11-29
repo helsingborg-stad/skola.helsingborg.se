@@ -20,20 +20,15 @@ class Page extends \Municipio\Controller\BaseController
     public function getTopLevelPageID()
     {
         if ($this->post->post_parent == 0) {
-            return 0;
+            return $this->post->ID;
         } else {
             return reset(get_post_ancestors($this->post));
         }
-
     }
 
     public function getMenuName()
     {
         $topLevelPageID = $this->getTopLevelPageID();
-
-        if ($topLevelPageID === 0) {
-            return $this->post->post_title;
-        }
 
         if (is_numeric($topLevelPageID) && get_post_status($topLevelPageID) == 'publish') {
             if ($post_title = get_post_meta($topLevelPageID, 'custom_menu_title', true)) {
