@@ -15,6 +15,9 @@ ul.nav-aside li a {
     @include antialias();
 }
 
+.nav-aside [data-load-submenu] {
+    display: none;
+}
 
 ul.nav-aside li.current-menu-item > a {
     color: #fff;

@@ -592,6 +592,8 @@ body {
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
+  .is-child-theme .nav-aside [data-load-submenu] {
+    display: none; }
   .is-child-theme ul.nav-aside li.current-menu-item > a {
     color: #fff; }
   .is-child-theme ul.nav-aside li.current-menu-item ul {
