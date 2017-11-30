@@ -24,6 +24,28 @@ class Filters
         //Show mobile menu earlier
         add_action('Municipio/mobile_menu_breakpoint', array($this, 'mobileMenuBreakpoint'));
         add_action('Municipio/desktop_menu_breakpoint', array($this, 'desktopMenuBreakpoint'));
+
+        //Add gray class to body
+        add_filter('body_class', array($this, 'addGrayBackground'));
+    }
+
+    /**
+     * Show mobile menu in all but large size.
+     * @return array/false
+     */
+    public function addGrayBackground($classes)
+    {
+        if (is_home()) {
+            return false;
+        }
+
+        if (!is_array($classes)) {
+            $classes = array();
+        }
+
+        $clases[] = "bg-gray";
+
+        return $classes;
     }
 
     /**
