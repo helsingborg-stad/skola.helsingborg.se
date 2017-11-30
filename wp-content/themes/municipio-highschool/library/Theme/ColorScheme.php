@@ -7,17 +7,7 @@ class ColorScheme
 
     public function __construct()
     {
-        //add_action('wp_head', array($this, 'addStyle'));
-        add_filter('Modularity/Module/Classes', array($this, 'filterIndexBoxes'));
-    }
-
-    public function filterIndexBoxes($args)
-    {
-        if (is_array($args) && in_array("box-index", $args)) {
-            return array('box', 'box-news');
-        }
-
-        return $args;
+        add_action('wp_head', array($this, 'addStyle'));
     }
 
     public function addStyle()
@@ -26,36 +16,8 @@ class ColorScheme
         $primary = get_field('school-primary-color', 'option');
 
         $css[] = '
-            /* Navbar background */
-            #site-header.header-jumbo .navbar:not(.navbar-creamy).navbar-mainmenu {
-                border-bottom: 5px solid ' . $primary . ';
-            }
-
-            /* Logo color */
-            #site-header.header-jumbo .navbar-mainmenu .logotype svg g:last-of-type,
-            #site-header.header-jumbo .navbar-mainmenu .logotype svg g:last-of-type *,
-            #site-header.header-jumbo .navbar-mainmenu .logotype svg > path {
-                fill: ' . $primary . ';
-            }
-
-            /* Menu arrow color */
-            #site-header.header-jumbo .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-menu-item > a::after,
-            #site-header.header-jumbo .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-page-ancestor > a::after,
-            #site-header.header-jumbo .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-menu-ancestor > a::after {
-                border-bottom-color: ' . $primary . ';
-            }
-
-            /* Hamburger */
-            .site-header.header-jumbo .menu-trigger .menu-icon,
-            .site-header.header-jumbo .menu-trigger .menu-icon::before,
-            .site-header.header-jumbo .menu-trigger .menu-icon::after {
-                background-color: ' . $primary . ';
-            }
-        ';
-
-        $css[] = '
             /* Footer */
-            .main-footer {
+            ul.nav-aside li.current-menu-item > a {
                 background-color: ' . $primary . ';
             }
         ';

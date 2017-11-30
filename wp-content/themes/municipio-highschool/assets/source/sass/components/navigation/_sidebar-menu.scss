@@ -14,3 +14,12 @@ ul.nav-aside li a {
     font-size: ms(0);
     @include antialias();
 }
+
+
+ul.nav-aside li.current-menu-item > a {
+    color: #fff;
+}
+
+ul.nav-aside li.current-menu-item ul {
+    background-color: rgba(#fff, .9);
+}
