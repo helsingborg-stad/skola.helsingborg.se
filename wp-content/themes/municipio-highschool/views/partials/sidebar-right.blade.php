@@ -11,9 +11,7 @@
                             <h4>{{ $menuTitle }}</h4>
                         </header>
                     @endif
-
                     {!! $navigation['sidebarMenu'] !!}
-
                 </div>
             </div>
         @endif
