@@ -3,7 +3,9 @@
     position: relative;
 
     @media #{$screen-below-md} {
-        margin-bottom: 120px;
+        .container {
+            margin-bottom: 120px;
+        }
     }
 }
 
@@ -26,7 +28,7 @@
         z-index: $level-3;
 
         @media #{$screen-below-md} {
-            right: auto;
-            left: auto;
+            right: 50%;
+            transform: translateX(50%);
         }
 }
