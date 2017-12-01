@@ -8,7 +8,7 @@
                 <div class="box">
                     @if($menuTitle)
                         <header class="box__header">
-                            <h4>{{ $menuTitle }}</h4>
+                            <h4 class="text-color-4">{{ $menuTitle }}</h4>
                         </header>
                     @endif
                     {!! $navigation['sidebarMenu'] !!}
