@@ -17,6 +17,10 @@
         }
     }
 
+    p span.weight-300 {
+        font-weight: 400 !important;
+    }
+
     * + *:not(.btn) {
         margin-top: 1.5rem;
     }

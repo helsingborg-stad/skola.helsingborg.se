@@ -319,6 +319,8 @@ body {
     @media screen and (min-width: 769px) {
       .is-child-theme .section.fontsize-large article p {
         font-size: 1rem; } }
+  .is-child-theme .section.fontsize-large article p span.weight-300 {
+    font-weight: 400 !important; }
   .is-child-theme .section.fontsize-large article * + *:not(.btn) {
     margin-top: 1.5rem; }
   .is-child-theme .section.fontsize-large article h1, .is-child-theme .section.fontsize-large article h2, .is-child-theme .section.fontsize-large article h3, .is-child-theme .section.fontsize-large article h4, .is-child-theme .section.fontsize-large article h5, .is-child-theme .section.fontsize-large article h6, .is-child-theme .section.fontsize-large article .h1, .is-child-theme .section.fontsize-large article .h2, .is-child-theme .section.fontsize-large article .h3, .is-child-theme .section.fontsize-large article .h4, .is-child-theme .section.fontsize-large article .h5, .is-child-theme .section.fontsize-large article .h6 {
