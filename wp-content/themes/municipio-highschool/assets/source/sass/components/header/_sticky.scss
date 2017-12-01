@@ -25,93 +25,164 @@
 }
 
 .navbar-sticky.sticky {
-    span, i {
-        color: $black;
-    }
-}
-
-.navbar-sticky.sticky {
     box-shadow: 0 2px 3px rgba(0,0,0,.08) !important;
 }
 
+.navbar-sticky .logotype svg {
+    transition: none;
+}
+
 /* ==========================================================================
-   New styles
+   Common styles
    ========================================================================== */
 .navbar-sticky {
-    .logotype {
-        padding: 0;
-        height: 100%;
-        display: flex;
-        align-items: center;
+    z-index: $level-top;
+    width: 100%;
+     -webkit-backface-visibility: hidden;
+
+     padding-left: 15px;
+     padding-right: 15px;
+}
+
+.navbar-sticky a {
+    font-size: 17px;
+}
+.navbar-sticky .nav-group-flex {
+    display: flex;
+    align-items: center;
+
+    > * + * {
+        margin-left: $grid-gutter-lg / 2;
+    }
+}
+
+/* ==========================================================================
+   Sticky - non-sticky state (top)
+   ========================================================================== */
+.navbar-sticky:not(.sticky) .logotype {
+    svg {
+        max-width: 220px;
+    }
+}
+
+&:not(.home) .navbar-sticky:not(.sticky) {
+    background: white;
+}
+
+&:not(.home) .navbar-sticky .menu-trigger {
+    span.menu-icon,
+    span.menu-icon:before,
+    span.menu-icon:after {
+        background-color: $black;
     }
 
-    .logotype svg {
-        transition: none;
-        max-width: none;
-        width: auto !important;
+    &.open .menu-icon {
+        background-color: white;
+        z-index: -1,
     }
 }
 
 
-/* Default state */
-.navbar-sticky {
-    -webkit-backface-visibility: hidden;
+&.home .navbar-sticky:not(.sticky) {
+    position:absolute;
+}
+
+&.home .navbar-sticky:not(.sticky) .logotype svg #text {
+    fill: white;
+}
+
+&.home .navbar-sticky:not(.sticky) + .nav-mobile-menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
     z-index: $level-top;
 }
 
-&.page:not(.home) .navbar-sticky:not(.sticky) {
-    background-color: white !important;
-}
-.navbar-sticky:not(.sticky) {
-    padding: 15px 0;
+@media screen and #{$screen-md-up} {}
+@media screen and #{$screen-lg-up} {
+    .navbar-sticky:not(.sticky) .logotype
+    svg {
+        max-width: 260px;
+    }
 
-
-    .logotype svg {
-        height: 40px;
+    .navbar-sticky:not(.sticky) {
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
     }
 }
 
-/* Sticky state */
+/* ==========================================================================
+   Sticky - sticky state
+   ========================================================================== */
 .navbar-sticky.sticky {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     background: white;
 
     animation-name: sticky-navbar;
     animation-duration: 200ms;
 
-
-    .logotype svg {
-        height: 35px;
-    }
-}
-
-/* Logotype */
-.navbar-sticky.sticky {
     a {
         color: $black;
     }
+}
 
-    #text path {
+.navbar-sticky .brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-sticky.sticky .logotype {
+    padding: 0;
+    svg {
+        max-width: 200px;
+    }
+
+    svg #text path {
         fill: $black;
     }
 }
 
-/* Logged in - Sticky state */
-&.logged-in .navbar-sticky.sticky {
+.navbar-sticky.sticky + .nav-mobile-menu {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index: $level-top;
 
-    @media screen and #{$admin-bar-screen-fixed} {
-        top: $admin-bar-tablet;
+
+    animation-duration: 200ms;
+}
+
+@media screen and #{$screen-lg-up} {
+    .navbar-sticky.sticky .logotype svg {
+        max-width: 250px;
     }
-    @media screen and #{$admin-bar-screen-desktop} {
-        top: $admin-bar-desktop;
+}
+
+.navbar-sticky.sticky .menu-trigger {
+    span.menu-icon,
+    span.menu-icon:before,
+    span.menu-icon:after {
+        background-color: $black;
+    }
+
+    &.open .menu-icon {
+        background-color: white;
+        z-index: -1,
     }
 }
 
 
+/* ==========================================================================
+   Others
+   ========================================================================== */
 /* Add border if no hero */
 .site-header + .main-content {
     border-top: solid 1px #e8e8e8;
+    &.open .menu-icon {
+        background-color: white;
+        z-index: -1,
+    }
 }
+

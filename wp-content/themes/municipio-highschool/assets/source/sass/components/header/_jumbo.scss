@@ -1,21 +1,39 @@
+.header-jumbo {}
+.navbar-sticky {}
+.navbar-sticky:not(.sticky) {}
+.navbar-sticky.sticky {}
+
+.nav-wrapper {}
+.brand {}
+.logotype {}
+.logotype svg {}
+.logotype svg #text {}
+.nav-group-flex {}
+.menu-trigger {}
+.span.menu-icon {}
+.span.menu-icon:before {}
+.span.menu-icon:after {}
+.nav-mobile-menu {}
 /* ==========================================================================
    Overrides
    ========================================================================== */
+
+.header-jumbo .menu-trigger {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-jumbo .logotype {
+  width: initial;
+  max-width: initial;
+}
 
 /* ==========================================================================
    New styles
    ========================================================================== */
 
-.nav-group-flex {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
-    > * + * {
-        margin-left: $content-gutter/2;
-    }
-}
-
-.nav-group-flex a {
-  font-size: 17px;
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
