@@ -37,3 +37,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+.header-jumbo input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}

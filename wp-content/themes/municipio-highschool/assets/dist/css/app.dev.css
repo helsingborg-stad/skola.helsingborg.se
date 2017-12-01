@@ -410,6 +410,11 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+  .is-child-theme .header-jumbo input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0; }
   .is-child-theme .nav-group-flex .dropdown-toggle.btn.btn-primary {
     color: white; }
   .is-child-theme .nav-group-flex .dropdown-toggle + .dropdown-menu li a {
