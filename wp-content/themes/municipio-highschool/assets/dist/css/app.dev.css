@@ -678,7 +678,8 @@ svg {
                 transform: translateX(50%); } }
   .is-child-theme .box {
     padding: 0 0;
-    border: 1px solid #ececec; }
+    border: 1px solid #ececec;
+    margin-bottom: 45px; }
   .is-child-theme .box .box__header, .is-child-theme .box .box-content {
     padding: 30px 30px 30px 30px; }
   .is-child-theme .box .box__header {
@@ -694,6 +695,10 @@ svg {
   .is-child-theme .box.box-panel .box-title {
     padding-bottom: 22.5px;
     border-bottom: solid 1px; }
+  .is-child-theme .box.box-index .box-index-title {
+    left: 0; }
+  .is-child-theme .box.box-index .box-index-title:before {
+    display: none; }
   .is-child-theme ul.nav-aside {
     margin-bottom: 0; }
   .is-child-theme .box ul.nav-aside {
