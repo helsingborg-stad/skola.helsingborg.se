@@ -39,8 +39,12 @@
 }
 
 .header-jumbo input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+.navbar .menu-item-search {
+  float: none;
 }
