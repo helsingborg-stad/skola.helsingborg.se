@@ -41,6 +41,7 @@
 // ***************************************************************
 @import 'config/header';
 @import 'config/elements';
+@import 'config/box';
 
 // ***************************************************************
 // *** Mixins
@@ -71,6 +72,8 @@
     @import 'components/box/box';
     @import 'components/navigation/sidebar-menu';
     @import 'components/breadcrumbs/breadcrumbs';
+
+    @import 'components/feedback/customer-feedback';
 
     @import 'utility/content-background';
 

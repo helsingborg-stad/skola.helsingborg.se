@@ -4,25 +4,32 @@
 }
 
 .box .box__header, .box .box-content {
-    padding: $box-padding * 3 $box-padding * 4 $box-padding * 3 $box-padding * 4;
+    padding: $box-spacing-vertical $box-spacing-horizontal $box-spacing-vertical $box-spacing-horizontal;
 }
 
 .box .box__header {
-    padding-bottom: $box-padding * 1.5;
+    padding-bottom: $box-spacing-vertical * 0.75;
 }
 
 .box .box-title {
-    padding: $box-padding * 4 $box-padding * 3 0 $box-padding * 4;
+    padding: $box-spacing-horizontal $box-spacing-vertical 0 $box-spacing-horizontal;
 }
 .box .box-title + .box-content, .box > img + .box-title {
     padding-top: 0;
 }
 
 .box > ul li {
-    padding: $box-padding * 1.5 $box-padding * 4 $box-padding * 1.5 $box-padding * 4;
+    padding: $box-spacing-vertical/2 $box-spacing-horizontal $box-spacing-vertical/2 $box-spacing-horizontal;
 
     &:first-child {
         padding-top: $box-padding * 1;
+    }
+}
+
+.box.box-panel {
+    .box-title {
+        padding-bottom: $box-spacing-vertical * 0.75;
+        border-bottom: solid 1px;
     }
 }
 

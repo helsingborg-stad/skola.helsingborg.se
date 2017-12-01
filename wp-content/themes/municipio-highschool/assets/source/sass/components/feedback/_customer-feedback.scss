@@ -1,0 +1,25 @@
+.customer-feedback-container {
+    p.text-sm, .customer-feedback-answers, .form-group {
+        padding: 0  $box-spacing-vertical;
+    }
+
+    .form-group p {
+        padding: 0;
+    }
+
+    .form-group p + * {
+        margin-top: $content-gutter;
+    }
+
+    padding-bottom: $box-spacing-vertical;
+
+    .notice {
+        margin-top: $box-spacing-vertical / 2;
+        margin-left: $box-spacing-vertical;
+        margin-right: $box-spacing-vertical;
+    }
+
+    i.pricon-question-o {
+        margin-right: $content-gutter / 2;
+    }
+}

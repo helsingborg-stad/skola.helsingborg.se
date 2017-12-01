@@ -680,17 +680,20 @@ svg {
     padding: 0 0;
     border: 1px solid #ececec; }
   .is-child-theme .box .box__header, .is-child-theme .box .box-content {
-    padding: 30px 40px 30px 40px; }
+    padding: 30px 30px 30px 30px; }
   .is-child-theme .box .box__header {
-    padding-bottom: 15px; }
+    padding-bottom: 22.5px; }
   .is-child-theme .box .box-title {
-    padding: 40px 30px 0 40px; }
+    padding: 30px 30px 0 30px; }
   .is-child-theme .box .box-title + .box-content, .is-child-theme .box > img + .box-title {
     padding-top: 0; }
   .is-child-theme .box > ul li {
-    padding: 15px 40px 15px 40px; }
+    padding: 15px 30px 15px 30px; }
     .is-child-theme .box > ul li:first-child {
       padding-top: 10px; }
+  .is-child-theme .box.box-panel .box-title {
+    padding-bottom: 22.5px;
+    border-bottom: solid 1px; }
   .is-child-theme ul.nav-aside {
     margin-bottom: 0; }
   .is-child-theme .box ul.nav-aside {
@@ -698,7 +701,7 @@ svg {
     border-right: 0;
     border-bottom: 0; }
   .is-child-theme ul.nav-aside li a {
-    padding: 15px 40px 15px 40px;
+    padding: 15px 30px 15px 30px;
     color: #252525;
     font-size: 1rem;
     font-smoothing: antialiased;
@@ -714,6 +717,20 @@ svg {
     padding-top: 30px; }
   .is-child-theme .breadcrumbs-wrapper {
     margin-bottom: 30px; }
+  .is-child-theme .customer-feedback-container {
+    padding-bottom: 30px; }
+    .is-child-theme .customer-feedback-container p.text-sm, .is-child-theme .customer-feedback-container .customer-feedback-answers, .is-child-theme .customer-feedback-container .form-group {
+      padding: 0 30px; }
+    .is-child-theme .customer-feedback-container .form-group p {
+      padding: 0; }
+    .is-child-theme .customer-feedback-container .form-group p + * {
+      margin-top: 15px; }
+    .is-child-theme .customer-feedback-container .notice {
+      margin-top: 15px;
+      margin-left: 30px;
+      margin-right: 30px; }
+    .is-child-theme .customer-feedback-container i.pricon-question-o {
+      margin-right: 7.5px; }
   .is-child-theme.content-background-grey .main-content {
     background-color: #f9f9f9; }
   .is-child-theme.content-background-grey .main-footer {
