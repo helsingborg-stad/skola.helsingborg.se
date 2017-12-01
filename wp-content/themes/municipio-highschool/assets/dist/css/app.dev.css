@@ -716,6 +716,8 @@ svg {
     margin-bottom: 30px; }
   .is-child-theme.content-background-grey .main-content {
     background-color: #f9f9f9; }
+  .is-child-theme.content-background-grey .main-footer {
+    background: white; }
   .is-child-theme.content-background-grey .box {
     background-color: white; }
   .is-child-theme .container:not(.container-fullwidth) {
