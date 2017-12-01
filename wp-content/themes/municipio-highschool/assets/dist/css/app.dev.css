@@ -392,6 +392,10 @@ body {
     @media screen and (min-width: 961px) {
       .is-child-theme .section.fontsize-large article h6, .is-child-theme .section.fontsize-large article .h6 {
         font-size: 1.44rem; } }
+  .is-child-theme .main-content {
+    padding-bottom: 90px; }
+  .is-child-theme .main-footer {
+    margin-top: 0; }
   .is-child-theme .header-jumbo .menu-trigger {
     margin-top: 0;
     display: -webkit-box;
@@ -597,7 +601,7 @@ svg {
   .is-child-theme .btn.btn-lg {
     padding: 1em 1.75em;
     font-size: 0.935rem; }
-  .is-child-theme .btn + .btn {
+  .is-child-theme .btn:not(.btn-offcanvas) + .btn {
     margin-left: .5rem; }
   .is-child-theme .btn-square {
     padding: 0;
@@ -708,6 +712,10 @@ svg {
     padding-top: 30px; }
   .is-child-theme .breadcrumbs-wrapper {
     margin-bottom: 30px; }
+  .is-child-theme.content-background-grey .main-content {
+    background-color: #f9f9f9; }
+  .is-child-theme.content-background-grey .box {
+    background-color: white; }
   .is-child-theme .container:not(.container-fullwidth) {
     max-width: 1150px; }
 

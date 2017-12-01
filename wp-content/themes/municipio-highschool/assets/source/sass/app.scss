@@ -59,6 +59,7 @@
 
     @import 'layout/main';
     @import 'layout/footer';
+
 	@import 'components/header/jumbo';
     @import 'components/header/dropdown-links';
     @import 'components/header/sticky';
@@ -72,10 +73,12 @@
     @import 'components/breadcrumbs/breadcrumbs';
 
     @import 'utility/content-background';
+
     .container:not(.container-fullwidth) {
         max-width: 1150px;
     }
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     @include antialias();
