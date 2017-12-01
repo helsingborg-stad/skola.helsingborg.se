@@ -1,6 +1,12 @@
 
 &.home .hero section.section-full {
-    position: relative
+    position: relative;
+
+    @media #{$screen-below-md} {
+        .container {
+            margin-bottom: 120px;
+        }
+    }
 }
 
 &.home .hero section.section-full:after {
@@ -20,5 +26,9 @@
         max-width: 100px;
         max-height: 100px;
         z-index: $level-3;
-        //background: red;
+
+        @media #{$screen-below-md} {
+            right: 50%;
+            transform: translateX(50%);
+        }
 }

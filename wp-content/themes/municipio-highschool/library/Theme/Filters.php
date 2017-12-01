@@ -24,6 +24,7 @@ class Filters
         //Show mobile menu earlier
         add_action('Municipio/mobile_menu_breakpoint', array($this, 'mobileMenuBreakpoint'));
         add_action('Municipio/desktop_menu_breakpoint', array($this, 'desktopMenuBreakpoint'));
+
     }
 
     /**

@@ -15,43 +15,6 @@ class Page extends \Municipio\Controller\BaseController
         $this->data['contentGridSize'] = 'grid-md-7';
 
         $this->data['menuTitle'] = $this->getMenuName();
-
-        if ($this->hasSubPages()||$this->hasSubPages()) {
-            $this->data['showMenu'] = true;
-        } else {
-            $this->data['showMenu'] = false;
-        }
-
-    }
-
-    /**
-     * Has sub pages
-     * @return bool Returns true if there are any subpages
-     */
-
-    public function hasSubPages()
-    {
-        $children = get_pages(array( 'child_of' => $this->post->ID));
-        if (count($children) == 0) {
-            return false;
-        } else {
-            return true;
-        }
-    }
-
-    /**
-     * Has siblings
-     * @return bool Returns true if there are any siblings to current page
-     */
-
-    public function hasSiblings()
-    {
-        $siblings = get_pages(array( 'child_of' => $this->post->post_parent));
-        if (count($siblings) == 0) {
-            return false;
-        } else {
-            return true;
-        }
     }
 
     /**
