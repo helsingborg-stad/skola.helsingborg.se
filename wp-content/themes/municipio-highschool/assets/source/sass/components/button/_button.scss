@@ -32,3 +32,25 @@
 .btn + .btn {
     margin-left: .5rem;
 }
+
+.btn-square {
+    padding: 0;
+    padding-top: 100%;
+    width: 40px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    border: 0;
+
+    > i {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      transform: translateY(-50%);
+    }
+
+    span {
+      position: absolute;
+    }
+}
