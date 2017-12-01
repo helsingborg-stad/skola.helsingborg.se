@@ -419,6 +419,8 @@ body {
     -moz-appearance: none;
     appearance: none;
     border-radius: 0; }
+  .is-child-theme .navbar .menu-item-search {
+    float: none; }
   .is-child-theme .nav-group-flex .dropdown-toggle.btn.btn-primary {
     color: white; }
   .is-child-theme .nav-group-flex .dropdown-toggle + .dropdown-menu li a {
