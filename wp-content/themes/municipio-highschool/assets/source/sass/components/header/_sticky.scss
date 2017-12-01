@@ -186,3 +186,42 @@
     }
 }
 
+/* ==========================================================================
+   Logged in styles
+   ========================================================================== */
+&.logged-in {
+    .navbar-sticky:not(.sticky) + .nav-mobile-menu {
+        top: 70px + $admin-bar-tablet;
+    }
+
+    .navbar-sticky.sticky {}
+
+    @media screen and #{$admin-bar-screen-fixed} {
+
+        .navbar-sticky:not(.sticky)  {}
+        .navbar-sticky.sticky {
+            top: $admin-bar-tablet;
+        }
+
+        .navbar-sticky.sticky + .nav-mobile-menu {
+            top: 50px + $admin-bar-tablet;
+        }
+
+    }
+
+    @media screen and #{$admin-bar-screen-desktop} {
+        .navbar-sticky:not(.sticky) + .nav-mobile-menu {
+            top: 70px;
+        }
+        .navbar-sticky.sticky {
+            top: $admin-bar-desktop;
+        }
+
+        .navbar-sticky.sticky + .nav-mobile-menu {
+            top: 50px + $admin-bar-desktop;
+        }
+
+
+    }
+}
+

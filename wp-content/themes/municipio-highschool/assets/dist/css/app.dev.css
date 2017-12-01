@@ -88,6 +88,9 @@ body {
    ========================================================================== */
   /* Add border if no hero */
   /* ==========================================================================
+   Logged in styles
+   ========================================================================== */
+  /* ==========================================================================
    Overrides
    ========================================================================== */
   /* ==========================================================================
@@ -532,6 +535,20 @@ svg {
     .is-child-theme .site-header + .main-content.open .menu-icon {
       background-color: white;
       z-index: -1; }
+  .is-child-theme.logged-in .navbar-sticky:not(.sticky) + .nav-mobile-menu {
+    top: 116px; }
+  @media screen and (min-width: 601px) {
+    .is-child-theme.logged-in .navbar-sticky.sticky {
+      top: 46px; }
+    .is-child-theme.logged-in .navbar-sticky.sticky + .nav-mobile-menu {
+      top: 96px; } }
+  @media screen and (min-width: 783px) {
+    .is-child-theme.logged-in .navbar-sticky:not(.sticky) + .nav-mobile-menu {
+      top: 70px; }
+    .is-child-theme.logged-in .navbar-sticky.sticky {
+      top: 32px; }
+    .is-child-theme.logged-in .navbar-sticky.sticky + .nav-mobile-menu {
+      top: 82px; } }
   .is-child-theme.page:not(.home) .navbar-sticky:not(.sticky) a {
     color: #000; }
   .is-child-theme .nav-accessibility {
