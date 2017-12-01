@@ -719,7 +719,8 @@ svg {
   .is-child-theme.content-background-grey .main-footer {
     background: white; }
   .is-child-theme.content-background-grey .box {
-    background-color: white; }
+    background-color: white;
+    border: none; }
   .is-child-theme .container:not(.container-fullwidth) {
     max-width: 1150px; }
 
