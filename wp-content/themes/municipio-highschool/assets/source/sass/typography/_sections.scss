@@ -10,7 +10,11 @@
 
 
     p {
+        font-size: ms(-1);
 
+        @media screen and #{$screen-md-up} {
+            font-size: ms(0);
+        }
     }
 
     * + *:not(.btn) {
