@@ -56,6 +56,25 @@
     }
 }
 
+&.mobile-menu-open {
+    .navbar-sticky .menu-trigger {
+        span.menu-icon,
+        span.menu-icon:before,
+        span.menu-icon:after {
+            background-color: $black;
+        }
+
+        &.open .menu-icon {
+            background-color: white;
+            z-index: -1,
+        }
+    }
+
+    .navbar-sticky .logotype svg #text path {
+        fill: $black;
+    }
+}
+
 /* ==========================================================================
    Sticky - non-sticky state (top)
    ========================================================================== */
@@ -173,6 +192,14 @@
     }
 }
 
+
+&.mobile-menu-open .navbar-sticky {
+    background-color: white;
+
+    a {
+        color: $black;
+    }
+}
 
 /* ==========================================================================
    Others
