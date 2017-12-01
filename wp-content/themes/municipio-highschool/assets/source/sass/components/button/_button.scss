@@ -29,7 +29,7 @@
     font-size: $btn-lg-font-size;
 }
 
-.btn + .btn {
+.btn:not(.btn-offcanvas) + .btn {
     margin-left: .5rem;
 }
 
