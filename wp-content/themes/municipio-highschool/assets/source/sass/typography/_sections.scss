@@ -10,7 +10,15 @@
 
 
     p {
+        font-size: ms(-1);
 
+        @media screen and #{$screen-md-up} {
+            font-size: ms(0);
+        }
+    }
+
+    p span.weight-300 {
+        font-weight: 400 !important;
     }
 
     * + *:not(.btn) {
@@ -28,8 +36,11 @@
     }
 
     h1, .h1 {
-        font-size: ms(4);
+        font-size: ms(3);
 
+       @media screen and #{$screen-sm-up} {
+            font-size: ms(4);
+        }
         @media screen and #{$screen-md-up} {
             font-size: ms(6);
         }

@@ -1,6 +1,7 @@
 .box {
     padding: 0 0;
     border: 1px solid #ececec;
+    margin-bottom: $content-gutter * 3;
 }
 
 .box .box__header, .box .box-content {
@@ -33,3 +34,13 @@
     }
 }
 
+
+
+.box.box-index {
+    .box-index-title {
+        left: 0;
+    }
+    .box-index-title:before {
+        display: none;
+    }
+}
