@@ -12,6 +12,12 @@
 // => ATTENTION: use "npm install" before first build!
 
 /* ==========================================================================
+   Load configuration file
+   ========================================================================== */
+
+    var config = JSON.parse(require('fs').readFileSync('./config.json'));
+
+/* ==========================================================================
    Dependencies
    ========================================================================== */
 
@@ -71,7 +77,7 @@
    BrowserSync tasks
    ========================================================================== */
 
-    var browserSyncProxyUrl = 'https://skola.helsingborg.dev';
+    var browserSyncProxyUrl = config.browserSyncProxyUrl || 'https://skola.helsingborg.dev';
 
     gulp.task('firefox', ['browser-sync:firefox', 'watch']);
     gulp.task('chrome', ['browser-sync:chrome', 'watch']);
