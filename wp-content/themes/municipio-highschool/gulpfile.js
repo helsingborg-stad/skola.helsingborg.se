@@ -9,13 +9,11 @@
 //  "gulp firefox"          -   Live updates with BrowserSync, specify your browser (firefox/chrome/safari)
 //  "gulp browser-test"     -   Live updates with BrowserSync, opens a window for each browser: firefox, chrome & safari
 //
+//  CONFIG VARIABLES:
+//  config.browserSyncProxyUrl (string) - Override default browserSync proxy URL
+//
+//
 // => ATTENTION: use "npm install" before first build!
-
-/* ==========================================================================
-   Load configuration file
-   ========================================================================== */
-
-    var config = JSON.parse(require('fs').readFileSync('./config.json'));
 
 /* ==========================================================================
    Dependencies
@@ -37,6 +35,12 @@
     plumber         =   require('gulp-plumber'),
     jshint          =   require("gulp-jshint"),
     cleanCSS        =   require('gulp-clean-css');
+
+/* ==========================================================================
+   Load configuration file
+   ========================================================================== */
+
+    var config = (require('fs').existsSync('./config.json') ? JSON.parse(require('fs').readFileSync('./config.json')) : {});
 
 /* ==========================================================================
    Default task
