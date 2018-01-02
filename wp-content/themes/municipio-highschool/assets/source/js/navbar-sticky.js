@@ -25,7 +25,7 @@ MunicipioHighSchool.Helper.StickyScroll = (function ($) {
             _stickyElements.push({
                 element: $element,
                 offsetTop: $element.offset().top
-            })
+            });
         });
 
         $(window).on('scroll', function () {

@@ -18,7 +18,7 @@ MunicipioHighSchool.ExampleNamespace.ExampleClass = (function ($) {
      */
     ExampleClass.prototype.exampleMethod = function () {
 
-    }
+    };
 
 	return new ExampleClass();
 

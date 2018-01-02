@@ -1,138 +1,196 @@
-// Include gulp
-var gulp = require('gulp');
-
-// Include Our Plugins
-var sass            = require('gulp-sass');
-var concat          = require('gulp-concat');
-var uglify          = require('gulp-uglify');
-var cssnano         = require('gulp-cssnano');
-var rename          = require('gulp-rename');
-var autoprefixer    = require('gulp-autoprefixer');
-var browserSync     = require('browser-sync').create();
-var sourcemaps      = require('gulp-sourcemaps');
-var rev             = require('gulp-rev');
-var revDel          = require('rev-del');
-var revReplaceCSS   = require('gulp-rev-css-url');
-
-/* ==========================================================================
-   Dev assets tasks
-   ========================================================================== */
-gulp.task('sass-dev', function() {
-    return gulp.src('assets/source/sass/app.scss')
-            .pipe(sourcemaps.init())
-              .pipe(sass())
-              .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
-            .pipe(sourcemaps.write())
-            .pipe(gulp.dest('assets/dist/css'))
-            .pipe(browserSync.stream());
-});
-
-gulp.task('sass-admin-dev', function() {
-    return gulp.src('assets/source/sass/admin.scss')
-            .pipe(sourcemaps.init())
-              .pipe(sass())
-              .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
-            .pipe(sourcemaps.write())
-            .pipe(gulp.dest('assets/dist/css'));
-});
-
-gulp.task('scripts-dev', function() {
-    return gulp.src('assets/source/js/*.js')
-        .pipe(sourcemaps.init())
-          .pipe(concat('app.js'))
-        .pipe(sourcemaps.write())
-        .pipe(gulp.dest('assets/dist/js'))
-});
+//
+//  GULPFILE.JS
+//  Author: Nikolas Ramstedt (nikolas.ramstedt@helsingborg.se)
+//
+//  CHEATSHEET:
+//  "gulp"                  -   Build and watch combined
+//  "gulp watch"            -   Watch for file changes and compile changed files
+//  "gulp build"            -   Re-build dist folder and build assets
+//  "gulp firefox"          -   Live updates with BrowserSync, specify your browser (firefox/chrome/safari)
+//  "gulp browser-test"     -   Live updates with BrowserSync, opens a window for each browser: firefox, chrome & safari
+//
+//  CONFIG VARIABLES:
+//  config.browserSyncProxyUrl (string) - Override default browserSync proxy URL
+//
+//
+// => ATTENTION: use "npm install" before first build!
 
 /* ==========================================================================
-   Dist assets tasks
+   Dependencies
    ========================================================================== */
 
-gulp.task('sass-dist', function() {
-    return gulp.src('assets/source/sass/app.scss')
-            .pipe(sass())
-            .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
-            .pipe(rename({suffix: '.min'}))
-            .pipe(cssnano({
-                mergeLonghand: false,
-                zindex: false
-            }))
-            .pipe(gulp.dest('assets/tmp/css'))
-});
-
-gulp.task('sass-admin-dist', function() {
-    return gulp.src('assets/source/sass/admin.scss')
-            .pipe(sass())
-            .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
-            .pipe(rename({suffix: '.min'}))
-            .pipe(cssnano({
-                mergeLonghand: false,
-                zindex: false
-            }))
-            .pipe(gulp.dest('assets/tmp/css'));
-});
-
-gulp.task('scripts-dist', function() {
-    return gulp.src('assets/source/js/*.js')
-        .pipe(concat('app.min.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest('assets/tmp/js'))
-});
+    var gulp        =   require('gulp'),
+    rename          =   require('gulp-rename'),
+    sass            =   require('gulp-sass'),
+    concat          =   require('gulp-concat'),
+    autoprefixer    =   require('gulp-autoprefixer'),
+    browserSync     =   require('browser-sync').create(),
+    sourcemaps      =   require('gulp-sourcemaps'),
+    uglify          =   require('gulp-uglify'),
+    rev             =   require('gulp-rev'),
+    revDel          =   require('rev-del'),
+    revReplaceCSS   =   require('gulp-rev-css-url'),
+    del             =   require('del'),
+    runSequence     =   require('run-sequence'),
+    plumber         =   require('gulp-plumber'),
+    jshint          =   require("gulp-jshint"),
+    cleanCSS        =   require('gulp-clean-css');
 
 /* ==========================================================================
-   Build assets tasks
+   Load configuration file
    ========================================================================== */
-  gulp.task('build:sass', ['sass-dev', 'sass-admin-dev', 'sass-dist', 'sass-admin-dist']);
-  gulp.task('build:js', ['scripts-dev', 'scripts-dist']);
+
+    var config = (require('fs').existsSync('./config.json') ? JSON.parse(require('fs').readFileSync('./config.json')) : {});
 
 /* ==========================================================================
-   Rev Tasks
+   Default task
    ========================================================================== */
 
-var revTask = function() {
-    return gulp.src(["./assets/tmp/**/*"])
-      .pipe(rev())
-      .pipe(revReplaceCSS())
-      .pipe(gulp.dest('assets/dist'))
-      .pipe(rev.manifest())
-      .pipe(revDel({dest: 'assets/dist'}))
-      .pipe(gulp.dest('assets/dist'));
-}
-
-gulp.task("rev:sass", ['build:sass'], function(){
-  return revTask()
-})
-
-gulp.task("rev:js", ['build:js'], function() {
-  return revTask()
-})
-
-gulp.task("rev:build", ['build:sass', 'build:js'], function(){
-  return revTask();
-})
-
-/* ==========================================================================
-   Others
-   ========================================================================== */
-
-gulp.task('browser-sync', function() {
-    browserSync.init({
-        proxy: "https://ronnowskaskolan.helsingborg.dev/"
+    gulp.task('default', function(callback) {
+        runSequence('build', 'watch', callback);
     });
-});
 
-// Watch Files For Changes - do not use this, use default task instead!
-gulp.task('watch', function() {
-    gulp.watch('assets/source/js/**/*.js', ['rev:js']);
-    gulp.watch('assets/source/sass/**/*.scss', ['rev:sass']);
-});
+/* ==========================================================================
+   Build tasks
+   ========================================================================== */
 
-//Watch with BrowserSync
-gulp.task('watch-live', ['browser-sync'], function () {
-    gulp.watch('**/*.php', browserSync.reload);
-    gulp.watch('assets/source/js/**/*.js', ['rev:js', browserSync.reload]);
-    gulp.watch('assets/source/sass/**/*.scss', ['rev:sass']);
-});
+    gulp.task('build', function(callback) {
+        runSequence('clean:dist', ['sass', 'scripts'], 'rev', callback);
+    });
 
-// Default Task
-gulp.task('default', ['rev:build', 'watch']);
+    gulp.task('build:sass', function(callback) {
+        runSequence('sass', 'rev', callback);
+    });
+
+    gulp.task('build:scripts', function(callback) {
+        runSequence('scripts', 'rev', callback);
+    });
+
+/* ==========================================================================
+   Watch task
+   ========================================================================== */
+
+    gulp.task('watch', function() {
+        gulp.watch('./assets/source/sass/**/*.scss', ['build:sass']);
+        gulp.watch('**/*.php', browserSync.reload);
+        gulp.watch('**/*.twig', browserSync.reload);
+        gulp.watch('./assets/source/js/**/*.js', ['build:scripts', browserSync.reload]);
+    });
+
+/* ==========================================================================
+   BrowserSync tasks
+   ========================================================================== */
+
+    var browserSyncProxyUrl = config.browserSyncProxyUrl || 'https://skola.helsingborg.dev';
+
+    gulp.task('firefox', ['browser-sync:firefox', 'watch']);
+    gulp.task('chrome', ['browser-sync:chrome', 'watch']);
+    gulp.task('safari', ['browser-sync:safari', 'watch']);
+    gulp.task('browser-test', ['browser-sync:all', 'watch']);
+
+    gulp.task('browser-sync:all', function() {
+        browserSync.init({
+            proxy: browserSyncProxyUrl,
+            browser: ["firefox", "google chrome", "safari"]
+        });
+    });
+
+    gulp.task('browser-sync:firefox', function() {
+        browserSync.init({
+            proxy: browserSyncProxyUrl,
+            browser: ["firefox"]
+        });
+    });
+
+    gulp.task('browser-sync:chrome', function() {
+        browserSync.init({
+            proxy: browserSyncProxyUrl,
+            browser: ["google chrome"]
+        });
+    });
+
+    gulp.task('browser-sync:safari', function() {
+        browserSync.init({
+            proxy: browserSyncProxyUrl,
+            browser: ["safari"]
+        });
+    });
+
+/* ==========================================================================
+   Rev task
+   ========================================================================== */
+
+    gulp.task("rev", function(){
+        return gulp.src(["./assets/tmp/**/*"])
+          .pipe(rev())
+          .pipe(revReplaceCSS())
+          .pipe(gulp.dest('./assets/dist'))
+          .pipe(rev.manifest())
+          .pipe(revDel({dest: './assets/dist'}))
+          .pipe(gulp.dest('./assets/dist'));
+    });
+
+/* ==========================================================================
+   SASS Task
+   ========================================================================== */
+
+    gulp.task('sass', function () {
+        var app = gulp.src('assets/source/sass/app.scss')
+                .pipe(plumber())
+                .pipe(sourcemaps.init())
+                .pipe(sass().on('error', sass.logError))
+                .pipe(autoprefixer({
+                        browsers: ['last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1']
+                    }))
+                .pipe(sourcemaps.write())
+                .pipe(gulp.dest('./assets/dist/css'))
+                .pipe(browserSync.stream())
+                .pipe(cleanCSS({debug: true}))
+                .pipe(gulp.dest('./assets/tmp/css'));
+
+        var admin = gulp.src('assets/source/sass/admin.scss')
+                .pipe(plumber())
+                .pipe(sourcemaps.init())
+                .pipe(sass().on('error', sass.logError))
+                .pipe(autoprefixer({
+                        browsers: ['last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1']
+                    }))
+                .pipe(sourcemaps.write())
+                .pipe(gulp.dest('./assets/dist/css'))
+                .pipe(cleanCSS({debug: true}))
+                .pipe(gulp.dest('./assets/tmp/css'));
+
+        return [app, admin];
+    });
+
+/* ==========================================================================
+   Scripts task
+   ========================================================================== */
+
+    gulp.task('scripts', function() {
+        var app = gulp.src('assets/source/js/*.js')
+            .pipe(plumber())
+            .pipe(sourcemaps.init())
+            .pipe(jshint())
+            .pipe(jshint.reporter("default"))
+            .pipe(concat('app.js'))
+            .pipe(sourcemaps.write())
+            .pipe(gulp.dest('./assets/dist/js'))
+            .pipe(uglify())
+            .pipe(gulp.dest('./assets/tmp/js'));
+
+        return [app];
+
+    });
+
+/* ==========================================================================
+   Clean/Clear tasks
+   ========================================================================== */
+
+    gulp.task('clean:dist', function () {
+        return del.sync('./assets/dist');
+    });
+
+    gulp.task('clean:tmp', function () {
+        return del.sync('./assets/tmp');
+    });

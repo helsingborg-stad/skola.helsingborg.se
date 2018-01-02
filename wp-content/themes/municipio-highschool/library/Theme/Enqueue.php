@@ -14,7 +14,7 @@ class Enqueue
 
     public function adminStyle()
     {
-        wp_enqueue_style('municipio-highschool-admin-styles', get_stylesheet_directory_uri() . '/assets/dist/' . \Municipio\Helper\CacheBust::name('css/admin.min.css', true));
+        wp_enqueue_style('municipio-highschool-admin-styles', get_stylesheet_directory_uri() . '/assets/dist/' . \Municipio\Helper\CacheBust::name('css/admin.css', true, true));
     }
 
     /**
@@ -23,11 +23,7 @@ class Enqueue
      */
     public function style()
     {
-        if (defined('DEV_MODE') && DEV_MODE == true) {
-            wp_enqueue_style('municipio-highschool-styles', get_stylesheet_directory_uri() . '/assets/dist/css/app.css');
-        } else {
-            wp_enqueue_style('municipio-highschool-styles', get_stylesheet_directory_uri() . '/assets/dist/' . \Municipio\Helper\CacheBust::name('css/app.min.css', true));
-        }
+        wp_enqueue_style('municipio-highschool-styles', get_stylesheet_directory_uri() . '/assets/dist/' . \Municipio\Helper\CacheBust::name('css/app.css', true, true));
     }
 
     /**
@@ -36,10 +32,6 @@ class Enqueue
      */
     public function script()
     {
-        if (defined('DEV_MODE') && DEV_MODE == true) {
-            wp_enqueue_script('municipio-highschool-scripts', get_stylesheet_directory_uri() . '/assets/dist/js/app.js', array('jquery'));
-        } else {
-            wp_enqueue_script('municipio-highschool-scripts', get_stylesheet_directory_uri() . '/assets/dist/' . \Municipio\Helper\CacheBust::name('js/app.min.js', true), array('jquery'));
-        }
+        wp_enqueue_script('municipio-highschool-scripts', get_stylesheet_directory_uri() . '/assets/dist/' . \Municipio\Helper\CacheBust::name('js/app.js', true, true), array('jquery'));
     }
 }
