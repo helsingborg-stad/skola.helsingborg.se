@@ -53,6 +53,9 @@ class Filters
     public function activateRightSidebar($is_active_sidebar, $index)
     {
         if ($index == "right-sidebar") {
+            if (is_search()) {
+                return false;
+            }
             return true;
         }
 
