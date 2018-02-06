@@ -11,6 +11,7 @@ class ForParents
         add_action('init', array($this, 'register'));
         add_action('admin_init', array($this, 'addRole'));
         add_action('admin_init', array($this, 'updateEditorRole'));
+        add_action('admin_init', array($this, 'updateAdminRole'));
     }
 
     public function addRole()
@@ -31,8 +32,24 @@ class ForParents
 
     public function updateEditorRole()
     {
-
         $role = get_role('editor');
+        foreach (array(
+            'edit_page_for_parents',
+            'read_page_for_parents',
+            'delete_page_for_parents',
+            'edit_pages_for_parents',
+            'edit_others_pages_for_parents',
+            'publish_pages_for_parents',
+            'read_private_pages_for_parents',
+            'edit_pages_for_parents',
+        ) as $cap) {
+            $role->add_cap($cap);
+        }
+    }
+
+    public function updateAdminRole()
+    {
+        $role = get_role('administrator');
         foreach (array(
             'edit_page_for_parents',
             'read_page_for_parents',
