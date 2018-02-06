@@ -56,6 +56,14 @@ class Filters
             if (is_search()) {
                 return false;
             }
+            if (is_archive()) {
+                return false;
+            }
+
+            if (is_single() && get_post_type() == "page-for-parents") {
+                return false;
+            }
+
             return true;
         }
 
