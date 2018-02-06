@@ -7,6 +7,8 @@
    ========================================================================== */
 
 &.page:not(.home) .navbar-sticky:not(.sticky) a,
-&.search:not(.home) .navbar-sticky:not(.sticky) a {
+&.search:not(.home) .navbar-sticky:not(.sticky) a,
+&.single:not(.home) .navbar-sticky:not(.sticky) a,
+&.archive:not(.home) .navbar-sticky:not(.sticky) a {
     color: $black;
 }
