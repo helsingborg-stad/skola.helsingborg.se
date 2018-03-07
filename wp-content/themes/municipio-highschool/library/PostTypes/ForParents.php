@@ -112,7 +112,7 @@ class ForParents
                 'read_private_posts' => 'read_private_pages_for_parents',
                 'create_posts'       => 'edit_pages_for_parents',
             ),
-            'hierarchical'         => true,
+            'hierarchical'         => false,
             'exclude_from_search'  => false,
             'taxonomies'           => array(),
             'supports'             => array('title', 'revisions', 'editor', 'thumbnail', 'author', 'comments')
