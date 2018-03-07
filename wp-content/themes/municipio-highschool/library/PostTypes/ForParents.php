@@ -26,7 +26,8 @@ class ForParents
             'publish_pages_for_parents'      => true,
             'read_private_pages_for_parents' => true,
             'edit_pages_for_parents'         => true,
-            'read' => true,
+            'read'                          => true,
+            'upload_files'                  => true,
         ));
     }
 
