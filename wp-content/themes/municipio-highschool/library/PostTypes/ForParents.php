@@ -9,6 +9,7 @@ class ForParents
     public function __construct()
     {
         add_action('init', array($this, 'register'));
+        add_action('init', array($this, 'registerTaxonomy'));
         add_action('admin_init', array($this, 'addRole'));
         add_action('admin_init', array($this, 'updateEditorRole'));
         add_action('admin_init', array($this, 'updateAdminRole'));
@@ -26,8 +27,11 @@ class ForParents
             'publish_pages_for_parents'      => true,
             'read_private_pages_for_parents' => true,
             'edit_pages_for_parents'         => true,
-            'read'                          => true,
-            'upload_files'                  => true,
+            'read'                           => true,
+            'upload_files'                   => true,
+            'edit_term'                   => true,
+            'delete_term'   => true,
+            'assign_term' => true
         ));
     }
 
@@ -120,5 +124,40 @@ class ForParents
         );
 
         register_post_type(self::$postTypeSlug, $args);
+    }
+
+    public function registerTaxonomy() {
+
+        $labels = array(
+            'name'              => _x( 'Grade Groups', 'taxonomy general name', 'textdomain' ),
+            'singular_name'     => _x( 'Grade Groups', 'taxonomy singular name', 'textdomain' ),
+            'search_items'      => __( 'Search Groups', 'textdomain' ),
+            'all_items'         => __( 'All Groups', 'textdomain' ),
+            'parent_item'       => __( 'Parent Group', 'textdomain' ),
+            'parent_item_colon' => __( 'Parent Group:', 'textdomain' ),
+            'edit_item'         => __( 'Edit Group', 'textdomain' ),
+            'update_item'       => __( 'Update Group', 'textdomain' ),
+            'add_new_item'      => __( 'Add New Group', 'textdomain' ),
+            'new_item_name'     => __( 'New Group Name', 'textdomain' ),
+            'menu_name'         => __( 'Grade groups', 'textdomain' ),
+        );
+
+        $args = array(
+            'hierarchical'      => true,
+            'labels'            => $labels,
+            'show_ui'           => true,
+            'show_admin_column' => true,
+            'query_var'         => true,
+            'rewrite'           => array( 'slug' => 'grade' ),
+            'capabilities'      => array(
+                'manage_terms' => 'edit_page_for_parents',
+                'edit_terms' => 'edit_page_for_parents',
+                'delete_terms' => 'edit_page_for_parents',
+                'assign_terms' => 'edit_page_for_parents',
+            )
+        );
+
+        register_taxonomy( 'grade', self::$postTypeSlug, $args);
+
     }
 }
