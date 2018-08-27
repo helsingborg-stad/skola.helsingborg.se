@@ -1,5 +1,11 @@
 @if ($hasRightSidebar)
-<aside class="grid-lg-5 grid-md-5 sidebar-right-sidebar">
+    <?php
+    $cols = 'grid-lg-5 grid-md-5';
+    if (is_archive() && is_active_sidebar('right-sidebar')) {
+        $cols = 'grid-lg-3 grid-md-4';
+    }
+    ?>
+    <aside class="{{ $cols }} sidebar-right-sidebar">
     @if (is_active_sidebar('right-sidebar') || (isset($enabledSidebarFilters) && is_array($enabledSidebarFilters)))
     <div class="grid">
 
