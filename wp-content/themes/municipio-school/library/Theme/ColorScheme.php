@@ -31,13 +31,6 @@ class ColorScheme
                 border-bottom: 5px solid ' . $primary . ';
             }
 
-            /* Logo color */
-            #site-header.header-jumbo .navbar-mainmenu .logotype svg g:last-of-type,
-            #site-header.header-jumbo .navbar-mainmenu .logotype svg g:last-of-type *,
-            #site-header.header-jumbo .navbar-mainmenu .logotype svg > path {
-                fill: ' . $primary . ';
-            }
-
             /* Menu arrow color */
             #site-header.header-jumbo .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-menu-item > a::after,
             #site-header.header-jumbo .navbar:not(.navbar-transparent) .nav:not(.nav-dropdown) .current-page-ancestor > a::after,
