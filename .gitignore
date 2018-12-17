@@ -15,7 +15,6 @@ wp-content/*
 !wp-content/mu-plugins/*
 !wp-content/object-cache.php
 !wp-content/sunrise.php
-composer.lock
 
 # Themes dependencies #
 ##########################
