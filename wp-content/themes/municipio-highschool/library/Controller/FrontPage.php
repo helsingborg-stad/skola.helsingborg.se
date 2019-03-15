@@ -1,6 +1,6 @@
 <?php
 
-namespace Municipio\Controller;
+namespace MunicipioHighSchool\Controller;
 
 class FrontPage extends \Municipio\Controller\BaseController
 {
