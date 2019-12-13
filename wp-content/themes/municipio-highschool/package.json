@@ -23,7 +23,7 @@
     "imagemin-pngquant": "^4.2.0",
     "install": "^0.10.2",
     "jshint": "^2.9.5",
-    "npm": "^5.6.0",
+    "npm": "^6.13.4",
     "rev-del": "^1.0.5",
     "run-sequence": "^2.2.0"
   },
