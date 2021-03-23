@@ -245,12 +245,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "98b34f8ab3558bee5caa7c07efbab3f5bd7663ab"
+                "reference": "260a3b3c67adbb8a3f895a49755e9a6e6b9fd8ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/98b34f8ab3558bee5caa7c07efbab3f5bd7663ab",
-                "reference": "98b34f8ab3558bee5caa7c07efbab3f5bd7663ab",
+                "url": "https://api.github.com/repos/composer/installers/zipball/260a3b3c67adbb8a3f895a49755e9a6e6b9fd8ee",
+                "reference": "260a3b3c67adbb8a3f895a49755e9a6e6b9fd8ee",
                 "shasum": ""
             },
             "require": {
@@ -345,6 +345,7 @@
                 "majima",
                 "mako",
                 "mediawiki",
+                "miaoxing",
                 "modulework",
                 "modx",
                 "moodle",
@@ -387,7 +388,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-02T15:00:11+00:00"
+            "time": "2021-03-23T06:47:48+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -607,16 +608,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.160.0",
+            "version": "v0.165.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "b8a448056ced89d1bc2d68ca10c22e7b2ed06512"
+                "reference": "c8d7ff2c9cb6cad6e88bc5825491c47b8b2e52fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/b8a448056ced89d1bc2d68ca10c22e7b2ed06512",
-                "reference": "b8a448056ced89d1bc2d68ca10c22e7b2ed06512",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/c8d7ff2c9cb6cad6e88bc5825491c47b8b2e52fd",
+                "reference": "c8d7ff2c9cb6cad6e88bc5825491c47b8b2e52fd",
                 "shasum": ""
             },
             "require": {
@@ -642,9 +643,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.160.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.165.0"
             },
-            "time": "2021-02-13T12:20:02+00:00"
+            "time": "2021-03-21T11:20:02+00:00"
         },
         {
             "name": "google/auth",
@@ -794,12 +795,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "ddfeedfff2a52661429437da0702979f708e6ac6"
+                "reference": "8e7d04f1f6450fef59366c399cfad4b9383aa30d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/ddfeedfff2a52661429437da0702979f708e6ac6",
-                "reference": "ddfeedfff2a52661429437da0702979f708e6ac6",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/8e7d04f1f6450fef59366c399cfad4b9383aa30d",
+                "reference": "8e7d04f1f6450fef59366c399cfad4b9383aa30d",
                 "shasum": ""
             },
             "require": {
@@ -840,9 +841,9 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/master"
+                "source": "https://github.com/guzzle/promises/tree/1.4.1"
             },
-            "time": "2020-10-19T16:50:15+00:00"
+            "time": "2021-03-07T09:25:29+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1315,12 +1316,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/blade-engine-wrapper.git",
-                "reference": "d7e651f5f0a9535a976cbe771e77d7d0b75b62d5"
+                "reference": "5574eff7d510f493c024cd550dc3b1371f0f12c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/blade-engine-wrapper/zipball/d7e651f5f0a9535a976cbe771e77d7d0b75b62d5",
-                "reference": "d7e651f5f0a9535a976cbe771e77d7d0b75b62d5",
+                "url": "https://api.github.com/repos/helsingborg-stad/blade-engine-wrapper/zipball/5574eff7d510f493c024cd550dc3b1371f0f12c1",
+                "reference": "5574eff7d510f493c024cd550dc3b1371f0f12c1",
                 "shasum": ""
             },
             "require": {
@@ -1366,7 +1367,7 @@
                 "issues": "https://github.com/helsingborg-stad/blade-engine-wrapper/issues",
                 "source": "https://github.com/helsingborg-stad/blade-engine-wrapper/tree/master"
             },
-            "time": "2021-02-11T15:22:54+00:00"
+            "time": "2021-03-05T11:06:33+00:00"
         },
         {
             "name": "helsingborg-stad/broken-link-detector",
@@ -1410,12 +1411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "37c6a3c9d40764118cba8f3d3c0cce3959880f3d"
+                "reference": "833bbbaf6763b5d73cbb7bdb098aea1d7810a336"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/37c6a3c9d40764118cba8f3d3c0cce3959880f3d",
-                "reference": "37c6a3c9d40764118cba8f3d3c0cce3959880f3d",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/833bbbaf6763b5d73cbb7bdb098aea1d7810a336",
+                "reference": "833bbbaf6763b5d73cbb7bdb098aea1d7810a336",
                 "shasum": ""
             },
             "require": {
@@ -1434,7 +1435,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-02-17T14:07:28+00:00"
+            "time": "2021-03-19T07:53:17+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1511,16 +1512,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Customer-feedback.git",
-                "reference": "80452732c995cea4de8a375b2082dc33d546870d"
+                "reference": "7d220c52d608778ae1645903127e4cb5035244fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/80452732c995cea4de8a375b2082dc33d546870d",
-                "reference": "80452732c995cea4de8a375b2082dc33d546870d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/7d220c52d608778ae1645903127e4cb5035244fc",
+                "reference": "7d220c52d608778ae1645903127e4cb5035244fc",
                 "shasum": ""
             },
             "require": {
-                "helsingborg-stad/acf-export-manager": ">=1.0.0"
+                "helsingborg-stad/acf-export-manager": ">=1.0.0",
+                "helsingborg-stad/recaptcha-integration": ">=1.0.8"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -1538,7 +1540,7 @@
                 "issues": "https://github.com/helsingborg-stad/Customer-feedback/issues",
                 "source": "https://github.com/helsingborg-stad/Customer-feedback/tree/3.0/develop"
             },
-            "time": "2021-01-27T13:08:14+00:00"
+            "time": "2021-03-09T13:11:56+00:00"
         },
         {
             "name": "helsingborg-stad/easy-to-read-alternative",
@@ -1742,12 +1744,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "9f964d38f3b2a01ca7bf81869a1b0206cf4d141a"
+                "reference": "5018527e196f6df4374390e44559fe1668a4558c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/9f964d38f3b2a01ca7bf81869a1b0206cf4d141a",
-                "reference": "9f964d38f3b2a01ca7bf81869a1b0206cf4d141a",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/5018527e196f6df4374390e44559fe1668a4558c",
+                "reference": "5018527e196f6df4374390e44559fe1668a4558c",
                 "shasum": ""
             },
             "require": {
@@ -1802,7 +1804,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-02-16T14:08:39+00:00"
+            "time": "2021-03-23T09:53:01+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-dictionary",
@@ -1842,19 +1844,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "02b61947d575b9bebfb043fe5bfe9d9de9526f45"
+                "reference": "b77edbfce95a93de95d5b5468aa7aa297aab065a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/02b61947d575b9bebfb043fe5bfe9d9de9526f45",
-                "reference": "02b61947d575b9bebfb043fe5bfe9d9de9526f45",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/b77edbfce95a93de95d5b5468aa7aa297aab065a",
+                "reference": "b77edbfce95a93de95d5b5468aa7aa297aab065a",
                 "shasum": ""
             },
             "require": {
                 "google/apiclient": "2.7.2",
                 "guzzlehttp/guzzle": "7.0.1",
                 "guzzlehttp/psr7": "1.7.0",
-                "helsingborg-stad/acf-export-manager": ">=1.0.0"
+                "helsingborg-stad/acf-export-manager": ">=1.0.0",
+                "helsingborg-stad/recaptcha-integration": ">=1.0.8"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -1879,7 +1882,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0/develop"
             },
-            "time": "2021-02-10T08:41:27+00:00"
+            "time": "2021-03-09T13:52:15+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -1887,13 +1890,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-guides.git",
-                "reference": "c05750a263b651e7e30ffcdcf9b631213c99f78c"
+                "reference": "d894f5870b5a0c74282d19f41d3c26eac961ad31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-guides/zipball/c05750a263b651e7e30ffcdcf9b631213c99f78c",
-                "reference": "c05750a263b651e7e30ffcdcf9b631213c99f78c",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-guides/zipball/d894f5870b5a0c74282d19f41d3c26eac961ad31",
+                "reference": "d894f5870b5a0c74282d19f41d3c26eac961ad31",
                 "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/recaptcha-integration": ">=1.0.8"
             },
             "default-branch": true,
             "type": "wordpress-plugin",
@@ -1914,9 +1920,9 @@
             "description": "Addon for Modularity for creating guides",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-guides/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-guides/tree/2.0.10"
+                "source": "https://github.com/helsingborg-stad/modularity-guides/tree/master"
             },
-            "time": "2018-07-12T08:33:00+00:00"
+            "time": "2021-03-10T09:03:47+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-json-render",
@@ -1924,12 +1930,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-json-render.git",
-                "reference": "346da0a7d9614b804025d832e2c7379f660a0604"
+                "reference": "f9a98d1b7e12abab46bc008ca84886bb3a8fa0d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-json-render/zipball/346da0a7d9614b804025d832e2c7379f660a0604",
-                "reference": "346da0a7d9614b804025d832e2c7379f660a0604",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-json-render/zipball/f9a98d1b7e12abab46bc008ca84886bb3a8fa0d4",
+                "reference": "f9a98d1b7e12abab46bc008ca84886bb3a8fa0d4",
                 "shasum": ""
             },
             "require": {
@@ -1950,7 +1956,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-json-render/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-json-render/tree/3.0/develop"
             },
-            "time": "2021-02-08T09:41:44+00:00"
+            "time": "2021-02-25T09:20:10+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
@@ -2132,12 +2138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "902e798ac6a4261369a9a0b8cd162174996f71dd"
+                "reference": "487d18fc5721c6faeaeb1f766d57a52b0149812d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/902e798ac6a4261369a9a0b8cd162174996f71dd",
-                "reference": "902e798ac6a4261369a9a0b8cd162174996f71dd",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/487d18fc5721c6faeaeb1f766d57a52b0149812d",
+                "reference": "487d18fc5721c6faeaeb1f766d57a52b0149812d",
                 "shasum": ""
             },
             "require": {
@@ -2146,6 +2152,7 @@
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
                 "helsingborg-stad/blade-engine-wrapper": "dev-master",
                 "helsingborg-stad/global-blade-engine": "^1.2",
+                "helsingborg-stad/recaptcha-integration": ">=1.0.8",
                 "illuminate/container": "^5.8.36",
                 "illuminate/contracts": "^5.8.36",
                 "illuminate/events": "^5.8.36",
@@ -2153,6 +2160,7 @@
                 "illuminate/support": "^5.8.36",
                 "illuminate/view": "^5.8.36",
                 "nesbot/carbon": "^2.34.0",
+                "pragmarx/ia-arr": "^7.3",
                 "psr/container": "^1.0.0",
                 "psr/log": "^1.1.3",
                 "psr/simple-cache": "^1.0.1",
@@ -2190,7 +2198,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-02-19T13:32:21+00:00"
+            "time": "2021-03-23T09:22:12+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -2224,6 +2232,44 @@
                 "source": "https://github.com/helsingborg-stad/readspeaker-helper/tree/master"
             },
             "time": "2020-11-13T14:01:30+00:00"
+        },
+        {
+            "name": "helsingborg-stad/recaptcha-integration",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/recaptcha-integration.git",
+                "reference": "17ef8fc596ff7cb898dbdb4483de10af42c75f20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/recaptcha-integration/zipball/17ef8fc596ff7cb898dbdb4483de10af42c75f20",
+                "reference": "17ef8fc596ff7cb898dbdb4483de10af42c75f20",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HelsingborgStad\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johan Silvergrund",
+                    "email": "johan.silvergrund@helsingborg.se"
+                }
+            ],
+            "description": "Google ReCAPTCHA v3 integration for Municipio and plugins",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/recaptcha-integration/issues",
+                "source": "https://github.com/helsingborg-stad/recaptcha-integration/tree/1.0.8"
+            },
+            "time": "2021-02-18T00:36:21+00:00"
         },
         {
             "name": "helsingborg-stad/search-notices",
@@ -2681,20 +2727,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.6.x-dev",
+            "version": "5.7.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "09b7cb6e8c002c0d968cedccd2563c02eddbed6a"
+                "reference": "80225e536a8f9120be702d5e78e2d3d0db7845a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/09b7cb6e8c002c0d968cedccd2563c02eddbed6a",
-                "reference": "09b7cb6e8c002c0d968cedccd2563c02eddbed6a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/80225e536a8f9120be702d5e78e2d3d0db7845a6",
+                "reference": "80225e536a8f9120be702d5e78e2d3d0db7845a6",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.6.x-dev",
+                "johnpbloch/wordpress-core": "5.7.x-dev",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -2723,20 +2769,20 @@
                 "source": "http://core.trac.wordpress.org/browser",
                 "wiki": "http://codex.wordpress.org/"
             },
-            "time": "2020-11-17T23:06:58+00:00"
+            "time": "2021-02-23T21:08:26+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.6.x-dev",
+            "version": "5.7.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "ff5e53a5d5d7a7c03ab95a867ab5949652fd3f2d"
+                "reference": "4580b27877a52ff6dd2c7d8bc0cacdca25608bca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/ff5e53a5d5d7a7c03ab95a867ab5949652fd3f2d",
-                "reference": "ff5e53a5d5d7a7c03ab95a867ab5949652fd3f2d",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/4580b27877a52ff6dd2c7d8bc0cacdca25608bca",
+                "reference": "4580b27877a52ff6dd2c7d8bc0cacdca25608bca",
                 "shasum": ""
             },
             "require": {
@@ -2744,7 +2790,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.6.x-dev"
+                "wordpress/core-implementation": "5.7.x-dev"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -2771,7 +2817,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2021-02-17T15:40:10+00:00"
+            "time": "2021-03-19T02:14:58+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -2930,12 +2976,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "5853493c508b5095486b335c7ced7450dc57affa"
+                "reference": "2fd2c4a77d58a4e95234c8a61c5df1f157a91bf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/5853493c508b5095486b335c7ced7450dc57affa",
-                "reference": "5853493c508b5095486b335c7ced7450dc57affa",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/2fd2c4a77d58a4e95234c8a61c5df1f157a91bf4",
+                "reference": "2fd2c4a77d58a4e95234c8a61c5df1f157a91bf4",
                 "shasum": ""
             },
             "require": {
@@ -3016,7 +3062,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-11T23:37:07+00:00"
+            "time": "2021-02-24T17:30:44+00:00"
         },
         {
             "name": "philo/laravel-blade",
@@ -3069,12 +3115,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "72264ff91807eb7e6d25887a52a2670966b21ed8"
+                "reference": "613643413912cd418906ca428cc9922a4cb89871"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/72264ff91807eb7e6d25887a52a2670966b21ed8",
-                "reference": "72264ff91807eb7e6d25887a52a2670966b21ed8",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/613643413912cd418906ca428cc9922a4cb89871",
+                "reference": "613643413912cd418906ca428cc9922a4cb89871",
                 "shasum": ""
             },
             "require": {
@@ -3170,7 +3216,77 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-04T02:00:56+00:00"
+            "time": "2021-03-19T21:59:46+00:00"
+        },
+        {
+            "name": "pragmarx/ia-arr",
+            "version": "v7.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antonioribeiro/ia-arr.git",
+                "reference": "e0107e68bbce8736f6e19c796a5511b741ced227"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antonioribeiro/ia-arr/zipball/e0107e68bbce8736f6e19c796a5511b741ced227",
+                "reference": "e0107e68bbce8736f6e19c796a5511b741ced227",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "symfony/var-dumper": "~3.3|~4.0|~5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~1.0",
+                "nesbot/carbon": "^1.26 || ^2.00",
+                "phpunit/phpunit": "~6.0|~7.0|~8.0|~9.0",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "suggest": {
+                "nesbot/carbon": "Required to use Carbon datetime."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "IlluminateAgnostic\\Arr\\": "src/",
+                    "IlluminateAgnostic\\Arr\\Tests\\": "tests/"
+                },
+                "files": [
+                    "src/Support/helpers.php",
+                    "src/Support/alias.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Carlos Ribeiro",
+                    "email": "acr@antoniocarlosribeiro.com",
+                    "homepage": "https://antoniocarlosribeiro.com",
+                    "role": "Creator"
+                }
+            ],
+            "description": "Laravel Illuminate Agnostic Arr",
+            "homepage": "https://github.com/antonioribeiro/ia-arr",
+            "keywords": [
+                "arr",
+                "array",
+                "helpers",
+                "laravel",
+                "pragmarx"
+            ],
+            "support": {
+                "issues": "https://github.com/antonioribeiro/ia-arr/issues",
+                "source": "https://github.com/antonioribeiro/ia-arr/tree/master"
+            },
+            "time": "2020-03-26T08:59:52+00:00"
         },
         {
             "name": "psr/cache",
@@ -3223,28 +3339,22 @@
         },
         {
             "name": "psr/container",
-            "version": "dev-master",
+            "version": "1.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "381524e8568e07f31d504a945b88556548c8c42e"
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/381524e8568e07f31d504a945b88556548c8c42e",
-                "reference": "381524e8568e07f31d504a945b88556548c8c42e",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.0"
             },
-            "default-branch": true,
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Psr\\Container\\": "src/"
@@ -3271,9 +3381,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container/tree/master"
+                "source": "https://github.com/php-fig/container/tree/1.1.x"
             },
-            "time": "2020-10-13T07:07:53+00:00"
+            "time": "2021-03-05T17:36:06+00:00"
         },
         {
             "name": "psr/http-client",
@@ -3388,12 +3498,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec"
+                "reference": "a18c1e692e02b84abbafe4856c3cd7cc6903908c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/dd738d0b4491f32725492cf345f6b501f5922fec",
-                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/a18c1e692e02b84abbafe4856c3cd7cc6903908c",
+                "reference": "a18c1e692e02b84abbafe4856c3cd7cc6903908c",
                 "shasum": ""
             },
             "require": {
@@ -3431,7 +3541,7 @@
             "support": {
                 "source": "https://github.com/php-fig/log/tree/master"
             },
-            "time": "2020-09-18T06:44:51+00:00"
+            "time": "2021-03-02T15:02:34+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -3575,16 +3685,16 @@
         },
         {
             "name": "shortpixel/shortpixel-php",
-            "version": "v1.7.0",
+            "version": "V1.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/short-pixel-optimizer/shortpixel-php.git",
-                "reference": "ee09be784a63b01041ea4e6b982867256a8be443"
+                "reference": "2b654571c203399c3db967318db23e82233f632d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/short-pixel-optimizer/shortpixel-php/zipball/ee09be784a63b01041ea4e6b982867256a8be443",
-                "reference": "ee09be784a63b01041ea4e6b982867256a8be443",
+                "url": "https://api.github.com/repos/short-pixel-optimizer/shortpixel-php/zipball/2b654571c203399c3db967318db23e82233f632d",
+                "reference": "2b654571c203399c3db967318db23e82233f632d",
                 "shasum": ""
             },
             "require": {
@@ -3629,9 +3739,9 @@
             "support": {
                 "email": "support@shortpixel.com",
                 "issues": "https://github.com/short-pixel-optimizer/shortpixel-php/issues",
-                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/v1.7.0"
+                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/V1.7.3"
             },
-            "time": "2020-12-12T05:59:21+00:00"
+            "time": "2021-03-09T12:29:46+00:00"
         },
         {
             "name": "symfony/debug",
@@ -3685,7 +3795,7 @@
             "description": "Provides tools to ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/debug/tree/4.4"
+                "source": "https://github.com/symfony/debug/tree/v4.4.20"
             },
             "funding": [
                 {
@@ -4082,6 +4192,95 @@
                 "source": "https://github.com/symfony/translation-contracts/tree/v2.0.1"
             },
             "time": "2019-11-18T17:27:11+00:00"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "5.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "401993ef351ad60a95e6059c9a50f746f1a3724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/401993ef351ad60a95e6059c9a50f746f1a3724d",
+                "reference": "401993ef351ad60a95e6059c9a50f746f1a3724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php80": "^1.15"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<5.4.3",
+                "symfony/console": "<4.4"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "symfony/console": "^4.4|^5.0",
+                "symfony/process": "^4.4|^5.0",
+                "twig/twig": "^2.13|^3.0.4"
+            },
+            "suggest": {
+                "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                "ext-intl": "To show region name in time zone dump",
+                "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+            },
+            "default-branch": true,
+            "bin": [
+                "Resources/bin/var-dump-server"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/var-dumper/tree/5.x"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-03-17T16:56:09+00:00"
         },
         {
             "name": "true/punycode",

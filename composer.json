@@ -1,6 +1,7 @@
 {
     "name": "helsingborg-stad/skola.helsingborg.se",
     "license": "MIT",
+    "description": "Site repository for school sites.",
     "authors": [
         {
             "name": "Sebastian Thulin",
