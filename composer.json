@@ -78,7 +78,8 @@
         "wpackagist-plugin/redis-cache": "1.4.3",
         "helsingborg-stad/algolia-index": "^1.8",
         "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
-        "bueltge/must-use-loader": "^1.3"
+        "bueltge/must-use-loader": "^1.3",
+        "mcguffin/acf-customizer": "dev-master"
     },
 
     "extra": {

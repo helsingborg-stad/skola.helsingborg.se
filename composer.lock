@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b29d7ed88a0307e434f477b274ebf64",
+    "content-hash": "010470630c5621ce8dabb4188abe072f",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2874,6 +2874,55 @@
             "time": "2020-04-16T21:44:57+00:00"
         },
         {
+            "name": "mcguffin/acf-customizer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mcguffin/acf-customizer.git",
+                "reference": "edc1cfc87c0f88cbce0c1e934f902490b2208295"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mcguffin/acf-customizer/zipball/edc1cfc87c0f88cbce0c1e934f902490b2208295",
+                "reference": "edc1cfc87c0f88cbce0c1e934f902490b2208295",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.2",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "pheromone/phpcs-security-audit": "*",
+                "phpcompatibility/php-compatibility": "*",
+                "squizlabs/php_codesniffer": "*",
+                "wp-coding-standards/wpcs": "*"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jörn Lund"
+                }
+            ],
+            "description": "Use ACF Fields in customizer.",
+            "homepage": "https://github.com/mcguffin/acf-customizer",
+            "keywords": [
+                "Repeater",
+                "acf",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/mcguffin/acf-customizer/issues",
+                "source": "https://github.com/mcguffin/acf-customizer/tree/master"
+            },
+            "time": "2021-03-03T09:23:31+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "dev-main",
             "source": {
@@ -4507,7 +4556,8 @@
         "helsingborg-stad/modularity-json-render": 20,
         "helsingborg-stad/customer-feedback": 20,
         "helsingborg-stad/algolia-index-js-searchpage-addon": 20,
-        "helsingborg-stad/component-library": 20
+        "helsingborg-stad/component-library": 20,
+        "mcguffin/acf-customizer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
