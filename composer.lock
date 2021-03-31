@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af4cc5a855a1301a30126019ba53ac89",
+    "content-hash": "e54500c1bf07631a294361ccd6b34292",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1808,19 +1808,18 @@
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
-            "version": "dev-master",
+            "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "8038f09f088f8887fb5d5835a3ef1ee68aec3cc5"
+                "reference": "3ac4a702a279484766a1782d2537977d0d967325"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/8038f09f088f8887fb5d5835a3ef1ee68aec3cc5",
-                "reference": "8038f09f088f8887fb5d5835a3ef1ee68aec3cc5",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/3ac4a702a279484766a1782d2537977d0d967325",
+                "reference": "3ac4a702a279484766a1782d2537977d0d967325",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1835,9 +1834,9 @@
             "description": "Contact Banner",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/1.0.2"
+                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
-            "time": "2020-02-17T11:32:02+00:00"
+            "time": "2021-03-19T12:38:08+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-dictionary",
