@@ -608,16 +608,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.165.0",
+            "version": "v0.166.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "c8d7ff2c9cb6cad6e88bc5825491c47b8b2e52fd"
+                "reference": "46b71684a100f3d976e0321cf24f487b314add68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/c8d7ff2c9cb6cad6e88bc5825491c47b8b2e52fd",
-                "reference": "c8d7ff2c9cb6cad6e88bc5825491c47b8b2e52fd",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/46b71684a100f3d976e0321cf24f487b314add68",
+                "reference": "46b71684a100f3d976e0321cf24f487b314add68",
                 "shasum": ""
             },
             "require": {
@@ -643,9 +643,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.165.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.166.0"
             },
-            "time": "2021-03-21T11:20:02+00:00"
+            "time": "2021-03-22T11:26:04+00:00"
         },
         {
             "name": "google/auth",
@@ -2138,12 +2138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "487d18fc5721c6faeaeb1f766d57a52b0149812d"
+                "reference": "10f20530196a5652e4b45ff7d99284d989b1f2a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/487d18fc5721c6faeaeb1f766d57a52b0149812d",
-                "reference": "487d18fc5721c6faeaeb1f766d57a52b0149812d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/10f20530196a5652e4b45ff7d99284d989b1f2a2",
+                "reference": "10f20530196a5652e4b45ff7d99284d989b1f2a2",
                 "shasum": ""
             },
             "require": {
@@ -2198,7 +2198,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-03-23T09:22:12+00:00"
+            "time": "2021-03-30T12:29:11+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -2777,12 +2777,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "3906cb579f39de3564ede35699e0ccc619564d09"
+                "reference": "b5dba63872c074d54a439940b4cf1fcc45623b03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/3906cb579f39de3564ede35699e0ccc619564d09",
-                "reference": "3906cb579f39de3564ede35699e0ccc619564d09",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/b5dba63872c074d54a439940b4cf1fcc45623b03",
+                "reference": "b5dba63872c074d54a439940b4cf1fcc45623b03",
                 "shasum": ""
             },
             "require": {
@@ -2817,7 +2817,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2021-03-25T00:28:08+00:00"
+            "time": "2021-03-26T20:36:15+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -4248,12 +4248,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "401993ef351ad60a95e6059c9a50f746f1a3724d"
+                "reference": "a4f823ce5bfcc21d9c5f19950ce198e301f3dd56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/401993ef351ad60a95e6059c9a50f746f1a3724d",
-                "reference": "401993ef351ad60a95e6059c9a50f746f1a3724d",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/a4f823ce5bfcc21d9c5f19950ce198e301f3dd56",
+                "reference": "a4f823ce5bfcc21d9c5f19950ce198e301f3dd56",
                 "shasum": ""
             },
             "require": {
@@ -4329,7 +4329,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-17T16:56:09+00:00"
+            "time": "2021-03-28T09:44:11+00:00"
         },
         {
             "name": "true/punycode",
@@ -4491,15 +4491,15 @@
         },
         {
             "name": "wpackagist-plugin/varnish-http-purge",
-            "version": "4.8.1",
+            "version": "5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/varnish-http-purge/",
-                "reference": "tags/4.8.1"
+                "reference": "tags/5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.4.8.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.5.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
