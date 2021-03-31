@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "010470630c5621ce8dabb4188abe072f",
+    "content-hash": "af4cc5a855a1301a30126019ba53ac89",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1805,6 +1805,39 @@
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
             "time": "2021-03-25T08:14:44+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-contact-banner",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
+                "reference": "8038f09f088f8887fb5d5835a3ef1ee68aec3cc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/8038f09f088f8887fb5d5835a3ef1ee68aec3cc5",
+                "reference": "8038f09f088f8887fb5d5835a3ef1ee68aec3cc5",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Contact Banner",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/1.0.2"
+            },
+            "time": "2020-02-17T11:32:02+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-dictionary",
@@ -4557,7 +4590,8 @@
         "helsingborg-stad/customer-feedback": 20,
         "helsingborg-stad/algolia-index-js-searchpage-addon": 20,
         "helsingborg-stad/component-library": 20,
-        "mcguffin/acf-customizer": 20
+        "mcguffin/acf-customizer": 20,
+        "helsingborg-stad/modularity-contact-banner": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
