@@ -245,12 +245,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "260a3b3c67adbb8a3f895a49755e9a6e6b9fd8ee"
+                "reference": "0f4a400e1c678d2650c5c27cce9e534cc3305c2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/260a3b3c67adbb8a3f895a49755e9a6e6b9fd8ee",
-                "reference": "260a3b3c67adbb8a3f895a49755e9a6e6b9fd8ee",
+                "url": "https://api.github.com/repos/composer/installers/zipball/0f4a400e1c678d2650c5c27cce9e534cc3305c2a",
+                "reference": "0f4a400e1c678d2650c5c27cce9e534cc3305c2a",
                 "shasum": ""
             },
             "require": {
@@ -388,7 +388,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-23T06:47:48+00:00"
+            "time": "2021-04-05T08:39:13+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -608,7 +608,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.166.0",
+            "version": "v0.167.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -643,7 +643,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.166.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.167.0"
             },
             "time": "2021-03-22T11:26:04+00:00"
         },
@@ -1411,12 +1411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "0cc127326c220aa170465f3155eb00abf8a16488"
+                "reference": "fae716627a28b57754f2c13518aa04e790119bc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/0cc127326c220aa170465f3155eb00abf8a16488",
-                "reference": "0cc127326c220aa170465f3155eb00abf8a16488",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/fae716627a28b57754f2c13518aa04e790119bc5",
+                "reference": "fae716627a28b57754f2c13518aa04e790119bc5",
                 "shasum": ""
             },
             "require": {
@@ -1435,7 +1435,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-03-24T12:36:52+00:00"
+            "time": "2021-04-06T06:41:00+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1443,12 +1443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/content-scheduler.git",
-                "reference": "9584baf054b224903c194afada57c0b8825d0cd0"
+                "reference": "3160dfca9ed55a391eee88ed23812a625bb0dfbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/content-scheduler/zipball/9584baf054b224903c194afada57c0b8825d0cd0",
-                "reference": "9584baf054b224903c194afada57c0b8825d0cd0",
+                "url": "https://api.github.com/repos/helsingborg-stad/content-scheduler/zipball/3160dfca9ed55a391eee88ed23812a625bb0dfbb",
+                "reference": "3160dfca9ed55a391eee88ed23812a625bb0dfbb",
                 "shasum": ""
             },
             "require": {
@@ -1469,9 +1469,9 @@
             "description": "Nicer major publising actions interface and feature for post unpublising scheduleing",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/content-scheduler/issues",
-                "source": "https://github.com/helsingborg-stad/content-scheduler/tree/1.1.2"
+                "source": "https://github.com/helsingborg-stad/content-scheduler/tree/master"
             },
-            "time": "2018-04-12T10:24:59+00:00"
+            "time": "2021-04-06T07:33:14+00:00"
         },
         {
             "name": "helsingborg-stad/custom-short-links",
@@ -2170,12 +2170,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e749806a12f4f99a4bcdf61119f68cbf1a94cd29"
+                "reference": "65cde67ab2ea8395e7c9cfb5bcd69d5b6e5a9863"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e749806a12f4f99a4bcdf61119f68cbf1a94cd29",
-                "reference": "e749806a12f4f99a4bcdf61119f68cbf1a94cd29",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/65cde67ab2ea8395e7c9cfb5bcd69d5b6e5a9863",
+                "reference": "65cde67ab2ea8395e7c9cfb5bcd69d5b6e5a9863",
                 "shasum": ""
             },
             "require": {
@@ -2230,7 +2230,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-03-31T13:33:38+00:00"
+            "time": "2021-04-06T14:25:06+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -2809,12 +2809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "b5dba63872c074d54a439940b4cf1fcc45623b03"
+                "reference": "8d7661474dafaac54980f04763f24829db76a173"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/b5dba63872c074d54a439940b4cf1fcc45623b03",
-                "reference": "b5dba63872c074d54a439940b4cf1fcc45623b03",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/8d7661474dafaac54980f04763f24829db76a173",
+                "reference": "8d7661474dafaac54980f04763f24829db76a173",
                 "shasum": ""
             },
             "require": {
@@ -2849,7 +2849,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2021-03-26T20:36:15+00:00"
+            "time": "2021-04-06T04:00:34+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -2960,12 +2960,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "c1971982c3b792e488726468046b1ef977934c6a"
+                "reference": "0dc10f86b8514171d1ae5cc8b95ebbb7f632dc91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c1971982c3b792e488726468046b1ef977934c6a",
-                "reference": "c1971982c3b792e488726468046b1ef977934c6a",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/0dc10f86b8514171d1ae5cc8b95ebbb7f632dc91",
+                "reference": "0dc10f86b8514171d1ae5cc8b95ebbb7f632dc91",
                 "shasum": ""
             },
             "require": {
@@ -3049,7 +3049,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-09T13:27:42+00:00"
+            "time": "2021-04-04T16:13:39+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -3196,12 +3196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "613643413912cd418906ca428cc9922a4cb89871"
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/613643413912cd418906ca428cc9922a4cb89871",
-                "reference": "613643413912cd418906ca428cc9922a4cb89871",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/233a920cb38636a43b18d428f9a8db1f0a1a08f4",
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4",
                 "shasum": ""
             },
             "require": {
@@ -3297,7 +3297,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-19T21:59:46+00:00"
+            "time": "2021-04-06T13:56:45+00:00"
         },
         {
             "name": "pragmarx/ia-arr",
@@ -3830,12 +3830,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "157bbec4fd773bae53c5483c50951a5530a2cc16"
+                "reference": "45b2136377cca5f10af858968d6079a482bca473"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/157bbec4fd773bae53c5483c50951a5530a2cc16",
-                "reference": "157bbec4fd773bae53c5483c50951a5530a2cc16",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/45b2136377cca5f10af858968d6079a482bca473",
+                "reference": "45b2136377cca5f10af858968d6079a482bca473",
                 "shasum": ""
             },
             "require": {
@@ -3876,7 +3876,7 @@
             "description": "Provides tools to ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/debug/tree/v4.4.20"
+                "source": "https://github.com/symfony/debug/tree/4.4"
             },
             "funding": [
                 {
@@ -3892,7 +3892,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-28T16:54:48+00:00"
+            "time": "2021-04-02T07:50:12+00:00"
         },
         {
             "name": "symfony/finder",
@@ -4280,12 +4280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "a4f823ce5bfcc21d9c5f19950ce198e301f3dd56"
+                "reference": "aea088986fc140f7ee44e50f9b8d9595d4fadfa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/a4f823ce5bfcc21d9c5f19950ce198e301f3dd56",
-                "reference": "a4f823ce5bfcc21d9c5f19950ce198e301f3dd56",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/aea088986fc140f7ee44e50f9b8d9595d4fadfa7",
+                "reference": "aea088986fc140f7ee44e50f9b8d9595d4fadfa7",
                 "shasum": ""
             },
             "require": {
@@ -4361,7 +4361,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-28T09:44:11+00:00"
+            "time": "2021-04-01T10:43:52+00:00"
         },
         {
             "name": "true/punycode",
