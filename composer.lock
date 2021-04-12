@@ -81,68 +81,6 @@
             "time": "2021-04-07T16:50:58+00:00"
         },
         {
-            "name": "aristath/kirki",
-            "version": "v3.0.34",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aristath/kirki.git",
-                "reference": "8fb938f34e8093cbfa887ca9349898dd5a9084af"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aristath/kirki/zipball/8fb938f34e8093cbfa887ca9349898dd5a9084af",
-                "reference": "8fb938f34e8093cbfa887ca9349898dd5a9084af",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2"
-            },
-            "require-dev": {
-                "codacy/coverage": "dev-master",
-                "composer/installers": "*",
-                "dealerdirect/phpcodesniffer-composer-installer": "*",
-                "php-coveralls/php-coveralls": "^2.0",
-                "phpcompatibility/phpcompatibility-wp": "*",
-                "phpunit/phpunit": "*",
-                "wp-coding-standards/wpcs": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "kirki.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "aristath",
-                    "email": "aristath@gmail.com",
-                    "homepage": "https://aristath.github.io",
-                    "role": "Developer"
-                },
-                {
-                    "name": "fovoc",
-                    "email": "kalliris.d@gmail.com",
-                    "homepage": "https://github.com/fovoc",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Extending the WordPress customizer",
-            "homepage": "https://aristath.github.io/kirki",
-            "keywords": [
-                "customizer",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/aristath/kirki/issues",
-                "source": "https://github.com/aristath/kirki/tree/develop"
-            },
-            "time": "2018-09-14T19:07:16+00:00"
-        },
-        {
             "name": "benjamincrozat/blade",
             "version": "2.0.1",
             "source": {
@@ -1744,16 +1682,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "f4de2cfb6c0c824e4163cdfe0c9cb3a653887206"
+                "reference": "c9ed061b1764c9504587449e5cd65245cb59336a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/f4de2cfb6c0c824e4163cdfe0c9cb3a653887206",
-                "reference": "f4de2cfb6c0c824e4163cdfe0c9cb3a653887206",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/c9ed061b1764c9504587449e5cd65245cb59336a",
+                "reference": "c9ed061b1764c9504587449e5cd65245cb59336a",
                 "shasum": ""
             },
             "require": {
-                "aristath/kirki": "3.0.34",
                 "composer/installers": "~1.0",
                 "doctrine/inflector": "^1.4.1",
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
@@ -1804,7 +1741,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-03-25T08:14:44+00:00"
+            "time": "2021-04-12T08:52:45+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
