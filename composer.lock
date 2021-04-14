@@ -8,7 +8,7 @@
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
-            "version": "2.8.0",
+            "version": "v2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/algolia/algoliasearch-client-php.git",
@@ -2746,12 +2746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "f72eab9ab9edcec70f938551086b2435ff201a50"
+                "reference": "f1748dbb3771cbfb69a8706e74cd09ec5223ca6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/f72eab9ab9edcec70f938551086b2435ff201a50",
-                "reference": "f72eab9ab9edcec70f938551086b2435ff201a50",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/f1748dbb3771cbfb69a8706e74cd09ec5223ca6f",
+                "reference": "f1748dbb3771cbfb69a8706e74cd09ec5223ca6f",
                 "shasum": ""
             },
             "require": {
@@ -2786,7 +2786,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2021-04-07T23:59:48+00:00"
+            "time": "2021-04-14T01:01:08+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
