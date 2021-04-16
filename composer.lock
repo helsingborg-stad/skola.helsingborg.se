@@ -1749,12 +1749,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "b8d24def596ebc6fd7fcc6c66598f63de4d33c3f"
+                "reference": "2e2e406e085cc78d109af888bab5dae6421fd36e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/b8d24def596ebc6fd7fcc6c66598f63de4d33c3f",
-                "reference": "b8d24def596ebc6fd7fcc6c66598f63de4d33c3f",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/2e2e406e085cc78d109af888bab5dae6421fd36e",
+                "reference": "2e2e406e085cc78d109af888bab5dae6421fd36e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1773,7 +1773,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
-            "time": "2021-04-16T10:38:11+00:00"
+            "time": "2021-04-16T10:51:22+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-dictionary",
