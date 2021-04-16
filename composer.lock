@@ -1209,12 +1209,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "c626cfa4fab83ba7baf7c060d3bc773244ec107d"
+                "reference": "92bbf14b76e16b8f32e638157b1d4e6c67f7e65d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/c626cfa4fab83ba7baf7c060d3bc773244ec107d",
-                "reference": "c626cfa4fab83ba7baf7c060d3bc773244ec107d",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/92bbf14b76e16b8f32e638157b1d4e6c67f7e65d",
+                "reference": "92bbf14b76e16b8f32e638157b1d4e6c67f7e65d",
                 "shasum": ""
             },
             "require": {
@@ -1228,7 +1228,7 @@
                     "email": "eric.rosenborg@hiq.se"
                 }
             ],
-            "time": "2021-04-13T09:21:47+00:00"
+            "time": "2021-04-15T11:20:10+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1500,12 +1500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "7194964eb527bd52b67786d3711eeb44636060b4"
+                "reference": "d76cc0ca465fb0d2be00194de3718ff30ddd867d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/7194964eb527bd52b67786d3711eeb44636060b4",
-                "reference": "7194964eb527bd52b67786d3711eeb44636060b4",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/d76cc0ca465fb0d2be00194de3718ff30ddd867d",
+                "reference": "d76cc0ca465fb0d2be00194de3718ff30ddd867d",
                 "shasum": ""
             },
             "require": {
@@ -1555,7 +1555,7 @@
                 }
             ],
             "description": "Modular component system for WordPress",
-            "time": "2021-04-13T09:21:30+00:00"
+            "time": "2021-04-15T12:51:56+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1874,12 +1874,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "dd2381a4de7b2a0163cd6167f53aee02db14e89e"
+                "reference": "879af82363f75fc8f110967dfbee622cf6b44795"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/dd2381a4de7b2a0163cd6167f53aee02db14e89e",
-                "reference": "dd2381a4de7b2a0163cd6167f53aee02db14e89e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/879af82363f75fc8f110967dfbee622cf6b44795",
+                "reference": "879af82363f75fc8f110967dfbee622cf6b44795",
                 "shasum": ""
             },
             "require": {
@@ -1930,7 +1930,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2021-04-14T18:35:19+00:00"
+            "time": "2021-04-15T13:49:14+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
