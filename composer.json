@@ -20,6 +20,7 @@
             "email": "nikolas.ramstedt@helsingborg.se"
         }
     ],
+    "prefer-stable": true,
     "minimum-stability" : "dev",
     "repositories": [
         {
