@@ -179,16 +179,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d"
+                "reference": "ae03311f45dfe194412081526be2e003960df74b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
-                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
+                "url": "https://api.github.com/repos/composer/installers/zipball/ae03311f45dfe194412081526be2e003960df74b",
+                "reference": "ae03311f45dfe194412081526be2e003960df74b",
                 "shasum": ""
             },
             "require": {
@@ -282,6 +282,7 @@
                 "majima",
                 "mako",
                 "mediawiki",
+                "miaoxing",
                 "modulework",
                 "modx",
                 "moodle",
@@ -299,6 +300,7 @@
                 "sydes",
                 "sylius",
                 "symfony",
+                "tastyigniter",
                 "typo3",
                 "wordpress",
                 "yawik",
@@ -307,7 +309,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v1.10.0"
+                "source": "https://github.com/composer/installers/tree/v1.11.0"
             },
             "funding": [
                 {
@@ -323,7 +325,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-14T11:07:16+00:00"
+            "time": "2021-04-28T06:42:17+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -543,16 +545,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.171.0",
+            "version": "v0.172.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "b45ddc3d82b2c8f328d869d55db88c1885d898ee"
+                "reference": "85e8a9f0062a9e1aba3cdc0f499968bc8de78b7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/b45ddc3d82b2c8f328d869d55db88c1885d898ee",
-                "reference": "b45ddc3d82b2c8f328d869d55db88c1885d898ee",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/85e8a9f0062a9e1aba3cdc0f499968bc8de78b7d",
+                "reference": "85e8a9f0062a9e1aba3cdc0f499968bc8de78b7d",
                 "shasum": ""
             },
             "require": {
@@ -578,9 +580,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.171.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.172.0"
             },
-            "time": "2021-04-20T20:34:12+00:00"
+            "time": "2021-04-27T16:21:24+00:00"
         },
         {
             "name": "google/auth",
@@ -1338,12 +1340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "92bbf14b76e16b8f32e638157b1d4e6c67f7e65d"
+                "reference": "4489ead55aebb4fa13dfd81766ac8c7db8bcb626"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/92bbf14b76e16b8f32e638157b1d4e6c67f7e65d",
-                "reference": "92bbf14b76e16b8f32e638157b1d4e6c67f7e65d",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/4489ead55aebb4fa13dfd81766ac8c7db8bcb626",
+                "reference": "4489ead55aebb4fa13dfd81766ac8c7db8bcb626",
                 "shasum": ""
             },
             "require": {
@@ -1362,7 +1364,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-04-15T11:20:10+00:00"
+            "time": "2021-04-28T11:13:18+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1664,12 +1666,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "b735efa653968ba964341f5c4fc374db30eb7430"
+                "reference": "f0a247c7cf5979d1be63de0df09b2794188f4cd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/b735efa653968ba964341f5c4fc374db30eb7430",
-                "reference": "b735efa653968ba964341f5c4fc374db30eb7430",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/f0a247c7cf5979d1be63de0df09b2794188f4cd5",
+                "reference": "f0a247c7cf5979d1be63de0df09b2794188f4cd5",
                 "shasum": ""
             },
             "require": {
@@ -1723,7 +1725,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-04-22T08:49:57+00:00"
+            "time": "2021-04-27T13:49:16+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2079,12 +2081,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "1261153ed25b95274f081f3d6cfa64c260b0fefd"
+                "reference": "b8444106f572d751aacd8b972ff5e6e86f732d18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/1261153ed25b95274f081f3d6cfa64c260b0fefd",
-                "reference": "1261153ed25b95274f081f3d6cfa64c260b0fefd",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b8444106f572d751aacd8b972ff5e6e86f732d18",
+                "reference": "b8444106f572d751aacd8b972ff5e6e86f732d18",
                 "shasum": ""
             },
             "require": {
@@ -2139,7 +2141,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-04-26T14:17:57+00:00"
+            "time": "2021-04-27T13:52:55+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
