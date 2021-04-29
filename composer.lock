@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e57c81f725af290e01ee5eb38d43d4a",
+    "content-hash": "697f2be60b1141a84eaa1184a3c07c7c",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2081,12 +2081,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "b8444106f572d751aacd8b972ff5e6e86f732d18"
+                "reference": "72c544efa8abc414969c45af1306e8b335a21fda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b8444106f572d751aacd8b972ff5e6e86f732d18",
-                "reference": "b8444106f572d751aacd8b972ff5e6e86f732d18",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/72c544efa8abc414969c45af1306e8b335a21fda",
+                "reference": "72c544efa8abc414969c45af1306e8b335a21fda",
                 "shasum": ""
             },
             "require": {
@@ -2141,7 +2141,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-04-27T13:52:55+00:00"
+            "time": "2021-04-28T12:41:16+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -2813,16 +2813,16 @@
         },
         {
             "name": "mcguffin/acf-customizer",
-            "version": "dev-master",
+            "version": "0.2.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mcguffin/acf-customizer.git",
-                "reference": "c1a790098e5a13dcad6944af751d6305bb9ad7b3"
+                "reference": "c272ae23ce747f47ff90c80802b4fc715d09a0ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mcguffin/acf-customizer/zipball/c1a790098e5a13dcad6944af751d6305bb9ad7b3",
-                "reference": "c1a790098e5a13dcad6944af751d6305bb9ad7b3",
+                "url": "https://api.github.com/repos/mcguffin/acf-customizer/zipball/c272ae23ce747f47ff90c80802b4fc715d09a0ad",
+                "reference": "c272ae23ce747f47ff90c80802b4fc715d09a0ad",
                 "shasum": ""
             },
             "require": {
@@ -2835,7 +2835,6 @@
                 "squizlabs/php_codesniffer": "*",
                 "wp-coding-standards/wpcs": "*"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2856,9 +2855,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mcguffin/acf-customizer/issues",
-                "source": "https://github.com/mcguffin/acf-customizer/tree/0.2.14"
+                "source": "https://github.com/mcguffin/acf-customizer/tree/0.2.13"
             },
-            "time": "2021-04-21T08:43:40+00:00"
+            "time": "2021-03-02T17:48:37+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4486,7 +4485,6 @@
         "helsingborg-stad/customer-feedback": 20,
         "helsingborg-stad/algolia-index-js-searchpage-addon": 20,
         "helsingborg-stad/component-library": 20,
-        "mcguffin/acf-customizer": 20,
         "helsingborg-stad/modularity-contact-banner": 20
     },
     "prefer-stable": true,
