@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "596f45ae5c4c491c1bcd59a45fc11c05",
+    "content-hash": "057556bd9d140adbca8861cf25658d28",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1592,41 +1592,6 @@
                 "source": "https://github.com/helsingborg-stad/global-blade-engine/tree/1.2.5"
             },
             "time": "2020-05-18T10:49:41+00:00"
-        },
-        {
-            "name": "helsingborg-stad/google-analythics",
-            "version": "1.7.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/helsingborg-stad/google-analythics.git",
-                "reference": "1cdaa83e6f3a02c431847de10abac1dd6ddd2cb8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/google-analythics/zipball/1cdaa83e6f3a02c431847de10abac1dd6ddd2cb8",
-                "reference": "1cdaa83e6f3a02c431847de10abac1dd6ddd2cb8",
-                "shasum": ""
-            },
-            "require": {
-                "google/apiclient": "^2.7.2"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jonatan Hanson",
-                    "email": "jonatan.hanson@hiq.se"
-                }
-            ],
-            "description": "Plugin to integrate Google Analytics and display simple statistics.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/google-analythics/issues",
-                "source": "https://github.com/helsingborg-stad/google-analythics/tree/1.7.2"
-            },
-            "time": "2020-09-25T12:55:08+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -4502,6 +4467,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-nested-pages/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-piwik",
+            "version": "1.0.24",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-piwik/",
+                "reference": "tags/1.0.24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-piwik.1.0.24.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-piwik/"
         }
     ],
     "packages-dev": [],
