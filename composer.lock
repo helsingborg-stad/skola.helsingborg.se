@@ -1666,12 +1666,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "f0a247c7cf5979d1be63de0df09b2794188f4cd5"
+                "reference": "fdd450ac58a247bc07f8eea0eb58f24aa358939a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/f0a247c7cf5979d1be63de0df09b2794188f4cd5",
-                "reference": "f0a247c7cf5979d1be63de0df09b2794188f4cd5",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/fdd450ac58a247bc07f8eea0eb58f24aa358939a",
+                "reference": "fdd450ac58a247bc07f8eea0eb58f24aa358939a",
                 "shasum": ""
             },
             "require": {
@@ -1725,7 +1725,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-04-27T13:49:16+00:00"
+            "time": "2021-04-29T14:38:07+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -4451,15 +4451,15 @@
         },
         {
             "name": "wpackagist-plugin/varnish-http-purge",
-            "version": "5.0",
+            "version": "5.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/varnish-http-purge/",
-                "reference": "tags/5.0"
+                "reference": "tags/5.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.5.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.5.0.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -4487,15 +4487,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-nested-pages",
-            "version": "3.1.13",
+            "version": "3.1.14",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-nested-pages/",
-                "reference": "tags/3.1.13"
+                "reference": "tags/3.1.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.1.13.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.1.14.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
