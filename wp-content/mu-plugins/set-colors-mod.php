@@ -17,6 +17,7 @@ if(class_exists('WP_CLI')) {
     \WP_CLI::add_command($prefix . 'set-colors-mod', 'setPrimary');
     \WP_CLI::add_command($prefix . 'set-radius-mod', 'setRadius');
     \WP_CLI::add_command($prefix . 'set-modifier-mod', 'setModifier');
+    \WP_CLI::add_command($prefix . 'set-site-mod', 'setSite');
 }
 
 function getColors() {
@@ -148,6 +149,27 @@ function setModifier() {
             "field_607843a6ba55e" => "none",
             "field_607843cdba55f" => "none",
             "field_607ff0d6b8426" => "accented"
+        ]); 
+
+        //Restore
+        restore_current_blog(); 
+    }
+}
+
+function setSite() {
+    $sites = get_sites();
+
+    foreach($sites as $site) {
+        
+        //Switch to blog
+        switch_to_blog( $site->blog_id );   
+
+        //Print log
+        \WP_CLI::log("Setting site modifiers on " . $site->domain);
+    
+        //Execute
+        set_theme_mod('site', [
+            "field_6070186956c15" => "accented"
         ]); 
 
         //Restore
