@@ -77,5 +77,7 @@ function setPrimary() {
         $colorScheme['field_60361bcb76325'] = $sitePrimaryColor;
     
         set_theme_mod('colors', $colorScheme); 
+
+        restore_current_blog(); 
     }
 }
