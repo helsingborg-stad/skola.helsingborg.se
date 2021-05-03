@@ -18,6 +18,7 @@ if(class_exists('WP_CLI')) {
     \WP_CLI::add_command($prefix . 'set-radius-mod', 'setRadius');
     \WP_CLI::add_command($prefix . 'set-modifier-mod', 'setModifier');
     \WP_CLI::add_command($prefix . 'set-site-mod', 'setSite');
+    \WP_CLI::add_command($prefix . 'set-header-mod', 'setHeader');
 }
 
 function getColors() {
@@ -171,6 +172,25 @@ function setSite() {
         set_theme_mod('site', [
             "field_6070186956c15" => "accented"
         ]); 
+
+        //Restore
+        restore_current_blog(); 
+    }
+}
+
+function setHeader() {
+    $sites = get_sites();
+
+    foreach($sites as $site) {
+        
+        //Switch to blog
+        switch_to_blog( $site->blog_id );   
+
+        //Print log
+        \WP_CLI::log("Setting site header on " . $site->domain);
+    
+        //Execute
+        update_option('options_header_layout', 'casual'); 
 
         //Restore
         restore_current_blog(); 
