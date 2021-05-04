@@ -31,7 +31,12 @@ function getColors() {
     
             'field_603fba3ffa851' => '#EC6701',
             'field_603fbb7ad4ccf' => '#B23700',
-            'field_603fbbef1e2f8' => '#FF983E'
+            'field_603fbbef1e2f8' => '#FF983E',
+
+            'field_60911ccc38857' => '#dec2c2',
+            'field_6091280638858' => '#F0DBD9',
+            'field_6091282d38859' => '#F5E4E3',
+            'field_609128593885a' => '#FAEEEC'
         ],
         'blue' => [
             'field_60361bcb76325' => '',
@@ -40,7 +45,12 @@ function getColors() {
     
             'field_603fba3ffa851' => '#5BA1D8',
             'field_603fbb7ad4ccf' => '#1C73A6',
-            'field_603fbbef1e2f8' => '#90D2FF'
+            'field_603fbbef1e2f8' => '#90D2FF',
+
+            'field_60911ccc38857' => '#C2CED7',
+            'field_6091280638858' => '#DBE4E9',
+            'field_6091282d38859' => '#E4EBF0',
+            'field_609128593885a' => '#EEF3F6'
         ],
     
         'purple' => [
@@ -50,7 +60,12 @@ function getColors() {
     
             'field_603fba3ffa851' => '#D35098',
             'field_603fbb7ad4ccf' => '#9E166A',
-            'field_603fbbef1e2f8' => '#FF82C9'
+            'field_603fbbef1e2f8' => '#FF82C9',
+
+            'field_60911ccc38857' => '#D4C2CE',
+            'field_6091280638858' => '#E8DAE4',
+            'field_6091282d38859' => '#EFE4EB',
+            'field_609128593885a' => '#F6EDF3'
         ],
     
         'green' => [
@@ -60,7 +75,12 @@ function getColors() {
     
             'field_603fba3ffa851' => '#A0C855',
             'field_603fbb7ad4ccf' => '#6F9725',
-            'field_603fbbef1e2f8' => '#D3FB85'
+            'field_603fbbef1e2f8' => '#D3FB85',
+
+            'field_60911ccc38857' => '#C9D6C2',
+            'field_6091280638858' => '#E1E9DB',
+            'field_6091282d38859' => '#EAF0E4',
+            'field_609128593885a' => '#F2F6EE'
         ],
     ];
     
