@@ -132,10 +132,10 @@ function setRadius() {
     
         //Execute
         set_theme_mod('radius', [
-            "field_603662f7a16f8" => "2",
-            "field_6038fa31cfac6" => "4",
-            "field_6038fa400384b" => "4",
-            "field_6038fa52576ba" => "4"
+            "field_603662f7a16f8" => "4",
+            "field_6038fa31cfac6" => "7",
+            "field_6038fa400384b" => "7",
+            "field_6038fa52576ba" => "7"
         ]); 
 
         //Restore
