@@ -19,6 +19,8 @@ if(class_exists('WP_CLI')) {
     \WP_CLI::add_command($prefix . 'set-modifier-mod', 'setModifier');
     \WP_CLI::add_command($prefix . 'set-site-mod', 'setSite');
     \WP_CLI::add_command($prefix . 'set-header-mod', 'setHeader');
+
+    //All wp customizer set-colors-mod --allow-root && wp customizer set-radius-mod --allow-root && wp customizer set-modifier-mod --allow-root && wp customizer set-site-mod --allow-root && wp customizer set-header-mod --allow-root
 }
 
 function getColors() {
@@ -167,9 +169,10 @@ function setModifier() {
             "field_60641a8df5290" => "none",
             "field_60643b600cf66" => "none",
             "field_6064452900410" => "none",
-            "field_607843a6ba55e" => "none",
+            "field_607843a6ba55e" => "highlight",
             "field_607843cdba55f" => "none",
-            "field_607ff0d6b8426" => "accented"
+            "field_607ff0d6b8426" => "accented",
+            "field_6090f318a40ef" => "highlight"
         ]); 
 
         //Restore
