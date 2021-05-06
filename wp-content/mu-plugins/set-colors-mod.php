@@ -91,7 +91,7 @@ function getColors() {
 
 function setPrimary() {
     $colors = getColors();
-    $sites = get_sites();
+    $sites = get_sites(['number' => 999]);
 
     foreach($sites as $site) {
         
@@ -120,7 +120,7 @@ function setPrimary() {
 
 function setRadius() {
 
-    $sites = get_sites();
+    $sites = get_sites(['number' => 999]);
 
     foreach($sites as $site) {
         
@@ -145,7 +145,7 @@ function setRadius() {
 
 
 function setModifier() {
-    $sites = get_sites();
+    $sites = get_sites(['number' => 999]);
 
     foreach($sites as $site) {
         
@@ -181,7 +181,7 @@ function setModifier() {
 }
 
 function setSite() {
-    $sites = get_sites();
+    $sites = get_sites(['number' => 999]);
 
     foreach($sites as $site) {
         
@@ -202,7 +202,7 @@ function setSite() {
 }
 
 function setHeader() {
-    $sites = get_sites();
+    $sites = get_sites(['number' => 999]);
 
     foreach($sites as $site) {
         
