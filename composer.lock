@@ -1873,16 +1873,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-local-events",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-local-events.git",
-                "reference": "74fb17a1e3edfc78ad954577c3eaa005ccbe7483"
+                "reference": "067fbce9757620f28d4af00fe8eb4d724aa8dbb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/74fb17a1e3edfc78ad954577c3eaa005ccbe7483",
-                "reference": "74fb17a1e3edfc78ad954577c3eaa005ccbe7483",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/067fbce9757620f28d4af00fe8eb4d724aa8dbb0",
+                "reference": "067fbce9757620f28d4af00fe8eb4d724aa8dbb0",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1899,9 +1899,9 @@
             "description": "Local events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/1.0.0"
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/1.0.1"
             },
-            "time": "2021-04-29T10:06:39+00:00"
+            "time": "2021-05-12T09:02:47+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
@@ -2954,16 +2954,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.47.0",
+            "version": "2.48.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "606262fd8888b75317ba9461825a24fc34001e1e"
+                "reference": "d3c447f21072766cddec3522f9468a5849a76147"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/606262fd8888b75317ba9461825a24fc34001e1e",
-                "reference": "606262fd8888b75317ba9461825a24fc34001e1e",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d3c447f21072766cddec3522f9468a5849a76147",
+                "reference": "d3c447f21072766cddec3522f9468a5849a76147",
                 "shasum": ""
             },
             "require": {
@@ -3043,7 +3043,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-13T21:54:02+00:00"
+            "time": "2021-05-07T10:08:30+00:00"
         },
         {
             "name": "philo/laravel-blade",
@@ -4362,15 +4362,15 @@
         },
         {
             "name": "wpackagist-plugin/stream",
-            "version": "3.6.2",
+            "version": "3.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/stream/",
-                "reference": "tags/3.6.2"
+                "reference": "tags/3.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stream.3.6.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/stream.3.7.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
