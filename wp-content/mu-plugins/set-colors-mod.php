@@ -19,6 +19,7 @@ if(class_exists('WP_CLI')) {
     \WP_CLI::add_command($prefix . 'set-modifier-mod', 'setModifier');
     \WP_CLI::add_command($prefix . 'set-site-mod', 'setSite');
     \WP_CLI::add_command($prefix . 'set-header-mod', 'setHeader');
+    \WP_CLI::add_command($prefix . 'set-width-mod', 'setWidth');
 
     //All wp customizer set-colors-mod --allow-root && wp customizer set-radius-mod --allow-root && wp customizer set-modifier-mod --allow-root && wp customizer set-site-mod --allow-root && wp customizer set-header-mod --allow-root
 }
@@ -214,6 +215,31 @@ function setHeader() {
     
         //Execute
         update_option('options_header_layout', 'casual'); 
+
+        //Restore
+        restore_current_blog(); 
+    }
+}
+
+
+function setWidth() {
+    $sites = get_sites(['number' => 999]);
+
+    foreach($sites as $site) {
+        
+        //Switch to blog
+        switch_to_blog( $site->blog_id );   
+
+        //Print log
+        \WP_CLI::log("Setting width modifiers on " . $site->domain);
+    
+        //Execute
+        set_theme_mod('widths', [
+            "field_609bdcc8348d6" => "1124",
+            "field_60928f237c070" => "1220",
+            "field_609bdcad348d5" => "1220",
+            "field_609298276e5b2" => "720"
+        ]); 
 
         //Restore
         restore_current_blog(); 
