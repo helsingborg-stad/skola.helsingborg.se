@@ -14,14 +14,16 @@ secondary light,
 
 if(class_exists('WP_CLI')) {
     $prefix = 'customizer' . ' ';
+    $prefix2 = 'customoption' . ' ';
     \WP_CLI::add_command($prefix . 'set-colors-mod', 'setPrimary');
     \WP_CLI::add_command($prefix . 'set-radius-mod', 'setRadius');
     \WP_CLI::add_command($prefix . 'set-modifier-mod', 'setModifier');
     \WP_CLI::add_command($prefix . 'set-site-mod', 'setSite');
     \WP_CLI::add_command($prefix . 'set-header-mod', 'setHeader');
     \WP_CLI::add_command($prefix . 'set-width-mod', 'setWidth');
+    \WP_CLI::add_command($prefix2 . 'reset-custom-js', 'emptyCustomJS');
 
-    //All wp customizer set-colors-mod --allow-root && wp customizer set-radius-mod --allow-root && wp customizer set-modifier-mod --allow-root && wp customizer set-site-mod --allow-root && wp customizer set-header-mod --allow-root
+    //All: wp customizer set-colors-mod --allow-root && wp customizer set-radius-mod --allow-root && wp customizer set-modifier-mod --allow-root && wp customizer set-site-mod --allow-root && wp customizer set-header-mod --allow-root && wp customizer set-width-mod --allow-root && wp customoption reset-custom-js --allow-root
 }
 
 function getColors() {
@@ -240,6 +242,25 @@ function setWidth() {
             "field_609bdcad348d5" => "1220",
             "field_609298276e5b2" => "720"
         ]); 
+
+        //Restore
+        restore_current_blog(); 
+    }
+}
+
+function emptyCustomJS() {
+    $sites = get_sites(['number' => 999]);
+
+    foreach($sites as $site) {
+        
+        //Switch to blog
+        switch_to_blog( $site->blog_id );   
+
+        //Print log
+        \WP_CLI::log("Removing custom js option on " . $site->domain);
+    
+        //Execute
+        update_field('custom_js_input', '', 'option'); 
 
         //Restore
         restore_current_blog(); 
