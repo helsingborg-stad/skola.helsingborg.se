@@ -545,7 +545,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.175.0",
+            "version": "v0.176.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -580,7 +580,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.175.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.176.0"
             },
             "time": "2021-05-15T11:18:02+00:00"
         },
@@ -1631,12 +1631,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "86b3ccccbfbb86f262a567d5429291181fe6278e"
+                "reference": "95083c09ec6b2751363ecb07de21ea2f3a97f672"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/86b3ccccbfbb86f262a567d5429291181fe6278e",
-                "reference": "86b3ccccbfbb86f262a567d5429291181fe6278e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/95083c09ec6b2751363ecb07de21ea2f3a97f672",
+                "reference": "95083c09ec6b2751363ecb07de21ea2f3a97f672",
                 "shasum": ""
             },
             "require": {
@@ -1690,7 +1690,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-05-12T12:27:15+00:00"
+            "time": "2021-05-26T07:13:38+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1761,12 +1761,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "f906a489f144f133a9cb9861f7209f0b485d8212"
+                "reference": "f76ac7da4dcb4a83f601d5626fa1465565b956c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/f906a489f144f133a9cb9861f7209f0b485d8212",
-                "reference": "f906a489f144f133a9cb9861f7209f0b485d8212",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/f76ac7da4dcb4a83f601d5626fa1465565b956c2",
+                "reference": "f76ac7da4dcb4a83f601d5626fa1465565b956c2",
                 "shasum": ""
             },
             "require": {
@@ -1799,7 +1799,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0/develop"
             },
-            "time": "2021-05-05T12:33:51+00:00"
+            "time": "2021-05-26T12:02:57+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -2078,12 +2078,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "9aa4a3775243955e177148d699929ed9c429430e"
+                "reference": "edde91abb51e46ae40d25ad6e8704ca4954e851a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/9aa4a3775243955e177148d699929ed9c429430e",
-                "reference": "9aa4a3775243955e177148d699929ed9c429430e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/edde91abb51e46ae40d25ad6e8704ca4954e851a",
+                "reference": "edde91abb51e46ae40d25ad6e8704ca4954e851a",
                 "shasum": ""
             },
             "require": {
@@ -2138,7 +2138,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-05-17T07:28:15+00:00"
+            "time": "2021-05-26T07:13:47+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -2954,16 +2954,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.48.0",
+            "version": "2.48.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "d3c447f21072766cddec3522f9468a5849a76147"
+                "reference": "8d1f50f1436fb4b05e7127360483dd9c6e73da16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d3c447f21072766cddec3522f9468a5849a76147",
-                "reference": "d3c447f21072766cddec3522f9468a5849a76147",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8d1f50f1436fb4b05e7127360483dd9c6e73da16",
+                "reference": "8d1f50f1436fb4b05e7127360483dd9c6e73da16",
                 "shasum": ""
             },
             "require": {
@@ -3043,7 +3043,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-07T10:08:30+00:00"
+            "time": "2021-05-26T22:08:38+00:00"
         },
         {
             "name": "philo/laravel-blade",
@@ -3933,16 +3933,16 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.22.1",
+            "version": "v1.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
+                "reference": "eca0bf41ed421bed1b57c4958bab16aa86b757d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
-                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/eca0bf41ed421bed1b57c4958bab16aa86b757d0",
+                "reference": "eca0bf41ed421bed1b57c4958bab16aa86b757d0",
                 "shasum": ""
             },
             "require": {
@@ -3951,7 +3951,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.22-dev"
+                    "dev-main": "1.23-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -3996,7 +3996,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.22.1"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.23.0"
             },
             "funding": [
                 {
@@ -4012,7 +4012,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "time": "2021-02-19T12:13:01+00:00"
         },
         {
             "name": "symfony/translation",
