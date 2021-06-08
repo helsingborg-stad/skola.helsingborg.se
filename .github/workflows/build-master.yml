@@ -79,7 +79,7 @@ jobs:
       with:
         script: |
           cd ${{ secrets.DEPLOY_REMOTE_PATH_MASTER_SKOLOR_HELSINGBORG_SE }}
-          wp varnish purge --allow-root
+          wp nginx-helper purge-all
           wp cache flush --allow-root
           rm ${{ secrets.DEPLOY_REMOTE_PATH_MASTER_SKOLOR_HELSINGBORG_SE }}/wp-content/uploads/cache/blade-cache/* || true
         host: ${{ secrets.DEPLOY_REMOTE_HOST_MASTER_SKOLOR_HELSINGBORG_SE }}
