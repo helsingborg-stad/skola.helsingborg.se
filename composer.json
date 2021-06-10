@@ -63,7 +63,6 @@
         "helsingborg-stad/modularity-socialmedia": ">=1.0.0",
         "helsingborg-stad/wp-page-for-post-type": ">=1.0.0",
         "wpackagist-plugin/wp-editor-widget": "^0.6.0",
-        "wpackagist-plugin/varnish-http-purge": ">=4.3.1",
         "wpackagist-plugin/stream": "^3.0.4",
         "wpackagist-plugin/wp-nested-pages": "^3.0.11",
         "wpackagist-plugin/mce-table-buttons": "^3.0.0",
@@ -73,7 +72,8 @@
         "wpackagist-plugin/redis-cache": "1.4.3",
         "helsingborg-stad/algolia-index": "^1.8",
         "helsingborg-stad/algolia-index-js-searchpage-addon": "^1.1",
-        "helsingborg-stad/algolia-index-modularity-addon": "^1.0"
+        "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
+        "wpackagist-plugin/nginx-helper": "^2.2"
     },
 
     "extra": {
