@@ -425,16 +425,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v5.3.0",
+            "version": "v5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "3c2d70f2e64e2922345e89f2ceae47d2463faae1"
+                "reference": "d2113d9b2e0e349796e72d2a63cf9319100382d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/3c2d70f2e64e2922345e89f2ceae47d2463faae1",
-                "reference": "3c2d70f2e64e2922345e89f2ceae47d2463faae1",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/d2113d9b2e0e349796e72d2a63cf9319100382d2",
+                "reference": "d2113d9b2e0e349796e72d2a63cf9319100382d2",
                 "shasum": ""
             },
             "require": {
@@ -442,6 +442,9 @@
             },
             "require-dev": {
                 "phpunit/phpunit": ">=4.8 <=9"
+            },
+            "suggest": {
+                "paragonie/sodium_compat": "Support EdDSA (Ed25519) signatures when libsodium is not present"
             },
             "type": "library",
             "autoload": {
@@ -473,9 +476,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v5.3.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v5.4.0"
             },
-            "time": "2021-05-20T17:37:02+00:00"
+            "time": "2021-06-23T19:00:23+00:00"
         },
         {
             "name": "google/apiclient",
@@ -545,16 +548,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.181.0",
+            "version": "v0.201.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "a4ea5fd96887d654d10d446b239e1ff60240e2c1"
+                "reference": "0375af405757b36f3bcc82e19d7daf61e0b4cfd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/a4ea5fd96887d654d10d446b239e1ff60240e2c1",
-                "reference": "a4ea5fd96887d654d10d446b239e1ff60240e2c1",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/0375af405757b36f3bcc82e19d7daf61e0b4cfd8",
+                "reference": "0375af405757b36f3bcc82e19d7daf61e0b4cfd8",
                 "shasum": ""
             },
             "require": {
@@ -565,9 +568,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Google_Service_": "src"
-                }
+                "psr-4": {
+                    "Google\\Service\\": "src"
+                },
+                "files": [
+                    "autoload.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -580,22 +586,22 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.181.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.201.0"
             },
-            "time": "2021-06-13T11:20:02+00:00"
+            "time": "2021-06-18T15:00:35+00:00"
         },
         {
             "name": "google/auth",
-            "version": "v1.15.1",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "4e0c9367719df9703e96f5ad613041b87742471c"
+                "reference": "c747738d2dd450f541f09f26510198fbedd1c8a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/4e0c9367719df9703e96f5ad613041b87742471c",
-                "reference": "4e0c9367719df9703e96f5ad613041b87742471c",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/c747738d2dd450f541f09f26510198fbedd1c8a0",
+                "reference": "c747738d2dd450f541f09f26510198fbedd1c8a0",
                 "shasum": ""
             },
             "require": {
@@ -603,7 +609,7 @@
                 "guzzlehttp/guzzle": "^5.3.1|^6.2.1|^7.0",
                 "guzzlehttp/psr7": "^1.2",
                 "php": ">=5.4",
-                "psr/cache": "^1.0",
+                "psr/cache": "^1.0|^2.0",
                 "psr/http-message": "^1.0"
             },
             "require-dev": {
@@ -637,9 +643,9 @@
             "support": {
                 "docs": "https://googleapis.github.io/google-auth-library-php/master/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.15.1"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.16.0"
             },
-            "time": "2021-04-21T17:42:05+00:00"
+            "time": "2021-06-22T18:06:03+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1340,12 +1346,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "416db3e6c092a01a548c53542609622bd5e43df6"
+                "reference": "f69bbdf13b8f44d8cdd6ee84dbd28068c9c092aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/416db3e6c092a01a548c53542609622bd5e43df6",
-                "reference": "416db3e6c092a01a548c53542609622bd5e43df6",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/f69bbdf13b8f44d8cdd6ee84dbd28068c9c092aa",
+                "reference": "f69bbdf13b8f44d8cdd6ee84dbd28068c9c092aa",
                 "shasum": ""
             },
             "require": {
@@ -1364,7 +1370,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-06-16T10:27:26+00:00"
+            "time": "2021-06-24T07:24:30+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1698,12 +1704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "82969ec09c6166805b891723cece07d766062dd3"
+                "reference": "60ff42c16fd8c235e441fc30ea9ea7e7b5bc2406"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/82969ec09c6166805b891723cece07d766062dd3",
-                "reference": "82969ec09c6166805b891723cece07d766062dd3",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/60ff42c16fd8c235e441fc30ea9ea7e7b5bc2406",
+                "reference": "60ff42c16fd8c235e441fc30ea9ea7e7b5bc2406",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1722,7 +1728,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
-            "time": "2021-06-14T08:09:23+00:00"
+            "time": "2021-06-23T12:52:48+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-dictionary",
@@ -1909,12 +1915,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-sections.git",
-                "reference": "24ea6e4d210d8e98568991b6c07377edff701c89"
+                "reference": "3c5e38559c8b50290ec1a3d5df91809929c1daa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/24ea6e4d210d8e98568991b6c07377edff701c89",
-                "reference": "24ea6e4d210d8e98568991b6c07377edff701c89",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/3c5e38559c8b50290ec1a3d5df91809929c1daa5",
+                "reference": "3c5e38559c8b50290ec1a3d5df91809929c1daa5",
                 "shasum": ""
             },
             "require": {
@@ -1939,7 +1945,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-sections/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-sections/tree/3.0/develop"
             },
-            "time": "2021-06-15T11:02:07+00:00"
+            "time": "2021-06-24T07:20:23+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-socialmedia",
@@ -2041,12 +2047,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e219ba9d26c41403aa81e103d1d2b629177d1e36"
+                "reference": "fe0146988eaf96c14e2fae733ebee063fe26b96d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e219ba9d26c41403aa81e103d1d2b629177d1e36",
-                "reference": "e219ba9d26c41403aa81e103d1d2b629177d1e36",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/fe0146988eaf96c14e2fae733ebee063fe26b96d",
+                "reference": "fe0146988eaf96c14e2fae733ebee063fe26b96d",
                 "shasum": ""
             },
             "require": {
@@ -2072,7 +2078,8 @@
                 "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0",
                 "symfony/translation": "5.0.8",
-                "symfony/translation-contracts": "2.0.1"
+                "symfony/translation-contracts": "2.0.1",
+                "tgmpa/tgm-plugin-activation": "dev-develop"
             },
             "type": "wordpress-theme",
             "extra": {
@@ -2101,7 +2108,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-06-18T08:53:36+00:00"
+            "time": "2021-06-24T07:35:18+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4218,6 +4225,71 @@
                 }
             ],
             "time": "2021-06-06T09:51:56+00:00"
+        },
+        {
+            "name": "tgmpa/tgm-plugin-activation",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TGMPA/TGM-Plugin-Activation.git",
+                "reference": "2d34264f4fdcfcc60261d490ff2e689f0c33730c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TGMPA/TGM-Plugin-Activation/zipball/2d34264f4fdcfcc60261d490ff2e689f0c33730c",
+                "reference": "2d34264f4fdcfcc60261d490ff2e689f0c33730c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.6",
+                "phpcompatibility/phpcompatibility-wp": "^2.0",
+                "wp-coding-standards/wpcs": "^2.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "class-tgm-plugin-activation.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Griffin",
+                    "homepage": "http://thomasgriffinmedia.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Jones",
+                    "homepage": "https://github.com/GaryJones",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Juliette Reinders Folmer",
+                    "homepage": "https://github.com/jrfnl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "TGM Plugin Activation is a PHP library that allows you to easily require or recommend plugins for your WordPress themes (and plugins).",
+            "homepage": "http://tgmpluginactivation.com",
+            "keywords": [
+                "activation",
+                "library",
+                "plugins",
+                "theme",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/TGMPA/TGM-Plugin-Activation/issues",
+                "source": "https://github.com/TGMPA/TGM-Plugin-Activation"
+            },
+            "time": "2020-01-22T04:31:23+00:00"
         },
         {
             "name": "true/punycode",
