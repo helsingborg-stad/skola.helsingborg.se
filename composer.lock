@@ -580,16 +580,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.208.0",
+            "version": "v0.209.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "77fdacfc99f582970dcb3c41233158b02cc4ba5e"
+                "reference": "0c463d5f15e91feb8de4ffe199e5010cf3b563d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/77fdacfc99f582970dcb3c41233158b02cc4ba5e",
-                "reference": "77fdacfc99f582970dcb3c41233158b02cc4ba5e",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/0c463d5f15e91feb8de4ffe199e5010cf3b563d3",
+                "reference": "0c463d5f15e91feb8de4ffe199e5010cf3b563d3",
                 "shasum": ""
             },
             "require": {
@@ -618,9 +618,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.208.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.209.0"
             },
-            "time": "2021-08-15T11:18:25+00:00"
+            "time": "2021-08-22T11:18:24+00:00"
         },
         {
             "name": "google/auth",
@@ -2083,12 +2083,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "0559d09cb171b580647956f9f1a15aaff00bc6ca"
+                "reference": "095714251fd5fda11b9d88ab9590f343f1c98fd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0559d09cb171b580647956f9f1a15aaff00bc6ca",
-                "reference": "0559d09cb171b580647956f9f1a15aaff00bc6ca",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/095714251fd5fda11b9d88ab9590f343f1c98fd2",
+                "reference": "095714251fd5fda11b9d88ab9590f343f1c98fd2",
                 "shasum": ""
             },
             "require": {
@@ -2144,7 +2144,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-08-20T14:25:16+00:00"
+            "time": "2021-08-23T08:11:54+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4693,15 +4693,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-piwik",
-            "version": "1.0.25",
+            "version": "1.0.26",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-piwik/",
-                "reference": "tags/1.0.25"
+                "reference": "tags/1.0.26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-piwik.1.0.25.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-piwik.1.0.26.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
