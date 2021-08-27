@@ -456,6 +456,53 @@
             "time": "2021-04-16T17:34:40+00:00"
         },
         {
+            "name": "enshrined/svg-sanitize",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darylldoyle/svg-sanitizer.git",
+                "reference": "307b42066fb0b76b5119f5e1f0826e18fefabe95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/307b42066fb0b76b5119f5e1f0826e18fefabe95",
+                "reference": "307b42066fb0b76b5119f5e1f0826e18fefabe95",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php": "^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "^0.1.2",
+                "phpunit/phpunit": "^6.5 || ^8.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "enshrined\\svgSanitize\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daryll Doyle",
+                    "email": "daryll@enshrined.co.uk"
+                }
+            ],
+            "description": "An SVG sanitizer for PHP",
+            "support": {
+                "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.14.1"
+            },
+            "time": "2021-08-09T23:46:54+00:00"
+        },
+        {
             "name": "firebase/php-jwt",
             "version": "v5.4.0",
             "source": {
@@ -624,22 +671,22 @@
         },
         {
             "name": "google/auth",
-            "version": "v1.17.0",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "4da3a850e9d1045918099b6561165d829efbe2b7"
+                "reference": "21dd478e77b0634ed9e3a68613f74ed250ca9347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/4da3a850e9d1045918099b6561165d829efbe2b7",
-                "reference": "4da3a850e9d1045918099b6561165d829efbe2b7",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/21dd478e77b0634ed9e3a68613f74ed250ca9347",
+                "reference": "21dd478e77b0634ed9e3a68613f74ed250ca9347",
                 "shasum": ""
             },
             "require": {
                 "firebase/php-jwt": "~2.0|~3.0|~4.0|~5.0",
                 "guzzlehttp/guzzle": "^5.3.1|^6.2.1|^7.0",
-                "guzzlehttp/psr7": "^1.2",
+                "guzzlehttp/psr7": "^1.7|^2.0",
                 "php": ">=5.4",
                 "psr/cache": "^1.0|^2.0",
                 "psr/http-message": "^1.0"
@@ -674,9 +721,9 @@
             "support": {
                 "docs": "https://googleapis.github.io/google-auth-library-php/master/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.17.0"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.18.0"
             },
-            "time": "2021-08-18T16:10:00+00:00"
+            "time": "2021-08-24T18:03:18+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1377,12 +1424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "bb53d3cf616369b96663af589f8f7caff9822505"
+                "reference": "a048519e07a5b509297009eedf15e0c32f8189d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/bb53d3cf616369b96663af589f8f7caff9822505",
-                "reference": "bb53d3cf616369b96663af589f8f7caff9822505",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a048519e07a5b509297009eedf15e0c32f8189d6",
+                "reference": "a048519e07a5b509297009eedf15e0c32f8189d6",
                 "shasum": ""
             },
             "require": {
@@ -1401,7 +1448,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-08-20T08:18:26+00:00"
+            "time": "2021-08-24T13:49:16+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1668,18 +1715,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "3d05063db1e5bc04be5ce70dc74846790ec6375d"
+                "reference": "335d579da0defa8a301e5ee106d826eb7f1eb231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/3d05063db1e5bc04be5ce70dc74846790ec6375d",
-                "reference": "3d05063db1e5bc04be5ce70dc74846790ec6375d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/335d579da0defa8a301e5ee106d826eb7f1eb231",
+                "reference": "335d579da0defa8a301e5ee106d826eb7f1eb231",
                 "shasum": ""
             },
             "require": {
                 "clark-nikdel-powell/post-type-select-for-acf": "dev-master",
                 "composer/installers": "~1.0",
                 "doctrine/inflector": "^1.4.1",
+                "enshrined/svg-sanitize": "dev-master",
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
                 "helsingborg-stad/blade-component-library": "dev-master",
                 "helsingborg-stad/global-blade-engine": "^1.2",
@@ -1732,7 +1780,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-08-20T14:33:08+00:00"
+            "time": "2021-08-25T07:18:13+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2020,12 +2068,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-testimonials.git",
-                "reference": "ca4366691c2848263a7fc1dc72eda87202fa4654"
+                "reference": "045b368e2a4d0d94ec45fef04aa141513307edca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/ca4366691c2848263a7fc1dc72eda87202fa4654",
-                "reference": "ca4366691c2848263a7fc1dc72eda87202fa4654",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/045b368e2a4d0d94ec45fef04aa141513307edca",
+                "reference": "045b368e2a4d0d94ec45fef04aa141513307edca",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2043,7 +2091,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-testimonials/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/3.0/develop"
             },
-            "time": "2021-06-17T08:38:34+00:00"
+            "time": "2021-08-24T12:58:36+00:00"
         },
         {
             "name": "helsingborg-stad/multisite-role-propagation",
@@ -2083,12 +2131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "095714251fd5fda11b9d88ab9590f343f1c98fd2"
+                "reference": "bea89cd43f4615348a451affd3b3461726bfa36d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/095714251fd5fda11b9d88ab9590f343f1c98fd2",
-                "reference": "095714251fd5fda11b9d88ab9590f343f1c98fd2",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/bea89cd43f4615348a451affd3b3461726bfa36d",
+                "reference": "bea89cd43f4615348a451affd3b3461726bfa36d",
                 "shasum": ""
             },
             "require": {
@@ -2144,7 +2192,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-08-23T08:11:54+00:00"
+            "time": "2021-08-25T13:18:40+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4513,15 +4561,15 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "4.1.4",
+            "version": "4.1.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/4.1.4"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1629995709"
             },
             "require": {
                 "composer/installers": "~1.0"
