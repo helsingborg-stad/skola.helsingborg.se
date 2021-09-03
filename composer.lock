@@ -2131,12 +2131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "da5d772808268ac4ecdfdcec280ce267a9d63bb1"
+                "reference": "3f4df0029481cdae5f26c2d2981d41351cb9a165"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/da5d772808268ac4ecdfdcec280ce267a9d63bb1",
-                "reference": "da5d772808268ac4ecdfdcec280ce267a9d63bb1",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/3f4df0029481cdae5f26c2d2981d41351cb9a165",
+                "reference": "3f4df0029481cdae5f26c2d2981d41351cb9a165",
                 "shasum": ""
             },
             "require": {
@@ -2192,7 +2192,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-09-02T12:00:48+00:00"
+            "time": "2021-09-03T07:44:36+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4572,7 +4572,7 @@
                 "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1629995709"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/autodescription/"
@@ -4590,7 +4590,7 @@
                 "url": "https://downloads.wordpress.org/plugin/mce-table-buttons.3.3.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mce-table-buttons/"
@@ -4608,7 +4608,7 @@
                 "url": "https://downloads.wordpress.org/plugin/nginx-helper.2.2.2.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/nginx-helper/"
@@ -4626,7 +4626,7 @@
                 "url": "https://downloads.wordpress.org/plugin/redis-cache.2.0.21.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redis-cache/"
@@ -4644,7 +4644,7 @@
                 "url": "https://downloads.wordpress.org/plugin/stream.3.8.0.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/stream/"
@@ -4662,7 +4662,7 @@
                 "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.7.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/user-switching/"
@@ -4680,7 +4680,7 @@
                 "url": "https://downloads.wordpress.org/plugin/username-changer.3.1.3.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/username-changer/"
@@ -4698,7 +4698,7 @@
                 "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.5.0.3.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/varnish-http-purge/"
@@ -4716,7 +4716,7 @@
                 "url": "https://downloads.wordpress.org/plugin/wp-editor-widget.0.6.0.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-editor-widget/"
@@ -4734,7 +4734,7 @@
                 "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.1.16.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-nested-pages/"
@@ -4752,7 +4752,7 @@
                 "url": "https://downloads.wordpress.org/plugin/wp-piwik.1.0.26.zip"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-piwik/"
