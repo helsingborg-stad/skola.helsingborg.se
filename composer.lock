@@ -1425,12 +1425,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "1fdef6ca6fedd1e1e865387ab587a466a57a7780"
+                "reference": "d9f0a9e58b1f7fafddbceb212ec275067688c7b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/1fdef6ca6fedd1e1e865387ab587a466a57a7780",
-                "reference": "1fdef6ca6fedd1e1e865387ab587a466a57a7780",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/d9f0a9e58b1f7fafddbceb212ec275067688c7b0",
+                "reference": "d9f0a9e58b1f7fafddbceb212ec275067688c7b0",
                 "shasum": ""
             },
             "require": {
@@ -1449,7 +1449,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-09-15T07:45:46+00:00"
+            "time": "2021-09-16T13:57:07+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2069,12 +2069,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-testimonials.git",
-                "reference": "045b368e2a4d0d94ec45fef04aa141513307edca"
+                "reference": "a2fd068b03e1a74e2b342a5c45655c4f1dc6fd2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/045b368e2a4d0d94ec45fef04aa141513307edca",
-                "reference": "045b368e2a4d0d94ec45fef04aa141513307edca",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/a2fd068b03e1a74e2b342a5c45655c4f1dc6fd2e",
+                "reference": "a2fd068b03e1a74e2b342a5c45655c4f1dc6fd2e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2092,7 +2092,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-testimonials/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/3.0/develop"
             },
-            "time": "2021-08-24T12:58:36+00:00"
+            "time": "2021-09-16T13:57:17+00:00"
         },
         {
             "name": "helsingborg-stad/multisite-role-propagation",
