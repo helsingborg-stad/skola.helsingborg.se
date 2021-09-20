@@ -628,16 +628,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.212.0",
+            "version": "v0.213.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "2c4bd512502ad9cdfec8ea711ea1592c79d345e5"
+                "reference": "260311821505438eb9208b068da0d849b8ea9baa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/2c4bd512502ad9cdfec8ea711ea1592c79d345e5",
-                "reference": "2c4bd512502ad9cdfec8ea711ea1592c79d345e5",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/260311821505438eb9208b068da0d849b8ea9baa",
+                "reference": "260311821505438eb9208b068da0d849b8ea9baa",
                 "shasum": ""
             },
             "require": {
@@ -666,9 +666,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.212.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.213.0"
             },
-            "time": "2021-09-12T11:18:27+00:00"
+            "time": "2021-09-19T11:18:26+00:00"
         },
         {
             "name": "google/auth",
@@ -1425,12 +1425,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "d9f0a9e58b1f7fafddbceb212ec275067688c7b0"
+                "reference": "738066cb3b601336071640e708eb64f793d4f527"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/d9f0a9e58b1f7fafddbceb212ec275067688c7b0",
-                "reference": "d9f0a9e58b1f7fafddbceb212ec275067688c7b0",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/738066cb3b601336071640e708eb64f793d4f527",
+                "reference": "738066cb3b601336071640e708eb64f793d4f527",
                 "shasum": ""
             },
             "require": {
@@ -1449,7 +1449,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-09-16T13:57:07+00:00"
+            "time": "2021-09-17T08:26:50+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2132,12 +2132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "4c2902ca6a30d81a9799c943c1af3b4ae0a0846e"
+                "reference": "3fa152fbed1b19f16e6916717f3410705f030c6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/4c2902ca6a30d81a9799c943c1af3b4ae0a0846e",
-                "reference": "4c2902ca6a30d81a9799c943c1af3b4ae0a0846e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/3fa152fbed1b19f16e6916717f3410705f030c6e",
+                "reference": "3fa152fbed1b19f16e6916717f3410705f030c6e",
                 "shasum": ""
             },
             "require": {
@@ -2193,7 +2193,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-09-13T13:28:14+00:00"
+            "time": "2021-09-20T08:32:53+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4637,15 +4637,15 @@
         },
         {
             "name": "wpackagist-plugin/stream",
-            "version": "3.8.0",
+            "version": "3.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/stream/",
-                "reference": "tags/3.8.0"
+                "reference": "tags/3.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stream.3.8.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/stream.3.8.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
