@@ -1425,12 +1425,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "738066cb3b601336071640e708eb64f793d4f527"
+                "reference": "8d096e13b055dc6ca9bd0868058842ebc21de6e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/738066cb3b601336071640e708eb64f793d4f527",
-                "reference": "738066cb3b601336071640e708eb64f793d4f527",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/8d096e13b055dc6ca9bd0868058842ebc21de6e7",
+                "reference": "8d096e13b055dc6ca9bd0868058842ebc21de6e7",
                 "shasum": ""
             },
             "require": {
@@ -1449,7 +1449,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-09-17T08:26:50+00:00"
+            "time": "2021-09-22T15:16:41+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2132,12 +2132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "5325f26326bd899c6fef11f219b68c66603e479a"
+                "reference": "86dbf2c27c25c17467927e98f3160c862d9409b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/5325f26326bd899c6fef11f219b68c66603e479a",
-                "reference": "5325f26326bd899c6fef11f219b68c66603e479a",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/86dbf2c27c25c17467927e98f3160c862d9409b0",
+                "reference": "86dbf2c27c25c17467927e98f3160c862d9409b0",
                 "shasum": ""
             },
             "require": {
@@ -2193,7 +2193,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-09-21T09:41:09+00:00"
+            "time": "2021-09-23T09:39:35+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
