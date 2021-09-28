@@ -2069,12 +2069,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-testimonials.git",
-                "reference": "a2fd068b03e1a74e2b342a5c45655c4f1dc6fd2e"
+                "reference": "825a48f7170cd9c54003eb92ef1f957ed818ef04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/a2fd068b03e1a74e2b342a5c45655c4f1dc6fd2e",
-                "reference": "a2fd068b03e1a74e2b342a5c45655c4f1dc6fd2e",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/825a48f7170cd9c54003eb92ef1f957ed818ef04",
+                "reference": "825a48f7170cd9c54003eb92ef1f957ed818ef04",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2092,7 +2092,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-testimonials/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/3.0/develop"
             },
-            "time": "2021-09-16T13:57:17+00:00"
+            "time": "2021-09-28T07:38:57+00:00"
         },
         {
             "name": "helsingborg-stad/multisite-role-propagation",
