@@ -2069,12 +2069,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-testimonials.git",
-                "reference": "825a48f7170cd9c54003eb92ef1f957ed818ef04"
+                "reference": "95961b16cf110d95f7a91f626201a0cf10da3d84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/825a48f7170cd9c54003eb92ef1f957ed818ef04",
-                "reference": "825a48f7170cd9c54003eb92ef1f957ed818ef04",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/95961b16cf110d95f7a91f626201a0cf10da3d84",
+                "reference": "95961b16cf110d95f7a91f626201a0cf10da3d84",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2092,7 +2092,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-testimonials/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/3.0/develop"
             },
-            "time": "2021-09-28T07:38:57+00:00"
+            "time": "2021-09-29T10:46:16+00:00"
         },
         {
             "name": "helsingborg-stad/multisite-role-propagation",
@@ -2132,12 +2132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "2bb12bcf17df1457a054e029b3cc0a1087064750"
+                "reference": "37175029c50fa4f59ee09f635819571642b0333a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/2bb12bcf17df1457a054e029b3cc0a1087064750",
-                "reference": "2bb12bcf17df1457a054e029b3cc0a1087064750",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/37175029c50fa4f59ee09f635819571642b0333a",
+                "reference": "37175029c50fa4f59ee09f635819571642b0333a",
                 "shasum": ""
             },
             "require": {
@@ -2193,7 +2193,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-09-29T09:08:56+00:00"
+            "time": "2021-09-29T11:23:40+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
