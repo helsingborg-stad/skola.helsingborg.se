@@ -62,7 +62,7 @@
         "helsingborg-stad/active-directory-api-wp-integration": ">=1.0.0",
         "helsingborg-stad/multisite-role-propagation": ">=1.0.0",
         "helsingborg-stad/modularity-sections": "dev-3.0/develop",
-        "helsingborg-stad/wp-api-get-sites": "1.0.0",
+        "helsingborg-stad/wp-api-get-sites": "1.0.2",
         "helsingborg-stad/modularity-testimonials": "dev-3.0/develop",
         "helsingborg-stad/modularity-socialmedia": ">=1.0.0",
         "helsingborg-stad/wp-page-for-post-type": ">=1.0.0",
