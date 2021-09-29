@@ -2000,12 +2000,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-sections.git",
-                "reference": "24c8b07b8f0ceb07930255f99939b198241263d5"
+                "reference": "1bf7797e36da0126d70e747ad85a72a510391b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/24c8b07b8f0ceb07930255f99939b198241263d5",
-                "reference": "24c8b07b8f0ceb07930255f99939b198241263d5",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/1bf7797e36da0126d70e747ad85a72a510391b1e",
+                "reference": "1bf7797e36da0126d70e747ad85a72a510391b1e",
                 "shasum": ""
             },
             "require": {
@@ -2030,7 +2030,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-sections/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-sections/tree/3.0/develop"
             },
-            "time": "2021-09-29T08:15:07+00:00"
+            "time": "2021-09-29T09:53:07+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-socialmedia",
