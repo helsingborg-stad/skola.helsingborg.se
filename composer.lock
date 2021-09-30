@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "025ef5e7e937f483f7178e2de5ddf806",
+    "content-hash": "2afcd6317741c3902b41af7643aa29f6",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2132,12 +2132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "8857d058f81726ecbc6d20f9d96ef77ccdcd1601"
+                "reference": "96d7150c8f2daa1221ffc02864a3e85a7d91d0e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8857d058f81726ecbc6d20f9d96ef77ccdcd1601",
-                "reference": "8857d058f81726ecbc6d20f9d96ef77ccdcd1601",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/96d7150c8f2daa1221ffc02864a3e85a7d91d0e1",
+                "reference": "96d7150c8f2daa1221ffc02864a3e85a7d91d0e1",
                 "shasum": ""
             },
             "require": {
@@ -2193,7 +2193,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-09-29T11:34:19+00:00"
+            "time": "2021-09-30T08:49:09+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -2298,16 +2298,16 @@
         },
         {
             "name": "helsingborg-stad/wp-api-get-sites",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wp-api-get-sites.git",
-                "reference": "285f3ac11a605d3e14cc4920168159f76df5a0aa"
+                "reference": "005e9f736d5818bbd1d8b2785f3f2c4df9ff7964"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wp-api-get-sites/zipball/285f3ac11a605d3e14cc4920168159f76df5a0aa",
-                "reference": "285f3ac11a605d3e14cc4920168159f76df5a0aa",
+                "url": "https://api.github.com/repos/helsingborg-stad/wp-api-get-sites/zipball/005e9f736d5818bbd1d8b2785f3f2c4df9ff7964",
+                "reference": "005e9f736d5818bbd1d8b2785f3f2c4df9ff7964",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2324,9 +2324,9 @@
             "description": "Get sites through WordPress REST API",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/wp-api-get-sites/issues",
-                "source": "https://github.com/helsingborg-stad/wp-api-get-sites/tree/1.0.0"
+                "source": "https://github.com/helsingborg-stad/wp-api-get-sites/tree/1.0.2"
             },
-            "time": "2017-04-04T07:10:59+00:00"
+            "time": "2017-05-10T15:11:11+00:00"
         },
         {
             "name": "helsingborg-stad/wp-page-for-post-type",
