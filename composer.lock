@@ -1716,12 +1716,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "b01ebeff82cc2f5c5c7666f819b5905319c66779"
+                "reference": "6715e6f8b254590ae7b43a8e476bbe572e31994d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/b01ebeff82cc2f5c5c7666f819b5905319c66779",
-                "reference": "b01ebeff82cc2f5c5c7666f819b5905319c66779",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/6715e6f8b254590ae7b43a8e476bbe572e31994d",
+                "reference": "6715e6f8b254590ae7b43a8e476bbe572e31994d",
                 "shasum": ""
             },
             "require": {
@@ -1781,7 +1781,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-10-05T11:57:21+00:00"
+            "time": "2021-10-05T12:03:58+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
