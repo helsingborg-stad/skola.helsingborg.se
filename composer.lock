@@ -2132,12 +2132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "7bccca280598c5cb3391d11a254b1c70a4dc6784"
+                "reference": "30e2c9cced1c0318ce5a5fcb5cfe6646d1c4a66c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/7bccca280598c5cb3391d11a254b1c70a4dc6784",
-                "reference": "7bccca280598c5cb3391d11a254b1c70a4dc6784",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/30e2c9cced1c0318ce5a5fcb5cfe6646d1c4a66c",
+                "reference": "30e2c9cced1c0318ce5a5fcb5cfe6646d1c4a66c",
                 "shasum": ""
             },
             "require": {
@@ -2193,7 +2193,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-10-05T12:58:27+00:00"
+            "time": "2021-10-05T18:03:18+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
