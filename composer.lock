@@ -628,7 +628,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.216.0",
+            "version": "v0.217.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -666,7 +666,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.216.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.217.0"
             },
             "time": "2021-10-06T11:20:29+00:00"
         },
@@ -1454,12 +1454,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "d48dd064e6d4d17be479878edcbdd638dd973fdb"
+                "reference": "afc5c74b26e3b2c53ebb7c7536025b7856ee1619"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/d48dd064e6d4d17be479878edcbdd638dd973fdb",
-                "reference": "d48dd064e6d4d17be479878edcbdd638dd973fdb",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/afc5c74b26e3b2c53ebb7c7536025b7856ee1619",
+                "reference": "afc5c74b26e3b2c53ebb7c7536025b7856ee1619",
                 "shasum": ""
             },
             "require": {
@@ -1478,7 +1478,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-10-07T14:08:34+00:00"
+            "time": "2021-10-18T09:26:56+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1745,12 +1745,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "e91536f0946308d65dce56b0a9f12ba8a48baf1d"
+                "reference": "dcf5b37a7f788246daf420e5af4cccf284dbc15e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/e91536f0946308d65dce56b0a9f12ba8a48baf1d",
-                "reference": "e91536f0946308d65dce56b0a9f12ba8a48baf1d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/dcf5b37a7f788246daf420e5af4cccf284dbc15e",
+                "reference": "dcf5b37a7f788246daf420e5af4cccf284dbc15e",
                 "shasum": ""
             },
             "require": {
@@ -1810,7 +1810,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-10-08T12:31:26+00:00"
+            "time": "2021-10-15T14:40:47+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2161,12 +2161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "7df208979bec2ac1a422151634ec88f1d55350b0"
+                "reference": "6b42f5dfc87516c03bd673a6d9e3eb301485ce4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/7df208979bec2ac1a422151634ec88f1d55350b0",
-                "reference": "7df208979bec2ac1a422151634ec88f1d55350b0",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/6b42f5dfc87516c03bd673a6d9e3eb301485ce4c",
+                "reference": "6b42f5dfc87516c03bd673a6d9e3eb301485ce4c",
                 "shasum": ""
             },
             "require": {
@@ -2222,7 +2222,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-10-11T08:55:27+00:00"
+            "time": "2021-10-15T06:45:11+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -3884,16 +3884,16 @@
         },
         {
             "name": "shortpixel/shortpixel-php",
-            "version": "V1.7.3",
+            "version": "v1.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/short-pixel-optimizer/shortpixel-php.git",
-                "reference": "2b654571c203399c3db967318db23e82233f632d"
+                "reference": "47c0be1abad7c8fb5b7569de03f05fc6d2487a9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/short-pixel-optimizer/shortpixel-php/zipball/2b654571c203399c3db967318db23e82233f632d",
-                "reference": "2b654571c203399c3db967318db23e82233f632d",
+                "url": "https://api.github.com/repos/short-pixel-optimizer/shortpixel-php/zipball/47c0be1abad7c8fb5b7569de03f05fc6d2487a9d",
+                "reference": "47c0be1abad7c8fb5b7569de03f05fc6d2487a9d",
                 "shasum": ""
             },
             "require": {
@@ -3938,9 +3938,9 @@
             "support": {
                 "email": "support@shortpixel.com",
                 "issues": "https://github.com/short-pixel-optimizer/shortpixel-php/issues",
-                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/V1.7.3"
+                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/v1.8.4"
             },
-            "time": "2021-03-09T12:29:46+00:00"
+            "time": "2021-10-19T10:12:06+00:00"
         },
         {
             "name": "symfony/debug",
@@ -4666,15 +4666,15 @@
         },
         {
             "name": "wpackagist-plugin/stream",
-            "version": "3.8.1",
+            "version": "3.8.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/stream/",
-                "reference": "tags/3.8.1"
+                "reference": "tags/3.8.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stream.3.8.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/stream.3.8.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
