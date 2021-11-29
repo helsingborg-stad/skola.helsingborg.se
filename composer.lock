@@ -2161,12 +2161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "eac855fd90e939dd5dd0c44bb0dbaf0193a31f6a"
+                "reference": "4286f612da3c6ebceb3b7cd44587cdcce02317a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/eac855fd90e939dd5dd0c44bb0dbaf0193a31f6a",
-                "reference": "eac855fd90e939dd5dd0c44bb0dbaf0193a31f6a",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/4286f612da3c6ebceb3b7cd44587cdcce02317a5",
+                "reference": "4286f612da3c6ebceb3b7cd44587cdcce02317a5",
                 "shasum": ""
             },
             "require": {
@@ -2223,7 +2223,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/feature/kirki-customizer"
             },
-            "time": "2021-11-26T15:03:56+00:00"
+            "time": "2021-11-29T10:43:51+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
