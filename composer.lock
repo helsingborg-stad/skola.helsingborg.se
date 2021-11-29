@@ -1745,12 +1745,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "3c6886695d2b6264b236fe7c96c38b69234025dc"
+                "reference": "8d44c883db1a6cebcfa92d15d7c7c5413a282b43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/3c6886695d2b6264b236fe7c96c38b69234025dc",
-                "reference": "3c6886695d2b6264b236fe7c96c38b69234025dc",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/8d44c883db1a6cebcfa92d15d7c7c5413a282b43",
+                "reference": "8d44c883db1a6cebcfa92d15d7c7c5413a282b43",
                 "shasum": ""
             },
             "require": {
@@ -1810,7 +1810,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-11-25T10:33:44+00:00"
+            "time": "2021-11-29T12:42:36+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1818,12 +1818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "06ae45196bcf739016763cde353ba10d0998ed1b"
+                "reference": "81fca58e8dfc7de7d09c536e6eb3790f880b209d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/06ae45196bcf739016763cde353ba10d0998ed1b",
-                "reference": "06ae45196bcf739016763cde353ba10d0998ed1b",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/81fca58e8dfc7de7d09c536e6eb3790f880b209d",
+                "reference": "81fca58e8dfc7de7d09c536e6eb3790f880b209d",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1842,7 +1842,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/feature/kirki-customizer"
             },
-            "time": "2021-11-25T09:44:35+00:00"
+            "time": "2021-11-29T13:14:43+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-dictionary",
@@ -2161,12 +2161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "4286f612da3c6ebceb3b7cd44587cdcce02317a5"
+                "reference": "b425d8d7e39fd49739f496e984207a69c6764150"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/4286f612da3c6ebceb3b7cd44587cdcce02317a5",
-                "reference": "4286f612da3c6ebceb3b7cd44587cdcce02317a5",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b425d8d7e39fd49739f496e984207a69c6764150",
+                "reference": "b425d8d7e39fd49739f496e984207a69c6764150",
                 "shasum": ""
             },
             "require": {
@@ -2223,7 +2223,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/feature/kirki-customizer"
             },
-            "time": "2021-11-29T10:43:51+00:00"
+            "time": "2021-11-29T13:20:42+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4596,15 +4596,15 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "4.2.0",
+            "version": "4.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/4.2.0"
+                "reference": "tags/4.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
