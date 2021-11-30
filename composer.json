@@ -37,7 +37,7 @@
         "composer/installers": "~1.0",
         "johnpbloch/wordpress": "^5.0",
         "helsingborg-stad/modularity": "dev-3.0/develop",
-        "helsingborg-stad/municipio": "dev-3.0/feature/kirki-customizer",
+        "helsingborg-stad/municipio": "dev-3.0/develop",
         "helsingborg-stad/easy-to-read-alternative": "dev-3.0/develop",
         "helsingborg-stad/modularity-form-builder": "dev-3.0/develop",
         "helsingborg-stad/api-alarm-integration": "dev-3.0/develop",
@@ -79,7 +79,7 @@
         "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
         "bueltge/must-use-loader": "^1.3",
         "mcguffin/acf-customizer": "0.2.13",
-        "helsingborg-stad/modularity-contact-banner": "dev-3.0/feature/kirki-customizer",
+        "helsingborg-stad/modularity-contact-banner": "dev-3.0/develop",
         "helsingborg-stad/modularity-local-events": "^1.0",
         "wpackagist-plugin/wp-piwik": "^1.0",
         "wpackagist-plugin/nginx-helper": "^2.2"
