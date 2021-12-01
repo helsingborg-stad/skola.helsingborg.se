@@ -1454,12 +1454,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "728ff92fac96a9e4fe6c54d8e255897b8f5fb7cd"
+                "reference": "532ea873a253cb256fea43573fb00ee1760db07f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/728ff92fac96a9e4fe6c54d8e255897b8f5fb7cd",
-                "reference": "728ff92fac96a9e4fe6c54d8e255897b8f5fb7cd",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/532ea873a253cb256fea43573fb00ee1760db07f",
+                "reference": "532ea873a253cb256fea43573fb00ee1760db07f",
                 "shasum": ""
             },
             "require": {
@@ -1478,7 +1478,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-11-30T07:18:53+00:00"
+            "time": "2021-11-30T11:52:08+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1818,12 +1818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "0f2c80e4f381defd201d0a70bffd049a9660ed43"
+                "reference": "a536a21f2b952532da3ab9cbd8f786a10e6b738f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/0f2c80e4f381defd201d0a70bffd049a9660ed43",
-                "reference": "0f2c80e4f381defd201d0a70bffd049a9660ed43",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/a536a21f2b952532da3ab9cbd8f786a10e6b738f",
+                "reference": "a536a21f2b952532da3ab9cbd8f786a10e6b738f",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1842,7 +1842,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
-            "time": "2021-11-26T14:40:29+00:00"
+            "time": "2021-11-30T10:38:19+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-dictionary",
@@ -1993,16 +1993,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-local-events",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-local-events.git",
-                "reference": "b2e59bd43a2335d4ebf9e486ec16fa5781a91023"
+                "reference": "1f717ad5ccca5c1a2240ccce32a28fe92c1f1206"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/b2e59bd43a2335d4ebf9e486ec16fa5781a91023",
-                "reference": "b2e59bd43a2335d4ebf9e486ec16fa5781a91023",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/1f717ad5ccca5c1a2240ccce32a28fe92c1f1206",
+                "reference": "1f717ad5ccca5c1a2240ccce32a28fe92c1f1206",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2019,9 +2019,9 @@
             "description": "Local events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/1.0.6"
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/1.0.7"
             },
-            "time": "2021-10-14T14:20:56+00:00"
+            "time": "2021-11-29T15:36:35+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
@@ -2161,12 +2161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "564f976b0a7b76d24a41df6ee43df1d3c8467009"
+                "reference": "7fa3f997fcc1512b0c3b6b3d82f685610b522467"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/564f976b0a7b76d24a41df6ee43df1d3c8467009",
-                "reference": "564f976b0a7b76d24a41df6ee43df1d3c8467009",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/7fa3f997fcc1512b0c3b6b3d82f685610b522467",
+                "reference": "7fa3f997fcc1512b0c3b6b3d82f685610b522467",
                 "shasum": ""
             },
             "require": {
@@ -2223,7 +2223,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-11-30T07:24:37+00:00"
+            "time": "2021-11-30T11:02:04+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4833,5 +4833,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
