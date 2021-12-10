@@ -1993,16 +1993,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-local-events",
-            "version": "1.0.7",
+            "version": "1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-local-events.git",
-                "reference": "1f717ad5ccca5c1a2240ccce32a28fe92c1f1206"
+                "reference": "1f41ca80bacae1a5c8edc68be7a00a6c46069d7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/1f717ad5ccca5c1a2240ccce32a28fe92c1f1206",
-                "reference": "1f717ad5ccca5c1a2240ccce32a28fe92c1f1206",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/1f41ca80bacae1a5c8edc68be7a00a6c46069d7b",
+                "reference": "1f41ca80bacae1a5c8edc68be7a00a6c46069d7b",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2019,9 +2019,9 @@
             "description": "Local events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/1.0.7"
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/1.0.8"
             },
-            "time": "2021-11-29T15:36:35+00:00"
+            "time": "2021-12-10T10:21:22+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
@@ -2161,12 +2161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "86a265e3f832ef775ec2add9e095f0ce0446e641"
+                "reference": "4898cd23ed77f01e0b2e4bc7db6147d6a8177657"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/86a265e3f832ef775ec2add9e095f0ce0446e641",
-                "reference": "86a265e3f832ef775ec2add9e095f0ce0446e641",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/4898cd23ed77f01e0b2e4bc7db6147d6a8177657",
+                "reference": "4898cd23ed77f01e0b2e4bc7db6147d6a8177657",
                 "shasum": ""
             },
             "require": {
@@ -2223,7 +2223,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-12-09T12:20:20+00:00"
+            "time": "2021-12-10T10:26:34+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
