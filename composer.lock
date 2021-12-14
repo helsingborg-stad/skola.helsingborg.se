@@ -1454,12 +1454,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "7150b2d275e28f8c9e43ec1584190992d0e72163"
+                "reference": "becb8d1b26a0c68304fe0d71e3ebff6ce862b015"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/7150b2d275e28f8c9e43ec1584190992d0e72163",
-                "reference": "7150b2d275e28f8c9e43ec1584190992d0e72163",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/becb8d1b26a0c68304fe0d71e3ebff6ce862b015",
+                "reference": "becb8d1b26a0c68304fe0d71e3ebff6ce862b015",
                 "shasum": ""
             },
             "require": {
@@ -1478,7 +1478,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-12-08T13:00:07+00:00"
+            "time": "2021-12-14T12:38:31+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1993,16 +1993,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-local-events",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-local-events.git",
-                "reference": "1f41ca80bacae1a5c8edc68be7a00a6c46069d7b"
+                "reference": "6f7882798abc010b055178fbacf33263081f8aa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/1f41ca80bacae1a5c8edc68be7a00a6c46069d7b",
-                "reference": "1f41ca80bacae1a5c8edc68be7a00a6c46069d7b",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/6f7882798abc010b055178fbacf33263081f8aa5",
+                "reference": "6f7882798abc010b055178fbacf33263081f8aa5",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2019,9 +2019,9 @@
             "description": "Local events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/1.0.8"
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/1.0.9"
             },
-            "time": "2021-12-10T10:21:22+00:00"
+            "time": "2021-12-14T10:52:50+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
@@ -2161,12 +2161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "4898cd23ed77f01e0b2e4bc7db6147d6a8177657"
+                "reference": "3af5dae452a071123ae0d00b2b220f05fd08fd0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/4898cd23ed77f01e0b2e4bc7db6147d6a8177657",
-                "reference": "4898cd23ed77f01e0b2e4bc7db6147d6a8177657",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/3af5dae452a071123ae0d00b2b220f05fd08fd0c",
+                "reference": "3af5dae452a071123ae0d00b2b220f05fd08fd0c",
                 "shasum": ""
             },
             "require": {
@@ -2223,7 +2223,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-12-10T10:26:34+00:00"
+            "time": "2021-12-14T13:43:29+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
