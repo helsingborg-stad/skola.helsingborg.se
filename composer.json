@@ -82,7 +82,8 @@
         "helsingborg-stad/modularity-contact-banner": "dev-3.0/develop",
         "helsingborg-stad/modularity-local-events": "^1.0",
         "wpackagist-plugin/wp-piwik": "^1.0",
-        "wpackagist-plugin/nginx-helper": "^2.2"
+        "wpackagist-plugin/nginx-helper": "^2.2",
+        "stayallive/wp-sentry": "^4.10"
     },
 
     "extra": {
