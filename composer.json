@@ -83,7 +83,7 @@
         "helsingborg-stad/modularity-local-events": "^1.0",
         "wpackagist-plugin/wp-piwik": "^1.0",
         "wpackagist-plugin/nginx-helper": "^2.2",
-        "stayallive/wp-sentry": "^4.10"
+        "wpackagist-plugin/wp-sentry-integration":"4.10.3"
     },
 
     "extra": {
