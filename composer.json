@@ -70,7 +70,6 @@
         "wpackagist-plugin/varnish-http-purge": ">=4.3.1",
         "wpackagist-plugin/stream": "^3.0.4",
         "wpackagist-plugin/wp-nested-pages": "^3.0.11",
-        "wpackagist-plugin/mce-table-buttons": "^3.0.0",
         "wpackagist-plugin/user-switching" : ">=1.0.0",
         "wpackagist-plugin/autodescription" : ">=3.0.4",
         "wpackagist-plugin/username-changer": "3.1.3",
