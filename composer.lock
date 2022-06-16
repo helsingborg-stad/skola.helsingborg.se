@@ -1127,12 +1127,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon.git",
-                "reference": "2362abc549d1f4df1c124771e94f733735312f7f"
+                "reference": "9a49b4d45aa19c2c4f942a9936a0f9e8d122a17a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/2362abc549d1f4df1c124771e94f733735312f7f",
-                "reference": "2362abc549d1f4df1c124771e94f733735312f7f",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/9a49b4d45aa19c2c4f942a9936a0f9e8d122a17a",
+                "reference": "9a49b4d45aa19c2c4f942a9936a0f9e8d122a17a",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1151,7 +1151,7 @@
                 "issues": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon/issues",
                 "source": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon/tree/3.0/develop"
             },
-            "time": "2022-06-08T12:15:32+00:00"
+            "time": "2022-06-16T12:51:06+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-modularity-addon",
@@ -1458,12 +1458,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "b3a11456f52c4279fc0c32117afdb787aace1391"
+                "reference": "1cbbea34151d341fab461c9899f4e9791639ff81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/b3a11456f52c4279fc0c32117afdb787aace1391",
-                "reference": "b3a11456f52c4279fc0c32117afdb787aace1391",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/1cbbea34151d341fab461c9899f4e9791639ff81",
+                "reference": "1cbbea34151d341fab461c9899f4e9791639ff81",
                 "shasum": ""
             },
             "require": {
@@ -1482,7 +1482,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-06-16T08:15:30+00:00"
+            "time": "2022-06-16T13:13:09+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
