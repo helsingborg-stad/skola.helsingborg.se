@@ -1748,12 +1748,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "7dfbe6349e628189595b45f9ec188cd4420fff8c"
+                "reference": "5353c2e2bfc3fd8f8fbc8abc1a4c52024700ef7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/7dfbe6349e628189595b45f9ec188cd4420fff8c",
-                "reference": "7dfbe6349e628189595b45f9ec188cd4420fff8c",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/5353c2e2bfc3fd8f8fbc8abc1a4c52024700ef7b",
+                "reference": "5353c2e2bfc3fd8f8fbc8abc1a4c52024700ef7b",
                 "shasum": ""
             },
             "require": {
@@ -1783,10 +1783,18 @@
                 "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0",
                 "symfony/translation": "5.0.8",
-                "symfony/translation-contracts": "2.0.1"
+                "symfony/translation-contracts": "2.0.1",
+                "wpackagist-plugin/acf-extended": "0.8.8.7"
             },
             "default-branch": true,
             "type": "wordpress-plugin",
+            "extra": {
+                "installer-paths": {
+                    "vendor/{$vendor}/{$name}/": [
+                        "vendor:wpackagist-plugin"
+                    ]
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1814,7 +1822,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-08-25T11:38:49+00:00"
+            "time": "2022-08-26T11:34:09+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -2164,12 +2172,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "5ccab5e20723a544b1918bbec8ae18645d449a80"
+                "reference": "5f75f06e3e4f49f77d8df842fb03902f7107f298"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/5ccab5e20723a544b1918bbec8ae18645d449a80",
-                "reference": "5ccab5e20723a544b1918bbec8ae18645d449a80",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/5f75f06e3e4f49f77d8df842fb03902f7107f298",
+                "reference": "5f75f06e3e4f49f77d8df842fb03902f7107f298",
                 "shasum": ""
             },
             "require": {
@@ -2227,7 +2235,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-08-25T11:14:56+00:00"
+            "time": "2022-08-26T12:48:41+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4621,6 +4629,24 @@
             },
             "abandoned": true,
             "time": "2016-11-16T10:37:54+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/acf-extended",
+            "version": "0.8.8.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-extended/",
+                "reference": "tags/0.8.8.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-extended.0.8.8.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-extended/"
         },
         {
             "name": "wpackagist-plugin/autodescription",
