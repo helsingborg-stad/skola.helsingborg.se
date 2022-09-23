@@ -2005,16 +2005,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-local-events",
-            "version": "v1.0.14",
+            "version": "v1.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-local-events.git",
-                "reference": "9cdde887c15da908f0e3140721e9ce8fa84447dc"
+                "reference": "5623e8f7ecd89216a2ba4f9901e228121dfc9ae2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/9cdde887c15da908f0e3140721e9ce8fa84447dc",
-                "reference": "9cdde887c15da908f0e3140721e9ce8fa84447dc",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/5623e8f7ecd89216a2ba4f9901e228121dfc9ae2",
+                "reference": "5623e8f7ecd89216a2ba4f9901e228121dfc9ae2",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2031,9 +2031,9 @@
             "description": "Local events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/v1.0.14"
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/v1.0.15"
             },
-            "time": "2022-08-31T13:36:22+00:00"
+            "time": "2022-09-22T09:46:14+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
