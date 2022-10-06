@@ -70,7 +70,6 @@
         "wpackagist-plugin/varnish-http-purge": ">=4.3.1",
         "wpackagist-plugin/stream": "^3.0.4",
         "wpackagist-plugin/wp-nested-pages": "^3.0.11",
-        "wpackagist-plugin/mce-table-buttons": "^3.0.0",
         "wpackagist-plugin/user-switching" : ">=1.0.0",
         "wpackagist-plugin/autodescription" : ">=3.0.4",
         "wpackagist-plugin/username-changer": "3.1.3",
@@ -83,7 +82,9 @@
         "helsingborg-stad/modularity-local-events": "^1.0",
         "wpackagist-plugin/wp-piwik": "^1.0",
         "wpackagist-plugin/nginx-helper": "^2.2",
-        "wpackagist-plugin/wp-sentry-integration":"4.10.3"
+        "wpackagist-plugin/wp-sentry-integration":"4.10.3",
+		"wpackagist-plugin/cookies-and-content-security-policy": "^2.09",
+		"helsingborg-stad/mce-table-buttons": "~3.3.1"
     },
 
     "extra": {
