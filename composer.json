@@ -35,7 +35,7 @@
 
     "require": {
         "composer/installers": "~1.0",
-        "johnpbloch/wordpress": "^6.0",
+        "johnpbloch/wordpress": "^5.0",
         "helsingborg-stad/modularity": "dev-3.0/develop",
         "helsingborg-stad/municipio": "dev-3.0/develop",
         "helsingborg-stad/easy-to-read-alternative": "dev-3.0/develop",
@@ -82,7 +82,9 @@
         "helsingborg-stad/modularity-local-events": "^1.0",
         "wpackagist-plugin/wp-piwik": "^1.0",
         "wpackagist-plugin/nginx-helper": "^2.2",
-        "wpackagist-plugin/wp-sentry-integration":"4.10.3"
+        "wpackagist-plugin/wp-sentry-integration":"4.10.3",
+		"wpackagist-plugin/cookies-and-content-security-policy": "^2.09",
+		"helsingborg-stad/mce-table-buttons": "~3.3.1"
     },
 
     "extra": {
