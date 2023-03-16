@@ -89,7 +89,8 @@
         "wpackagist-plugin/wp-sentry-integration":"4.10.3",
 		"wpackagist-plugin/cookies-and-content-security-policy": "^2.09",
 		"helsingborg-stad/mce-table-buttons": "~3.3.1",
-        "municipio/content-insights-for-editors": "dev-master"
+        "municipio/content-insights-for-editors": "dev-master",
+        "helsingborg-stad/wp-page-for-term": "^1.0"
     },
 
     "extra": {
